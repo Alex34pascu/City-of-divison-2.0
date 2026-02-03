@@ -1,0 +1,6 @@
+Once you have drawn your weapon from the weapon menu you can do the following:
+- control: fire with the weapon
+- A: check how many bullets are in the magazine.
+- R: load the weapon
+- d: use the scope. See the scope article for more information.
+- Shift + R: Unload.

@@ -1,0 +1,7 @@
+name: watertank
+health: 1500
+hitsounds: vehicle
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 metal11
+wall 0 0 0 0 0 -1 wallwater_tank

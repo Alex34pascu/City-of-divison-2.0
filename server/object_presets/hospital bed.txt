@@ -1,0 +1,13 @@
+name: hospital_bed
+health: 3000
+hitsounds: furniture
+moveable: no
+lootitems: 2
+examinable: yes
+examinesounds: bed
+flex_platform 0 0 0 0 %0 0 cloth
+flex_wall 0 0 0 0 0 -1 wallfurniture 50
+flex_wall 0 0 0 %0 0 -1 wallmetal3 0
+flex_wall 0 0 %0 0 0 3 wallmetal3 0
+flex_platform 0 0 0 %0 %0 0 beam
+flex_platform 0 0 %0 0 %3 3 beam

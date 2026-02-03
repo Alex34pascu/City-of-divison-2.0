@@ -1,0 +1,5 @@
+You can upgrade your skills by getting skills points
+You get this by opening chests that you can buy in the event shop.
+Most skills have 5 levels, but some only have 3, such as the holster augmentation skill.
+All skills start at the bronze level, after which they can be upgraded to silver, gold, platinum and diamond.
+You can upgrade your skills by clicking view unlocked skills in the menu of manage your skills.

@@ -1,0 +1,6 @@
+golden_chest:1:250
+platinum_chest:1:500
+mastery_potion:1:1000
+magical_reappearance:1:1500
+mastery_potion:2:2000
+magical_reappearance:2:2500

@@ -1,0 +1,3 @@
+Objects in this game are what you would expect: usually furniture inside houses or things you would see outside like benches or lampposts.
+All objects in the game can be destroyed, even bridges. However, if you wish to destroy one, you will usually need to use some sort of explosive, as doing it with a weapon is more time-consuming and requires a lot of hits.
+You can also move some objects, mainly those you'll find inside houses. These include desks, tables, and nightstands.

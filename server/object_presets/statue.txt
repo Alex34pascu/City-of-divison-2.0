@@ -1,0 +1,9 @@
+name: statue_of_a_proud_german_shepard
+health: 3000
+hitsounds: planter
+moveable: no
+examinable: yes
+examinesounds: store_shellf
+lootitems: 1
+platform 0 0 0 0 %0 0 concrete1
+wall 0 0 0 0 0 -1 wallstone2 1000

@@ -1,0 +1,616 @@
+#547#
+My next tip is to utilize cover anytime you can. Even if no one is around, you never know when a sniper might be watching you. All objects block bullets until they are destroyed, but that rarely happens in combat unless explosives are used. If you're fighting someone, always stay behind something to protect yourself. You never want to be caught out in the open. Also, make sure you move often. People can and will find angles to shoot you from, even if you're behind something. So, move frequently if you can to keep your opponent on their toes.=Minha próxima dica é achar cobertura sempre que possível. Mesmo quando ninguém estiver por perto, nunca se sabe quando um franco atirador pode estar te observando. Todos os objetos protegem de balas até serem destruídos, mas isso raramente acontece em combate a não ser que explosivos sejam usados. Se estiver lutando contra alguém, se mantenha atrás de alguma coisa para se proteger. É uma má ideia estar sem proteção. Além disso, se movimente o tempo todo. Os outros podem e vão encontrar algum ângulo para te atingir, ainda que você esteja atrás de alguma coisa. Então se mantenha em movimento se puder para deixar seu oponente sempre alerta.
+#446#
+First, the map isn't open; it's a city instead. In the city, you'll find buildings like houses, a mall, a church, and many other large structures. Each building has a unique layout and object placement. So, my first tip for you is to learn the layout of the most common buildings where people fight. Learn the layout and where everything inside is. If you do this, you'll have many advantages over people who don't know the map as well as you do.=Primeiro, o mapa não é aberto; É na verdade uma cidade. Nessa cidade você vai encontrar lugares como casas, um shopping, uma igreja e vários outros. Cada lugar tem sua própria estrutura e disposição de objetos. Então minha primeira dica para você é aprender a estrutura dos lugares mais comuns onde as pessoas lutam e a posição das coisas nesses lugares. Assim você terá várias vantagens em relação a quem não conhece o mapa tão bem quanto você.
+#402#
+My last tip is to not panic. If you're moving and jumping often without breaks during combat, you'll be an easy target because people can hear you and easily aim: you. Just remember that people need to hear a sound from you to find and target you. Keep a level head and avoid making any dumb choices that will put you in a bad spot. Of course, we've all done this, but try to avoid it whenever you can.=Minha última dica é não entrar em pânico. Se você estiver se movendo e pulando sem parar durante o combate, será um alvo fácil porque as pessoas podem ouvi-lo e mirar facilmente em você. Lembre-se de que as pessoas precisam ouvir apenas um som seu para isso. Mantenha a cabeça fria e evite fazer escolhas idiotas que o colocarão em risco. Claro, todos nós já fizemos isso, mas tente evitar sempre que possível.
+#395#
+Additionally, always take the better position if you can. This depends on the person you're fighting and how good both you and they are, but I'd much rather be at the top of a staircase than in a doorway if I were fighting in a building. This is because if someone comes up the stairs or even just stands: the bottom, you can get headshots, which do 1.5 times the damage compared to normal hits.=Também, sempre fique na melhor posição, se puder. Isso depende da pessoa com quem você está lutando e de quão bons vocês são, mas eu preferiria estar no topo de uma escada a estar em uma porta se estivesse lutando em um prédio. Isso porque se alguém subir ou mesmo ficar no pé da escada, ele pode levar tiros na cabeça, que causam 1,5 vezes mais dano em comparação com tiros normais.
+#332#
+Spamming covers a lot of things. It can be sending many chat messages in a row with no useful content or repeatedly using an in-game action for no reason. If it annoys other players, it's probably spamming. If you spam, the staff will first warn you, and if you continue, there will be more consequences, like turning off your chat.=Spam abrange muitas coisas. Pode ser enviar várias mensagens no chat seguidas sem conteúdo útil ou usar repetidamente uma ação dentro do jogo sem razão. Se isso irrita outros jogadores, provavelmente é considerado spam. Se você fizer spam, a equipe primeiro irá adverti-lo, e se você continuar, haverá mais consequências, como desativar seu chat.
+#253#
+Admins are here to enforce the rules. If an admin asks you to stop doing something, you have to do so. If you think an admin is abusing their rank, report it to Firegaming through other channels, (not via staff_messages), as the admin could close these.=Os administradores estão aqui para fazer com que cumpram as regras. Se um administrador pedir para você parar de fazer algo, você deverá fazê-lo. Se você acha que um administrador está abusando de seu cargo, reporte isso à Firegaming por meio de outros canais (não através de mensagens para a equipe), pois o administrador pode encerrar estas ações.
+#195#
+We from Firegaming, want to create a great  gaming experience for everyone. To make this happen, we have some rules that every player has to follow. If you don't follow these rules, an admin can:=Nós, da Firegaming, queremos criar uma ótima experiência de jogo para todos. Para que isso aconteça, temos algumas regras que todo jogador deve seguir. Se você não seguir essas regras, um administrador poderá:
+#171#
+We hope you understand these rules that are here to make City of Division enjoyable for everyone. If you just play and behave normally, you won’t have to worry about them.=Esperamos que você entenda essas regras que estão aqui para tornar o City of Division agradável para todos. Se você apenas jogar e se comportar normalmente, você não precisará se preocupar com elas.
+#148#
+This file contains all the key_bindings that you can use within the game city of Division. Think of this as a simplified version of a documentation.=Este arquivo contém todas as combinações de teclas que você pode usar no City Of Division. Pense nele como uma versão simplificada de uma documentação.
+#137#
+this is the settings menu. Press tab and shift tab to navigate through the options. Press enter on the ok button when you're done, dialog=menu de configurações. Pressione tab e shift tab para navegar pelas opções. Pressione enter no botão ok quando terminar, diálogo
+#129#
+this is the settings menu. Press tab and shift tab to navigate through the options. Press enter on the ok button when you're done=menu de configurações. Pressione tab e shift tab para navegar pelas opções. Pressione enter no botão ok quando terminar
+#125#
+Before you can continue you have to agree to our rules. Please use tab and shift tab to navigate through the options., dialog=Antes de continuar, você deve concordar com nossas regras. Use tab e shift tab para navegar pelas opções. Diálogo
+#120#
+main menu. Select an option with the arrow keys and press enter to select. You could also press escape to exit the game.=menu principal. Selecione uma opção com as setas e pressione enter para selecionar. Pressione escape para fechar o jogo.
+#117#
+Before you can continue you have to agree to our rules. Please use tab and shift tab to navigate through the options.=Antes de continuar, você deve concordar com nossas regras. Use tab e shift tab para navegar pelas opções.
+#116#
+Be respectful to other players. We know emotions can run high in an FPS game, but that's no excuse to insult others.=Respeite os outros jogadores. Sabemos que as emoções podem estar à flor da pele em um jogo de FPS, mas isso não é uma desculpa para insultar os outros.
+#115#
+Staff messages are there to help players out and report bugs easily to the developers. Don’t use this for nonsense.=As mensagens com a  administração existem para ajudar os jogadores e relatar bugs facilmente aos desenvolvedores. Não use isso para bobagens.
+#112#
+The infrared scanner found a player that is a member of your team. This sound will play at the player's position=O scanner infravermelho encontrou um jogador (membro da sua equipe). Este som será reproduzido na posição do jogador
+#109#
+• Content not suitable for children. Discuss these topics in private messages or the unfiltered chat channel.=• Conteúdo não adequado para crianças. Discuta esses tópicos em mensagens privadas ou no canal de chat sem filtro.
+#104#
+Alright, let's get into it. Combat in this game is different from other games for the following reasons:=Ok, bora lá. O combate nesse jogo é diferente pelos seguintes motivos:
+#99#
+the sidewalk in front of a staircase, leading to an apartment building on top of a large restaurant=calçada em frente a uma escada, levando a um apartamento acima de um grande restaurante.
+#96#
+• Sharing links to illegal software, clones, or personal info like bank details or phone numbers=• Compartilhar links de software ilegal, clones ou informações pessoais, como detalhes bancários ou números de telefone
+#91#
+%s of %s bullets of %s ammo loaded in your %s. You have %s bullets of %s ammo in your belt.=%1 de %2 munições %3 carregadas em %4. %5 munições %6 no cinto.
+#83#
+You're tracking a location. This sound plays at the position that you are tracking.=Rastreando um local. Este som é reproduzido na posição que você está rastreando.
+#82#
+The infrared scanner found a player. This sound will play at the player's position=O scanner infravermelho encontrou um jogador. Este som será reproduzido na posição do jogador
+#81#
+the road is sloping down here so the truck can drive in front of the loading dock=a estrada desce aqui, permitindo que o caminhão passe em frente da doca de carga.
+which location do you want to track? There are currently 58 locations on the map.=qual local deseja rastrear? Há 58 locais no mapa.
+#78#
+• Using hacks, like cheat engines, to change game variables or use speed hacks=• Usar hacks, como cheat engines, para alterar variáveis do jogo ou utilizar speed hacks
+#77#
+near A small square with a lawn in the middle, partially surrounded by houses=perto de uma pequena praça com gramado no meio, parcialmente cercada por casas
+#76#
+Type here your new radar scan time. It must be a figure between 100 and 2000=Digite o tempo que será reproduzido o som do radar de objetos. Digite um número entre 100 e 2.000
+#75#
+outside of the city. You can see the outlines of some hills in the distance=fora da cidade. É possível ver os contornos de algumas colinas ao longe.
+Everyone can read the public chat, so the following things are not allowed:=Todos podem ler o chat público, então as seguintes coisas não são permitidas:
+#72#
+A small square with a lawn in the middle, partially surrounded by houses=Pequena praça com gramado no meio, parcialmente cercada por casas
+#71#
+well done; you received %s event points for progressing in the %s event=muito bem! Você ganha %1 pontos de evento por progredir no evento %2
+#70#
+the %s has a range of %s and has a damage of %s. It uses 5.7x28mm ammo=%1 tem um alcanse de %2 e um dano de %3. Usa munição 5.7x28 milímetros
+the %s has a range of %s and has a damage of %s. It uses 4.6x30mm ammo=%1 tem um alcanse de %2 e um dano de %3. Usa munição 4.6x30 milímetros
+the %s has a range of %s and has a damage of %s. It uses 12 gauge ammo=%1 tem um alcanse de %2 e um dano de %3. Usa munição calibre 12
+player menu. There are %s players online. %s of them are in the lobby.=menu de jogadores. %1 conectados. %2 no lobby.
+#69#
+the %s has a range of %s and has a damage of %s. It is a melee weapon=%1 tem um alcanse de %2 e um dano de %3. Arma corpo a corpo
+there is a new update available. Your version: %s. Latest version: %s=há uma nova atualização disponível. Versão atual: %1. Versão mais recente: %2
+#68#
+the %s has a range of %s and has a damage of %s. It uses 7.62mm ammo=%1 tem um alcanse de %2 e um dano de %3. Usa munição 7.62 milímetros
+the %s has a range of %s and has a damage of %s. It uses 5.56mm ammo=%1 tem um alcanse de %2 e um dano de %3. Usa munição 5.56 milímetros
+#67#
+a northeast bend in Centria street. To the west is A large driveway=curva nordeste na rua Centria. A oeste, há uma grande entrada
+remaining time for this event: %s hours , %s minutes and %s seconds=tempo restante do evento: %1 horas, %2 minutos e %3 segundos
+#66#
+A large industrial site with all kinds of warehouses and factories=grande zona industrial com todos os tipos de armazéns e fábricas
+select an item to buy in the event shop. You have %s event points.=selecione um item para comprar na loja do evento. Você tem %1 pontos de evento.
+Swearing and edgy jokes are okay, but stop if someone asks you to.=Palavrões e piadas picantes são aceitáveis, mas pare se alguém pedir.
+Do you really want to leave the lobby and return to the main menu?=Tem certeza de sair do lobby e voltar ao menu principal?
+#65#
+the %s has a range of %s and has a damage of %s. It uses 9mm ammo=%1 tem um alcanse de %2 e um dano de %3. Usa munição 9 milímetros
+You have completed this event and collected all the event points.=Você completou o evento e coletou todos os pontos de evento.
+#64#
+error: the second password is not the same as the first password=erro: As senhas não são iguais
+#63#
+A narrow path through the dense vegetation made by wild animals=Uma trilha estreita através da densa vegetação feita por animais
+A lawn surrounded by buildings, with A large tree in the middle=Um gramado cercado por prédios com uma grande árvore no meio.
+Strip of empty sidewalk between a house and a large parking lot=parte vazia da calçada entre uma casa e um grande estacionamento.
+#62#
+your last scan with the infra red scanner found %s players: %s=%1 jogadores encontrados com o scã infravermelho: %2
+#61#
+#60#
+Do you really want to leave the map and return to the lobby?=Deseja sair do mapa e voltar ao lobby?
+#59#
+A narrow alley that runs between the mall and a few houses.=um beco estreito entre o shopping e algumas casas.
+#58#
+staircase going up to an appartement above the restaurant.=Escadaria do apartamento acima do restaurante
+The simon sound that corresponds with the right arrow key.=O som do Simon que corresponde à seta direita.
+#57#
+you hit a player that is more than 10 meter away from you=você atingiu um jogador que está a mais de 10 quadrados de você
+you hit a object that is more than 10 meter away from you=você atingiu um objeto que está a mais de 10 quadrados de você
+reload current language. Useful when you are creating one=recarregar idioma atual. Útil quando você está criando um
+The simon sound that corresponds with the down arrow key.=O som do Simon que corresponde à seta baixo.
+The simon sound that corresponds with the left arrow key.=O som do Simon que corresponde à seta esquerda.
+#56#
+the intersection between Colion road and Aetheron street=cruzamento entre a rua Colion e Aetheron
+If we catch you cheating, you will be banned permanetly.=Se pegarmos você trapaceando, você será banido permanentemente.
+#55#
+set radar scanning time. currently it is %s miliseconds=definir o tempo do radar de objetos. Atualmente definido em %1 milissegundos
+A new event has been started while you were offline: %s=Um novo evento foi iniciado enquanto você estava offline: %1
+The simon sound that corresponds with the up arrow key.=O som do Simon que corresponde à seta cima.
+#53#
+a strip of grass that runs along the side of the mall=uma longa faixa de grama ao lado do shopping
+t intersection between Colion road and Centria street=cruzamento em T entre a rua Colion e Centria.
+guardrail to prevent cars from driving into the canal=guarda-corpo para impedir que os carros caiam no canal
+t junction with Atheron street and a dead end street.=Cruzamento em T entre Aetheron e uma rua sem saída
+type your message here. Press enter when you're done.=digite sua mensagem aqui. Pressione Enter quando terminar.
+#52#
+a strip of grass that runs along the side of the mal=uma longa faixa de grama ao lado do shopping
+you don't have enough event points to buy this item.=você não tem pontos de evento suficientes para comprar este item.
+intersection between Colion road and Aetheron street=Cruzamento entre Colion e Aetheron
+the door of a small house in the middle of the woods=Porta de uma pequena casa no meio da floresta
+#51#
+#50#
+in front of the steps to the door of the town hall=em frente aos degraus da porta da prefeitura.
+• Temporarily or permanently ban you from the game=• Te Banir temporária ou permanentemente do jogo
+#49#
+#48#
+staircase leading to the front door of the manor=Escadaria levando à porta da frente da mansão.
+intersection between Centria and Aetheron street=Cruzamento entre Centria e Aetheron
+%s for %s event points. You can currently buy %s=%1 por %2 pontos de evento. Você pode comprar %3 atualmente
+#47#
+sidewalk near A large park next to the hospital=Calçada próxima a um grande parque ao norte do hospital.
+• Exploiting game bugs for extra kills or items=• Explorar bugs do jogo para obter mortes ou itens extras
+#46#
+gravel driveway leading towards a large manor.=Caminho de cascalho levando a grande mansão.
+enable speaking capital letters in input boxes=ativar verbalização de caracteres maiúsculos em caixas de edição
+#45#
+grass next to the parking lot of the hospital=grama ao lado do estacionamento do hospital
+Short driveway leading to A large parking lot=pequena entrada levando a um grande estacionamento
+You found the location that you are tracking.=Você encontrou o local que está rastreando.
+You start to check with your infrared scanner=Você inicia a verificação com o scanner infravermelho
+#44#
+a gravel path that runs through the cemetery=um caminho de cascalho atravessando o cemitério.
+type your reply to your last private message=digite a resposta à sua última mensagem privada
+The infrared scanner didn't found any player=O scanner infravermelho não encontrou nenhum jogador
+#43#
+intersection between Aetheron and a walkway=cruzamento entre Aetheron e uma trilha.
+a small patch of grass along the bike path.=um pequeno trecho de grama ao longo da siclovia.
+the sidewalk in front of a large restaurant=calçada em frente a um grande restaurante
+#42#
+%s answered to %s: %s. Quoted message:  %s=%1 responde a %2: %3. Mensagem citada: %4
+The door of a house that belongs to no one=Casa sem dono
+you can't go back to the lobby immediately=você não pode voltar ao lobby imediatamente
+you don't have any chests on your account.=você não tem baús na sua conta.
+#41#
+dead end street with houses on both sides=rua sem saída com casas em ambos os lados
+T_intersection between Centria and Colion=Cruzamento em T entre Centria e Colion
+Required score to get %s event points: %s=Pontuação necessária para obter %1 pontos de evento: %2
+enable speaking characters in input boxes=ativar verbalização de caracteres em caixas de edição
+#40#
+A small strip of grass between buildings=pequeno gramado entre edifícios
+a gravel path that runs through the park=caminho de cascalho atravessando o parque
+You have 1 or more unread announcements.=Você tem um ou mais anúncios não lidos.
+gravel path leading to a cemetery. North=Caminho de cascalho até o cemitério (norte)
+gravel path leading to a cemetery. South=Caminho de cascalho até o cemitério (sul)
+select which death messages you will see=selecione quais mensagens de morte deseja receber
+You have 1 or more unread admin_messages=Você tem uma ou mais mensagens não lidas da administração
+#39#
+Driveway leading to a large parking lot=entrada levando a um grande estacionamento
+the garden of the house of family Smith=Jardim da família Smith
+Cheating is not allowed. This includes:=Trapaças não são permitidas. Isso inclui:
+select which skill you want to activate=selecione qual habilidade deseja ativar
+#38#
+around the out door area of the school=ao redor da área externa da escola
+A walkway that leads through the woods=uma trilha atravessando a floresta
+this weapon can't fit in your holster.=esta arma não cabe no seu coldre.
+error: this name is already logged in.=erro: este nome já está logado.
+copy the player name to your clipboard=copiar o nome do jogador para a área de transferência
+#37#
+the canal that runs from west to east=canal indo de oeste a leste
+the parking lot of the large hospital=estacionamento do grande hospital.
+%s has been copied to your clipboard.=%1 copiado para a área de transferência.
+set email address, currently it is %s=definir endereço de e-mail, atualmente é %1
+#36#
+a large parking lot behind the mall.=um grande estacionamento atrás do shopping.
+between A high fence and A staircase=entre uma cerca alta e uma escada
+view the leader board of this event.=ver a tabela de líderes deste evento.
+#35#
+a canal that runs through the woods=Um canal atravessando a floresta.
+around a small electricity building=em torno de um pequeno prédio de eletricidade
+error: This account already exsists=erro: Esta conta já existe
+small park south of the city square=Pequeno parque a sul da praça
+enable typing sounds in input boxes=ativar sons de digitação em caixas de edição
+Press enter to open the lobby menu.=Pressione Enter para abrir o menu do lobby.
+%s has been killed by %s's %s at %s=%2 matou %1 com %3 no local %4
+#34#
+a small lawn next to Carlos' house=pequeno gramado ao lado da casa do Carlos
+a field of grass along Colion road=campo gramado ao longo da rua Colion.
+Near the city's imposing town hall=perto da imponente prefeitura da cidade.
+Sidewalk surrounding A parking lot=calçada ao redor de um estacionamento
+a canal that runs through the city=canal atravessando a cidade
+a large park north of the hospital=Grande parque a norte do hospital
+the loadingdock of a large factory=Doca de carga da grande fábrica
+press enter on a sound to hear it.=pressione Enter em um som para ouvi-lo.
+#33#
+the park south of the city square=parque ao sul da praça da cidade
+A large park next to the hospital=Um grande parque ao norte do hospital 
+A lake in the middle of the woods=Um lago no meio da floresta.
+gravel path leading to a cemetery=caminho de cascalho levando a um cemitério.
+A strip of gravel next to A canal=uma faixa de cascalho ao lado do canal
+view all teams that have a locker=ver equipes que possuem armário
+Thanks for reading this document.=Obrigado por ler este documento.
+#32#
+A high fence surrounding A villa=Cerca alta ao redor da casa de campo.
+a large lawn south of the forest=um grande gramado ao sul da floresta
+A forested area west of the city=Uma área florestal a oeste da cidade.
+the sidewalk in front of a house=calçada em frente a uma casa
+southeast bend in Centria street=curva sudeste na rua Centria
+there is nothing in your holster=não há nada em seu coldre
+select an option for your skills=selecione uma opção para suas habilidades
+your progress in this event: %s%=seu progresso neste evento: %1%
+set which death messages you see=definir mensagens de morte a receber
+you hit a player with a headshot=você atingiu um jogador com um tiro na cabeça
+#31#
+bend in the walkway near a lake=curva na trilha perto de um lago.
+northeast turn in the Bike path=curva nordeste na siclovia
+The front door of A large manor=Porta principal da grande mansão
+• Temporarily disable your chat=• Desativar temporariamente seu chat
+view the profile of this player=ver perfil
+reset all your education points=redefinir todos seus pontos de educação
+#30#
+the house of the family Edward=casa da família Edward
+in front of the house of Kevin=em frente à casa do Kevin
+in front of the Centria bridge=em frente à ponte Centria
+back entrance of a large manor=Porta dos fundos da grande mansão
+enter your password reset key.=insira a chave de redefinição de senha.
+account menu. Select an option=menu da conta. Selecione uma opção
+#29#
+A parking lot behind the mall=Um Estacionamento atrás do shopping
+a southeast bend in the alley=curva sudeste no beco.
+#28#
+Near the stairs to A terrace=perto da escada para um terraço
+%s says in the team chat: %s=%1 diz no chat da equipe: %2
+sub machine gun silencer: %s=silenciador de submetralhadora: %1
+this weapon is already empty=esta arma já está vazia
+entrance of the stone quarry=Entrada da pedreira
+The house of family Anderson=Casa da família Anderson
+you haven't tracked anything=você não está rastreando nada
+%s: %s with %s score points.=%1: %2 com %3 pontos.
+type the key that you've got=digite a chave que você tem
+maximum game volume reached.=volume do jogo máximo atingido.
+your current_ staff messages=suas mensagens atuais com a administração
+#27#
+Near A small wooden bridge.=Perto de uma pequena ponte de madeira.
+the garden of a large manor=Jardim da grande mansão.
+Sidewalk surrounding a lawn=Calçada ao redor de um gramado.
+driveway of the gas station=entrada do posto de gasolina
+welding machine battery: %s=bateria da máquina de solda: %1
+speedhacking is not allowed=speedhacking não é permitido
+private message from %s: %s=mensagem privada de %1: %2
+the front door of the villa=Porta principal da casa de campo
+enable shift escape to exit=ativar shift escape para sair
+server menu. Select an item=menu do servidor. Selecione uma opção
+team menu. Select an option=menu da equipe. Selecione uma opção
+#26#
+around the school building=ao redor do prédio da escola.
+Entrance to a narrow alley=entrada de um beco estreito
+in front of the loading dock=em frente a doca de carga
+an alley between buildings=um beco entre edifícios
+grassy slope along a canal=encosta gramada ao longo de um canal
+Front entrance of the mall=Entrada principal do shopping
+the house of family Edward=Casa da família Edward
+this buffer can't be muted=esta categoria não pode ser silenciada
+view here the leader board=aqui está a tabela de líderes do evento
+• Kick you from the server=• Te Expulsar do servidor
+The City of Division Rules=Regras do City of Division 
+send a password reset key.=enviar chave de redefinição de senha.
+lobby menu. Select an item=menu do lobby. Selecione uma opção
+do you want to update now?=deseja atualizar agora?
+would you like to respawn?=deseja reaparecer?
+send an request for a team=enviar solicitação para uma equipe
+#25#
+near the concert building=Perto da casa de show
+in the middle of the park=No meio do parque.
+in front of the mall door=em frente à porta do shopping
+Entrance to a parking lot=entrada de um estacionamento
+behind a large restaurant=atrás de um grande restaurante
+type your password again.=digite sua senha novamente.
+private message to %s: %s=mensagem privada a %1: %2
+Back entrance of the mall=Entrada dos fundos do shopping
+the house of family Smith=Casa da família Smith
+a really large ware house=Armazém enorme
+%s says in the team chat:=%1 diz no chat da equipe:
+enable logging of buffers=ativar gravação de logs
+Loading game. Please wait=Carregando jogo. Por favor aguarde
+#24#
+near the industrial site=perto da zona industrial.
+under the Centria bridge=debaixo da ponte Centria
+Painkiller injection: %s=Injeção de analgésico: %1
+type your password here.=digite sua senha aqui.
+reloading is not needed.=recarregar não é necessário.
+a medium_sized warehouse=Armazém de tamanho médio
+type your responce to %s=digite sua resposta à %1
+welcome %s to the lobby.=boas vindas ao lobby %1.
+#23#
+The stairs to A terrace=escadas para um terraço
+bottom of the staircase=base da escada
+select an option for %s=selecione uma opção para %1
+type your message to %s=digite a mensagem a %1
+%s copied to clipboard.=%1 copiado.
+south door of the villa=Porta sul da casa de campo
+checking for updates...=verificando atualizações...
+The radar detects a gap=O radar detecta um buraco
+a player leaves the map=um jogador saiu do mapa
+you have been respawned=você reapareceu
+connecting. Please wait=conectando. Por favor aguarde
+#22#
+slope of a muddy ditch=Encosta de uma vala lamacenta.
+In front of the bakery=Em frente à padaria.
+behind the gassstation=atrás do posto de gasolina
+press enter to connect=pressione enter para conectar
+select an announcement=selecione um anúncio
+view the profile of %s=vendo o perfil de %1
+only your team members=apenas as dos membros da equipe
+a player joins the map=um jogador entrou no mapa
+send a private message=enviar mensagem privada
+nothing infront of you=nada à sua frente
+#21#
+A small wooden bridge=Uma pequena ponte de madeira.
+around a large church=ao redor de uma grande igreja.
+read the announcement=leia o anúncio aqui
+current location:  %s=localização atual: %1
+read the article here=leia o artigo aqui
+Respect Other Players=Respeite Outros Jogadores
+a %s is %s meter away=%1 a %2 quadrados de distância
+#20#
+around a parking lot=ao redor de um estacionamento
+near A wooden bridge=perto de uma ponte de madeira
+under Centria bridge=debaixo da ponte Centria
+Entrance to an alley=entrada de um beco
+near the weapon shop=perto da loja de armas
+I agree to the rules=Concordo com as regras
+type your name here.=digite seu nome aqui.
+current location: %s=localização atual: %1
+%s cut to clipboard.=%1 recortado.
+the concert building=Casa de show
+the large restaurant=Grande restaurante
+checking for updates=verificando atualizações
+view unlocked skills=ver habilidades desbloqueadas
+visit the event shop=loja do evento
+#19#
+under Colion bridge=Debaixo da ponte Colion.
+A large quarry área=Uma grande área de pedras
+in front of the mal=em frente ao shopping
+driveway of A villa=entrada de uma casa de campo
+welding machine: %s=máquina de solda: %1
+%s has been unmuted=mensagens de %1 reativadas
+the office building=Prédio de escritórios
+type your team chat=chat da equipe: digite sua mensagem
+%s has disconnected=%1 desconectou-se
+%s: on the main map=%1: no mapa principal
+view the rules here=veja as regras aqui
+#18#
+the Centria bridge=ponte Centria
+A low, muddy ditch=Uma vala rasa e lamacenta.
+near a large manor=perto da grande mansão.
+weapon menu: melee=menu de armas: Corpo a corpo
+unmute this player=reativar mensagens deste jogador
+the house of James=Casa do James
+the house of Maria=Casa da Maria
+Corion road bridge=Ponte da Rua Colion
+enable ask to exit=ativar confirmação ao sair
+view documentation=ver documentação de ajuda
+view staff members=ver membros da administração
+view active events=eventos
+Learn how to climb=Aprenda a escalar
+#17#
+making head shots=tiros na cabeça
+5.7x28mm ammo: %s=5.7x28milímetros: %1
+4.6x30mm ammo: %s=4.6x30milímetros: %1
+12 gauge ammo: %s=calibre 12: %1
+first aid kit: %s=kit de primeiros socorros: %1
+view your profile=ver seu perfil
+%s has been muted=mensagens de %1 silenciadas
+reply from %s: %s=resposta de %1: %2
+Charlotte's house=Casa da Charlotte
+the house of Liam=Casa do Liam
+a large warehouse=Grande armazém
+teams and lockers=equipes e armários
+select an article=selecione um artigo
+select a language=selecione um idioma
+game sounds muted=volume do jogo silenciado
+view the %s event=ver o evento %1
+%s, check_box: %s=%1 caixa de seleção %2
+create an account=criar uma conta
+landing knowledge=conhecimento de pouso
+Learn how to swim=Aprenda a nadar
+#16#
+near an entrance=perto de uma entrada.
+a large cemetery=um grande cemitério.
+a field of grass=Um campo gramado
+A field of grass=Um campo gramado
+sub_machine_guns=submetralhadoras
+mute this player=silenciar mensagens deste jogador
+chat channel: %s=canal de chat: %1
+exclamation mark=exclamação
+stopped tracking=Parou de rastrear
+%s has connected=%1 conectou-se
+• Send a warning=• Enviar uma advertência
+%s: in the lobby=%1: no lobby
+account settings=configurações da conta
+%s at %s, %s, %s=%1: %2, %3, %4
+set chat channel=alterar canal de chat
+manage skill set=gerenciar set de habilidades
+story and quests=história e missões
+#15#
+The city square=Praça da cidade.
+Aetheron street=rua Aetheron
+A wooden bridge=uma ponte de madeira
+inside the city=Na cidade
+7.62mm ammo: %s=7.62milímetros: %1
+5.56mm ammo: %s=5.56milímetros: %1
+reply to %s: %s=respondendo a %1: %2
+Combat tips.txt=dicas de combate.txt
+the supermarket=Supermercado
+the gas station=Posto de gasolina
+the weapon shop=Loja de armas
+a large factory=grande fábrica
+set up account,=configurar conta,
+select an event=selecione um evento
+destroy objects=destruir objetos
+#14#
+Centria street=Rua Centria
+delete account=deletar conta
+_key_guide.txt=Guia de atalhos.txt
+assault_rifles=rifles de assalto
+view all teams=ver equipes
+%s %s says: %s=%1 %2 diz: %3
+quotation mark=aspas
+Andrew's house=Casa do Andrew
+Centria bridge=Ponte Centria
+Carlos's house=Casa do carlos
+_miscellaneous=diversos
+select a quest=selecione uma missão
+platinum chest=baú de platina
+set up account=configurar conta
+Staff Messages=Mensagens da administração
+Administrators=Administradores
+only your self=apenas as suas
+radar disabled=radar desativado
+radar downward=radar à baixo
+radar backward=radar à trás
+settings saved=configurações salvas
+recoil mastery=maestria em recuo
+jump endurance=resistência a saltos
+#13#
+A parking lot=estacionamento
+Colion bridge=ponte Colion
+sniper_rifles=rifles de precisão
+select a team=selecione uma equipe
+question mark=interrogação
+right bracket=fecha colchete
+stop tracking=Parar de rastrear
+Kevin's house=Casa do Kevin
+Frank's house=Casa do Frank
+the town hall=Prefeitura
+Sofia's house=Casa da Sofia
+carin's house=Casa do Carin
+logging in...=fazendo login...
+radar forward=radar à frente
+contact staff=contactar administração
+announcements=anúncios
+enter the map=entrar no mapa
+machete swing=balanço de facão
+Eyes training=Treinamento visual
+create a team=criar uma equipe
+manage skills=gerenciar habilidades
+#12#
+Franks house=Casa do Frank
+garden fence=Cerca do jardim.
+near doorway=Perto de uma porta
+9mm ammo: %s=9milímetros: %1
+left bracket=abre colchete
+the hospital=Hospital
+Jack's house=Casa do Jack
+Jane's house=Casa da Jane
+John's house=Casa do John
+Bob's house.=Casa do Bob
+bronze chest=baú de bronze
+silver chest=baú de prata
+golden chest=baú de ouro
+set language=definir idioma
+kill players=matar jogadores
+radar upward=radar à cima
+A small park=Um pequeno parque
+learn sounds=aprender sons do jogo
+brick wall=uma parede de tijolos
+#11#
+near a lake=perto de um lago.
+Colion road=rua Colion
+bandage: %s=bandagem: %1
+grenade: %s=granada: %1
+weapon menu=menu de armas
+text pasted=colado
+right paren=fecha parêntesis
+appostrophe=apóstrofo
+right brace=fecha chave
+Tim's house=Casa do Tim
+town square=Praça da cidade
+No Cheating=Sem Trapaças
+Public Chat=Chat Público
+tracking %s=rastreando %1
+radar right=radar à direita
+view levels=tabela de desbloqueio de níveis
+knife throw=lançamento de faca
+your skills=suas habilidades
+#10#
+small lawn=pequeno gramado.
+helmet: %s=capacete: %1
+ladder: %s=escada: %1
+underscore=sublinha
+left paren=abre parêntesis
+left brace=abre chave
+the school=Escola
+the church=Igreja
+navigation=navegação
+• Spamming=• Spam
+%s, button=%1 botão
+radar left=radar à esquerda
+north west=noroeste
+north east=nordeste
+south east=sudeste
+south west=sudoeste
+view rules=ver regras
+steady aim=objetivo constante
+#9#
+Bike path=siclovia
+you found=você encontra
+level: %s=nível: %1
+backslash=barra invertida
+set to %s=definido como %1
+unchecked=não marcado
+your team=sua equipe
+open chests=abrir baús
+view events=eventos
+#8#
+the city=na cidade
+an alley=Um beco
+shotguns=espingardas
+continue=continuar
+The cafe=Café
+Spamming=Spam
+canceled=cancelado
+name: %s=nome: %1
+everyone=todas
+sidewalk=calçada
+lamppost=um poste de luz
+settings=configurações
+#7#
+doorway=porta
+Opening=Passagem 
+machete=facão
+pistols=pistolas
+percent=porcento
+hashtag=número
+greater=maior
+a villa=Casa de campo
+weapons=armas
+the map=o mapa
+skills=habilidades
+objects=objetos
+checked=marcado
+changes=mudanças e novidades
+planter=uma floreira
+#6#
+dollar=cifrão
+equals=igual
+Bakery=Padaria
+events=eventos
+window=uma janela
+log in=conectar
+#5#
+flail=mangual
+knife=faca
+melee=corpo a corpo
+minus=hífen
+colon=dois pontos
+space=espaço
+slash=barra
+comma=vírgula
+items=itens
+north=norte
+south=sul
+table=uma mesa
+teams=equipes
+#4#
+plus=mais
+less=menor
+semi=ponto e vírgula
+east=leste
+west=oeste
+exit=sair
+done=feito
+#3#
+bar=barra vertical
+and=eh comercial
+dot=ponto
+yes=sim
+#2#
+at=arroba
+no=não

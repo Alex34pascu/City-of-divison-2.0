@@ -1,0 +1,599 @@
+loot_out weapon_FN_509_tactical:weapon_Benelli_M4:weapon_mp5:weapon_ak47:weapon_SVD_Dragunov:grenade;2:helmet;1:first_aid_kit;1:9mm_ammo;150:12_gauge_ammo;80:5.56mm_ammo;200:7.62mm_ammo;90:tool_box;1
+platform -10000 10000 -10000 10000 0 0 concrete1
+wall -1000 1000 -1000 1000 -1000 5 wallrock3 10000
+ambience -1 251 -1 251 -50 1000 canyion.ogg -1
+ambience -1 251 -1 251 -10 1000 wind.ogg -7
+zone 0 250 0 250 -100 250 A rugged landscape full of rocks, canyons and deep ravines
+wall -1 -1 -1 251 -100 1000 walledge 1000
+wall -1 251 251 251 -100 1000 walledge 1000
+wall 251 251 -1 251 -100 1000 walledge 2
+wall -1 251 -1 -1 -100 1000 walledge 1000
+platform 0 250 0 250 5 5 gravel
+rv -1 251 -1 251 -51 1000 -32 1150
+wall 4 245 20 240 -100 60 wallrock3 10000
+platform 4 245 20 240 60 60 concrete1
+platform 118 132 0 199 5 60 blank
+platform 118 132 0 199 5 5 gravel
+platform 121 129 0 179 5 5 gravel3
+platform 122 128 0 178 4 5 blank
+platform 122 128 0 178 4 4 grass4
+platform 123 127 0 177 4 4 water3
+src 123 127 0 250 4 4 ditch.ogg -3
+zone 118 132 20 178 -5 40 a long canyon with a creek running at the bottom
+zone 122 128 0 178 4 10 a small creek
+rv 175 216 79 121 -11 10 -32 950
+dz 190 200 121 170 -10 20 canyion.ogg 5
+rv 191 199 121 171 -11 20 -31 200
+region -1 251 -1 251 -100 1000 Red rock canyons
+zone 10 70 64 92 -35 0 a wide, deep ravine with steep walls
+src -1 251 -1 251 50 1000 calm4.ogg -2
+rv 216 240 116 121 -16 10 -29 250
+dz 216 240 117 120 -15 10 canyon.ogg 4
+src 128 250 20 230 -50 100 rockscanyon1.ogg 2
+src 10 119 20 230 -50 100 rockscanyon2.ogg 0
+dz 176 215 80 120 -10 10 rockscanyon1.ogg 10
+zone 102 117 151 170 5 40 an open space surrounded by high rocks. On the west side is an overhang
+rv 101 105 151 170 5 15 -30 250
+dz 0 251 0 251 -100 251 rockscanyon1 -5
+dz 0 251 0 251 -100 251 rockscanyon2.ogg -5
+platform 133 245 20 24 5 60 blank
+platform 133 245 20 24 5 5 gravel
+platform 85 117 91 96 5 60 blank
+platform 85 117 91 96 5 5 rocks
+platform 132 175 101 111 5 60 blank
+platform 132 175 101 111 5 5 gravel
+platform 176 215 80 120 -10 60 blank
+platform 176 215 80 120 -10 -10 dirt1
+platform 178 213 82 118 -10 -10 grass4
+platform 161 175 101 111 -10 5 blank
+zone 176 215 80 120 -10 10 a valley with sparingly grass and a few poplars
+staircase 161 176 101 111 -10 10 gravel1 wallrock5 4 a slope of loose stones
+platform 192 198 121 170 -10 60 blank
+platform 192 198 121 170 -10 -10 rocks3
+platform 193 197 121 170 -10 -10 gravel2
+object 192 194 166 168 -10 -2 bush 1
+platform 191 191 169 170 -6 60 blank
+platform 191 191 169 170 -6 -6 concrete1
+object 180 182 84 86 -11 29 large_tree 1
+zone 231 240 25 240 15 40 Lower Elevated Rock Plateau
+object 206 208 85 87 -11 30 large_tree 1
+object 194 196 99 101 -11 45 large_tree 1
+platform 190 190 169 170 -2 5 blank
+platform 190 190 169 170 -2 -2 concrete1
+platform 191 195 171 200 0 60 blank
+platform 191 195 171 200 0 0 cement1
+platform 133 179 156 180 5 60 blank
+platform 133 179 156 180 5 5 gravel
+platform 176 178 121 155 5 50 blank
+staircase 176 178 130 155 5 30 gravel2 wallrock5 2 A narrow track leading up the sandstone rock formation
+platform 176 178 121 129 30 30 concrete1
+wall 176 178 121 129 5 29 wallrock3 10000
+platform 4 70 20 180 60 60 concrete1
+platform 4 9 28 180 5 60 blank
+platform 3 9 28 180 5 5 rocks1
+staircase 8 9 31 61 0 40 stone wallrock1 1 a narrow sandstone track leading up the cliph 
+platform 10 70 64 92 -35 60 blank
+platform 10 70 64 92 -35 -35 rocks
+wall 10 10 28 63 0 60 wallrock1 100000
+platform 8 9 62 63 30 30 concrete1
+wall 8 9 61 62 29 29 wallrock1 10000
+platform 10 25 62 63 30 60 blank
+staircase 10 25 62 63 30 45 stone wallrock1 3 a narrow sandstone track leading up the cliph 
+wall 10 25 61 61 30 59 wallrock1 10000
+platform 26 31 62 63 30 60 blank
+platform 26 31 62 63 45 45 concrete1
+zone 10 70 64 92 -35 0 a wide, deep ravine with steep walls
+platform 32 47 62 63 45 60 blank
+staircase 32 47 62 63 45 70 stone wallrock3 3 a narrow sandstone track leading up the cliph
+wall 10 46 20 61 60 75 wallrock3 10000
+platform 216 240 117 120 -15 100 blank
+platform 216 240 117 120 -15 -15 gravel2
+zone 216 240 117 120 -15 10 a narrow slot canyon
+staircase 216 221 117 120 -15 -10 gravel2 wallrock5 4 Slope leading into a slot canyon
+wall 8 9 38 42 5 5 wallstone 10000
+wall 8 9 39 42 6 6 wallstone 10000
+wall 8 9 40 42 5 7 wallstone 10000
+wall 8 9 40 42 5 7 wallstone 10000
+wall 8 9 41 42 5 8 wallstone 10000
+wall 8 9 42 42 5 9 wallstone 1000
+wall 8 9 43 43 5 10 wallstone 10000
+platform 40 47 44 46 60 75 blank
+platform 40 47 44 46 60 60 grass2
+platform 71 84 20 94 5 60 blank
+platform 71 84 20 94 5 5 dirt2
+platform 71 84 45 94 -5 60 blank
+platform 71 84 45 94 -5 -5 gravel2
+staircase 71 84 45 55 -5 10 gravel1 wallrock3 2 slope leading down into a deeper located canyon
+platform 102 117 151 170 5 60 blank
+zone 102 117 151 170 5 40 an open space surrounded by high rocks. On the west side is an overhang
+platform 102 117 151 170 5 5 gravel2
+platform 90 101 151 170 60 60 concrete1
+platform 80 110 171 199 70 70 concrete1
+platform 4 9 97 150 50 50 concrete1
+object 102 105 151 170 12 58 rock2 1
+platform 160 175 121 123 30 60 blank
+staircase 160 175 121 123 30 50 gravel1 wallrock5 4 narrow track leading up the sandstone rock formation
+platform 155 159 121 155 15 75 blank
+zone 155 159 121 155 15 59 a narrow crack in the rocks
+platform 158 159 121 123 45 45 concrete1
+wall 158 159 121 123 44 44 wallstone2 10000
+platform 155 159 121 155 15 15 rocks3
+staircase 158 159 124 139 45 70 stone wallstone2 1 narrow track leading up the sandstone rock formation
+staircase 118 132 180 189 5 15 rocks3 wallrock5 1 low hill created by collapsed rocks
+platform 95 160 200 210 3 60 blank
+platform 95 160 200 210 3 3 dirt2
+zone 95 160 200 210 0 59 An elongated canyon running from west to east
+staircase 118 132 190 199 5 15 rocks3 wallrock5 2 low hill created by collapsed rocks
+zone 118 132 189 190 14 20 at the top of the hill
+platform 102 117 189 190 17 60 blank
+platform 102 117 189 190 17 17 grass2
+platform 123 127 178 178 4 4 water2
+src 123 127 179 199 2 2 stream2.ogg -12
+platform 91 94 204 206 3 10 blank
+platform 91 95 204 206 3 3 gravel2
+platform 89 93 207 225 3 60 blank
+platform 89 93 207 225 3 3 gravel
+platform 164 166 181 199 -10 10 blank
+staircase 164 166 181 196 -10 5 grass5 wallgrass 2 a narrow  covered crevice overgrown with grass
+platform 164 166 197 199 -10 -10 grass2
+platform 164 166 180 180 5 5 grass5
+dz 164 175 181 199 -30 10 canyion.ogg 10
+rv 163 178 181 200 -11 10 -30 120
+platform 167 178 197 199 -10 -4 blank
+platform 167 178 197 199 -10 -10 grass4
+platform 179 201 187 220 -20 60 blank
+platform 178 178 197 199 -20 -10 grass3
+platform 179 201 187 220 -20 -20 grass4
+platform 158 159 140 155 60 60 concrete1
+platform 117 133 124 126 60 60 wood2
+wall 118 132 124 126 59 59 wallwood2 200
+sub_tile 118 119 124 126 60 60 wooddebris
+sub_tile 121 123 124 126 60 60 wooddebris
+sub_tile 126 126 124 126 60 60 wooddebris
+sub_tile 128 129 124 126 60 60 wooddebris
+sub_tile 131 132 124 126 60 60 wooddebris
+platform 10 55 172 180 5 60 blank
+platform 10 55 172 180 5 5 gravel2
+platform 52 55 181 200 5 15 blank
+platform 52 55 180 200 5 5 gravel
+zone 52 55 181 200 5 30 A narrow canyon pass
+rv 51 56 180 201 4 16 -27 60
+platform 75 89 221 225 3 60 blank
+platform 75 89 221 225 3 3 gravel
+platform 65 74 190 241 5 60 blank
+platform 65 74 190 241 5 5 dirt2
+rv -1 251 -1 251 60 150 -32 1300
+dz 176 178 197 199 -10 10 canyion.ogg 3
+zone 179 201 187 221 -20 0 A deep lying valley surrounded by high cliffs
+zone 164 178 197 199 -10 0  a narrow  covered crevice overgrown with grass
+zone 178 178 197 199 -20 -5 Climbable wall overgrown with grass
+zone 179 179 197 199 -20 -10 near a climbable wall overgrown with grass
+zone 192 198 120 170 -10 7 A side canyon filled with loose stones and scattered bushes. Higher up in the rock walls, several narrow passages and cracks lead away
+zone 192 192 169 170 -10 -5 underneath some eroded ledges in the cliff wall, carved out as natural steps
+zone 190 191 169 170 -6 5 some eroded ledges in the cliff wall, jumpable
+zone 190 190 169 170 -2 5 some eroded ledges in the cliff wall. Higher up, to the north east there is the opening of a canyon
+platform 191 195 184 186 0 0 rocks1
+platform 201 230 187 195 -20 60 blank
+platform 201 230 187 195 -20 -20 rocks
+platform 196 230 186 186 3 60 blank
+platform 196 230 186 186 3 3 concrete1
+platform 229 230 158 185 3 60 blank
+staircase 229 230 182 185 3 10 stone wallrock3 2 an old eroded path cutting through the rock
+platform 229 230 169 181 6 6 concrete1
+platform 231 240 20 230 15 60 blank
+platform 241 245 20 230 5 60 blank
+platform 241 250 20 230 5 5 gravel
+wall 229 230 165 181 3 5 wallrock3 10000
+staircase 229 230 162 176 6 25 stone wallrock3 2 an old path cutting through the rock
+platform 231 240 25 230 15 15 concrete1
+platform 229 230 158 162 20 20 concrete1
+wall 229 230 158 162 19 19 wallrock3 10000
+wall 231 235 150 166 15 23 wallrock4 2000
+platform 231 235 150 166 23 23 rocks1
+wall 240 240 116 120 -20 14 wallrock3 10000
+platform 229 230 121 121 11 14 blank
+platform 229 230 121 121 11 11 stone
+dz 217 239 116 120 -20 10 canyion.ogg 7
+dz 217 218 116 120 -11 10 canyion.ogg 2
+zone 192 198 120 120 -10 0 near the entrance of a canyon filled with loose stones and some bushes
+zone 215 215 117 120 -10 0 near  a Slope leading into a slot canyon
+platform 231 239 116 120 15 15 blank
+zone 231 236 149 167 15 29 pile of collapsed rocks
+platform 201 230 25 26 15 60 blank
+staircase 201 230 25 26 15 50 stone wallrock1 4 steep sandstone path
+platform 196 200 25 42 5 60 blank
+platform 199 200 25 26 44 44 concrete1
+wall 199 200 25 26 43 43 wallrock1 10000
+staircase 199 200 27 43 44 70 stone wallrock3 1 steep sandstonepath
+wall 170 175 80 100 60 98 wallstone 10000
+zone 141 176 78 101 60 100 near a rock formation
+staircase 144 169 79 85 60 70 gravel1 wallstone 1 sloping rockformation
+wall 144 169 86 101 60 65 wallstone 10000
+platform 144 169 86 101 66 66 stone
+zone 142 176 85 101 65 100 a rockformation
+wall 142 143 80 90 60 70 wallstone 10000
+platform 142 143 80 90 70 70 concrete1
+zone 142 144 85 101 66 70 a low, natural formed wall
+zone 133 160 101 111 5 40 a branch of the longer main canyon
+zone 130 132 101 111 5 40 near A branch of the longer canyon
+platform 56 64 196 200 5 60 blank
+platform 55 65 196 200 5 5 gravel3
+src 123 127 179 200 3 3 waterfallloop2.ogg -12
+platform 121 129 201 210 3 3 gravel3
+platform 122 128 201 210 2 3 blank
+platform 122 128 201 210 2 2 grass4
+platform 123 127 201 210 2 2 water3
+platform 123 127 201 201 2 2 water2
+sub_tile 121 129 0 210 2 5 puddle
+wall 132 132 181 181 5 5 wallrock5 10000
+zone 133 179 156 180 5 60 A natural opening between cliffs, where multiple canyons and cracks diverge.
+zone 176 178 120 129 30 50 a flat plateau between the sandstone trails. At its edge, the ground falls away into a deep valley filled with poplar trees.
+platform 176 176 121 123 30 30 gravel1
+platform 176 178 121 122 30 30 rocks1
+zone 158 159 121 123 45 60 plateau between the sandstone trails, right next to a narrow crack in the rocks
+zone 130 132 156 178 5 20 near A natural opening between cliffs, where multiple canyons and cracks diverge.
+platform 151 160 211 230 3 60 blank
+platform 151 160 210 230 3 3 gravel
+zone 151 160 211 227 3 30 A side branch of an elongated canyon (lower section)
+zone 151 160 227 231 3 30 near a small slope
+staircase 151 160 228 230 3 10 gravel1 wallrock1 1 slope
+wall 122 128 211 212 -20 10 wallrock1 10000
+platform 122 128 213 250 2 10 blank
+platform 123 127 211 211 2 10 blank
+platform 123 127 211 212 2 2 shallow
+platform 122 128 213 250 2 2 water3
+rv 120 130 212 240 1 11 -18 200
+platform 123 127 211 212 3 10 blank
+platform 121 129 213 240 4 10 blank
+platform 121 129 213 240 4 4 gravel3
+zone 121 129 213 240 1 15 A stone passageway carved by water, with the creek flowing through and narrow ledges lining the sides
+staircase 121 121 239 240 4 5 gravel1 wallrock3 1 slope
+staircase 129 129 239 240 4 5 gravel1 wallrock3 1 slope
+zone 117 132 124 126 0 58 underneath a narrowbridge which is casting shadows over the canyon floor
+zone 117 133 124 126 60 75 an old narrow bridge 
+wall 155 191 120 120 60 64 wallrock2 1000
+platform 155 191 120 120 64 64 dirt3
+wall 133 140 112 119 60 75 wallrock2 1000
+platform 133 140 112 119 75 75 dirt3
+zone 133 141 112 120 60 80 unclimbable sandstone formation
+zone 154 191 119 120 60 70 a sandstone rich
+platform 100 101 151 170 60 60 rocks1
+platform 100 117 149 150 60 60 rocks1
+platform 100 100 151 153 50 58 blank
+platform 100 100 151 152 50 55 stone
+src 122 128 211 212 1 5 waterfallloop.ogg -19
+platform 75 75 221 225 3 3 rocks2
+zone 75 75 221 225 3 12 a slightly elevated, jumpable plateau
+platform 106 110 210 210 3 3 rocks2
+platform 106 110 211 236 11 60 blank
+platform 106 110 211 236 11 11 gravel
+platform 106 110 211 211 6 11 blank
+platform 106 110 211 211 6 6 gravel1
+platform 106 110 211 212 10 11 blank
+staircase 106 110 212 213 10 11 rocks1 wallrock1 1  
+src 122 128 256 258 0 2 waterfallloop.ogg -5
+platform 122 128 213 240 4 4 blank
+platform 104 105 233 236 11 18 blank
+platform 104 106 233 236 11 11 gravel3
+platform 94 103 231 239 11 18 blank
+platform 94 103 231 239 11 11 concrete1
+rv 93 105 230 240 10 20 -25 450
+dz 93 103 230 240 10 20 canyion.ogg 10
+dz 93 103 230 240 10 20 wind.ogg 10
+platform 120 120 224 226 8 18 blank
+platform 121 121 224 226 4 4 rocks2
+platform 120 120 224 226 7 7 gravel1
+platform 111 119 224 226 11 18 blank
+platform 110 119 224 226 11 11 rocks
+rv 111 120 223 227 10 20 -20 200
+dz 111 131 212 240 0 10 canyion.ogg 5
+rv 110 110 224 226 11 20 -23 300
+platform 151 160 231 240 5 60 blank
+platform 151 160 231 240 5 5 gravel
+platform 161 179 210 218 3 60 blank
+platform 160 178 210 218 3 3 dirt1
+wall 178 178 210 218 3 7 wallrock2 3000
+platform 178 178 210 218 7 7 dirt3
+zone 177 179 210 218 3 13 A low natural ridge overlooking a valley below
+wall 179 201 220 220 -20 2 wallrock2
+platform 179 201 220 220 3 3 dirt3
+zone 179 201 219 220 -20 30 a high, sandy ledge
+zone 179 201 219 220 3 30 on top of a high, sandy ledge, at the north side of a valley
+zone 202 230 187 195 -20 10 A deep gorge. The bottom is scattered with sharp rocks, and a small stream trickles along the floor. Higher up, several tracks and winding paths are visible
+zone 200 201 187 195 -20 -10 near a  gorge
+platform 179 179 197 199 -20 -20 grass3
+zone 179 200 188 194 -20 -10 near a tiny stream dribbling across the valley floor
+zone 179 200 190 192 -20 -10 a tiny stream dribbling across the valley floor
+zone 191 195 187 187 -20 -1 Above your  head, carved into the cliff wall, is the mouth of a narrow canyon
+zone 196 230 186 186 3 20 On a narrow ridge above a deep gorge filled with sharp rocks
+platform 176 178 156 157 5 5 gravel2
+zone 176 178 156 157 5 15 near  A narrow track leading up the sandstone rock formation
+platform 71 84 19 19 5 5 dirt2
+zone 8 9 62 63 30 40 a bend in the track overlooking a deep ravine
+zone 26 31 62 63 45 55 a plateau on the track overlooking the deep ravine
+platform 177 177 210 218 3 3 dirt3
+platform 187 193 221 240 5 60 blank
+platform 187 193 221 241 5 5 grass2
+platform 187 193 220 220 3 3 dirt1
+platform 187 193 221 223 5 5 rocks3
+zone 161 176 210 218 3 30 an opening leading to a ledge overlooking a deep valley
+zone 159 160 210 218 3 30 near an opening leading to a ledge 
+zone 187 193 220 220 3 8 Under a narrow passage between  steep cliff walls
+zone 187 193 221 240 5 30 a narrow passage between steep cliff walls, leading to a drop_off into a valley
+zone 187 193 221 223 3 20 Near a steep drop-off, above a ledge clinging to the rock wall
+dz 186 194 221 240 5 30 canyion.ogg 4
+zone 164 166 197 199 -10 0 bend in the crevice
+platform 155 159 156 156 5 5 rocks1
+zone 155 159 156 156 5 14 Below the mouth of a narrow crack in the rocks. From here, it seems unreachable
+zone 122 128 201 211 2 10 a small creek
+zone 122 128 210 210 2 10 Near an opening where the creek flows through a natural passage
+zone 123 127 211 212 2 10 a passage
+zone 121 121 224 226 4 7 Underneath the opening of a crack in the rock wall
+zone 120 120 224 226 7 10 narrow ledge
+zone 111 119 224 226 11 18 A very narrow tunnel slicing through the rock
+dz 111 120 223 227 10 20 canyion.ogg 8
+zone 106 110 214 236 11 19 the bottom of a narrow chasm running through the rocks
+zone 110 110 224 226 11 19 near a tunnel
+zone 94 103 231 239 11 20 a small cave
+zone 103 106 233 236 11 19 near the opening of a small cave
+platform 103 103 233 236 11 11 gravel3
+zone 106 110 210 210 3 10 below the mouth of a chasm 
+zone 106 110 211 213 6 15 Strangely formed steps carved out of the rocks
+platform 74 74 221 225 5 5 rocks3
+platform 7 9 64 92 5 5 rocks3
+zone 7 9 64 92 5 20 Near the crumbling edge of a steep ravine
+zone 10 70 64 92 -10 75 above a deep ravine with steep walls
+platform 180 191 166 167 5 60 blank
+platform 179 189 166 167 5 5 stone
+platform 190 191 166 167 1 5 blank
+platform 190 191 166 167 1 1 dirt3
+zone 192 192 166 167 -3 3 below the opening of a passage
+zone 190 191 166 167 1 10 A sand-filled recess in the rock, below a passage
+zone 180 189 166 167 5 30 A slit in the cliff, functioning as a natural passage
+dz 180 189 166 167 5 30 canyion.ogg 4
+rv 180 191 165 168 -1 30 -28 60
+zone 179 179 166 167 5 15 near A slit in the cliff, functioning as a natural passage
+zone 191 195 171 184 0 30 natural passage, with a steep drop at the end
+zone 191 195 184 186 0 10 Near a steep drop-off into a lower valley. At the east side, a narrow ridge is visible
+sub_tile 179 230 189 193 -20 -20 puddle
+platform 202 230 190 192 -20 -20 gravel3
+src 179 225 190 191 -21 -21 dripping_water2.ogg -6
+src 179 230 190 191 -20 -20 stream2.ogg -27
+platform 179 201 219 219 -20 -20 dirt3
+zone 118 118 189 190 14 21 under the opening of a slit
+zone 102 117 189 191 17 30 A thin slit covered with grass, with a section of tree trunk wedged tightly between the rocks just above the ground, near the opening
+rv 101 117 188 192 16 40 -28 90
+dz 101 117 188 192 16 30 canyion.ogg 5
+zone 104 105 233 236 11 15 the opening of a small cave
+object 114 115 189 190 19 21 chunk_of_tree_trunk 1
+zone 100 101 149 170 60 75 rocky ledge overlooking an open area below
+zone 102 117 149 150 60 75 rocky ledge overlooking an open area below
+platform 100 117 171 172 60 60 rocks1
+zone 100 117 171 172 60 75 rocky ledge overlooking an open area below
+platform 118 118 91 94 5 5 rocks
+location 176 106 -10 a valley with sparingly grass and a few poplars
+location 133 106 5 a branch of the main canyon
+location 117 160 5 an open space surrounded  by high rocks
+location 125 190 15 a low hill created by collapsed rocks
+zone 93 95 204 206 3 10 near a small passage
+zone 94 94 204 206 3 10 a small passage
+zone 89 93 207 225 3 20 a winding path leading away between the rocks
+zone 91 92 204 206 3 20 A narrow curve leading to a path through the rocks
+zone 76 88 221 225 3 20 a winding path leading away between the rocks
+zone 89 94 221 225 3 20 south west turn in the path
+zone 65 74 190 241 5 30 A vast canyon with a sandy floor
+zone 55 65 196 200 5 30 near A short passageway strewn with little stones
+zone 56 64 196 200 5 30 A short passageway strewn with little stones
+platform 179 200 190 192 -20 -20 gravel3
+platform 179 230 191 191 -20 -20 water2
+src 231 232 191 191 -35 20 waterfallloop2.ogg -25
+src 231 231 191 191 -22 -22 smallpipe.ogg -15
+platform 231 240 189 193 -35 -18 blank
+platform 231 240 189 193 -35 -35 water2
+dz 231 245 180 200 -40 -18 canyion.ogg 50
+platform 235 244 184 196 -35 -25 blank
+platform 235 244 184 196 -35 -35 gravel3
+src 234 244 184 196 -37 -25 dripping_water1.ogg -5
+src 231 231 190 192 -35 -33 largepipe.ogg -15
+rv 231 245 183 197 -36 -20 -22 400
+src 236 243 187 193 -35 -35 waves2.ogg -15
+platform 236 243 185 195 -35 -35 shallow
+platform 235 235 189 193 -35 -35 shallow
+platform 231 231 189 193 -35 -20 stone
+platform 231 231 190 192 -34 -20 blank
+zone 235 244 183 196 -35 -22 A rocky cavern partially filled with water
+platform 231 231 190 192 -35 -35 water2
+sub_tile 230 231 189 193 -35 -20 puddle
+src 231 231 189 193 -35 -35 dripping_water2.ogg 0
+zone 231 234 189 193 -35 -18 A small crevice through which the stream spills into the cavern
+zone 231 231 189 193 -35 -17 A narrow stone path along a small waterfall
+zone 231 231 190 192 -35 -30 Under the dribbling water of the stream
+bounded_source 230 230 189 193 -20 -17 canyion.ogg -0 231 245 184 196 -35 -18
+rv 231 235 188 194 -28 -18 -23 230
+rv 202 230 186 196 -21 0 -30 800
+platform 230 230 189 190 -20 -20 rocks1
+platform 230 230 192 193 -20 -20 rocks1
+location 108 214 11 the bottom of a narrow chasm running through the rocks
+location 106 233 11 entrance of a small cave
+location 117 125 60 Old narrow bridge (west side)
+location 133 125 60 Old narrow bridge (east side)
+platform 4 9 94 160 40 60 blank
+platform 100 117 187 192 60 60 gravel1
+platform 102 117 189 190 60 60 blank
+zone 100 117 187 192 60 75 near a very narrow slit, small enough to jump over
+wall 92 108 132 146 60 70 wallrock1 10000
+platform 92 108 132 146 70 70 stone
+zone 91 109 131 147 60 80 unclimbable rock formation
+zone 102 106 151 179 57 69 On Top of an Overhang
+object 63 69 149 151 60 66 bush 1
+location 102 160 58 the top of an overhang
+zone 195 195 186 186 0 5 Below the beginning of a narrow ridge
+zone 229 230 186 186 3 15 near  an old eroded path cutting through the rock
+zone 229 230 177 181 6 19 Plateau between the sloping tracks. On the west side, a deep natural shaft with a steep path leads down
+platform 200 230 196 197 15 60 blank
+platform 202 231 196 197 15 15 stone
+platform 202 203 198 220 15 60 blank
+platform 202 203 198 220 15 15 stone
+platform 202 203 207 220 3 15 blank
+platform 202 203 219 220 3 3 dirt3
+wall 200 201 218 219 3 25 wallrock1 10000
+staircase 202 203 207 219 3 25 concrete1 wallrock1 2 a steep and polished sandstone path
+platform 202 203 196 197 15 15 gravel1
+zone 202 204 196 198 15 25 near a sharp turn in the path
+zone 205 230 196 197 15 30 A weathered stone path along the cliff face
+zone 202 203 199 206 15 30 A weathered stone path along the cliff face
+zone 202 203 196 197 15 30 a sharp turn in the path
+location 177 213 3 A low natural ridge overlooking a valley
+location 192 240 5 a narrow passage between steep cliff walls
+zone 200 203 220 220 3 15 near  a steep and polished sandstone path
+zone 202 203 220 220 3 15 at the bottom of  a steep and polished sandstone path
+zone 231 231 196 197 15 30 near A weathered stone path along the cliff face
+location 231 196 15 the end of A weathered stone path along the cliff face
+location 202 220 3 the bottom of  a steep and polished sandstone path
+zone 231 231 190 192 -30 -18 above A small crevice through which the stream spills into the cavern
+zone 232 235 189 193 -28 -18 above A small crevice through which the stream spills into the cavern
+location 231 189 -20 A stone path along a small waterfall
+location 235 190 -35 a rocky cavern partially filled with water
+wall 118 132 199 199 1 4 wallrock5 10000
+platform 118 132 200 200 3 3 rocks3
+zone 176 178 121 122 30 45 Near the drop into the valley. To the west, a track leads further upward
+platform 180 188 121 162 60 60 grass3
+wall 160 176 124 125 60 69 wallrock1 10000
+platform 160 176 124 125 70 70 dirt3
+wall 176 176 121 123 60 63 wallstone 10000
+platform 176 176 121 123 64 64 stone
+zone 175 177 121 123 60 75 a low stone wall
+zone 159 177 124 126 60 85 high standstone formation
+zone 180 188 121 162 60 90 A tiny strip of grass on a sunny part of the rocks, with a few bushes and trees here and there
+object 182 186 123 124 59 67 bush 1
+object 187 187 128 128 59 77 tree 1
+object 180 180 131 131 59 80 tree 1
+zone 180 189 163 170 60 80 near a crack in the rocks, narrow enough to jump over.
+platform 180 188 171 182 60 60 grass3
+zone 180 188 171 182 60 80 A tiny strip of grass on a sunny part of the rocks, with a few bushes and trees here and there
+object 182 184 177 179 59 80 large_tree 1
+platform 153 154 139 141 60 60 stone
+zone 153 154 139 141 60 70 A nearly invisible remnant of a path. A chunk of rock is lodged between the cliff walls in the narrow crack to the west
+object 185 185 135 135 59 76 tree 1
+object 183 185 148 150 59 79 large_tree 1
+object 187 188 152 156 59 67 bush 1
+zone 189 191 121 162 60 75 near a deep drop-off
+zone 231 234 25 26 15 15 at the bottom of a steep sandstone path
+platform 231 234 25 26 15 15 stone
+platform 191 195 186 186 0 0 rocks3
+location 133 168 5 A natural opening between cliffs, where multiple canyons and cracks diverge.
+location 125 211 2 Creek Passage
+location 68 240 5 the mouth of A vast canyon with a sandy floor
+platform 68 72 190 190 5 5 rocks2
+platform 68 72 188 189 9 15 blank
+platform 68 72 188 189 9 9 gravel1
+platform 69 71 188 188 9 9 gravel3
+platform 69 71 186 187 13 19 blank
+platform 69 71 186 187 13 13 gravel2
+platform 64 76 177 185 13 20 blank
+platform 64 76 177 185 13 13 dirt1
+dz 63 77 176 185 10 21 canyion.ogg 9
+dz 63 77 176 185 12 21 wind.ogg 5
+rv 63 77 176 186 12 21 -21 296
+dz 68 72 186 187 12 20 canyion.ogg 6
+zone 68 72 190 190 5 14 below an opening
+zone 68 72 188 189 9 15 elevated natural steps (first terrace)
+zone 69 71 186 187 13 20 elevated natural steps (second terrace)
+zone 64 76 177 185 13 21 A small sandy cavern
+location 70 187 13 the entrance of a small sandy cavern
+zone 10 60 172 180 5 30 A medium-sized, bare canyon
+location 52 181 5 A narrow canyon pass (south opening)
+location 55 198 5 A narrow canyon pass (north_east opening)
+zone 52 54 196 200 5 30 a bend in the pass
+location 10 176 5 the mouth of A medium-sized, bare canyon
+location 94 205 3 tiny passage
+platform 151 160 231 241 5 5 dirt2
+zone 151 160 232 240 5 30 A side branch of an elongated canyon (upper section)
+location 155 211 3 A side branch of an elongated canyon
+location 155 240 5 the mouth of a side branch of an elongated canyon
+zone 178 178 210 218 5 15 On top of the natural ridge. To the northeast, another ledge is visible within reach.
+zone 229 230 188 194 -20 -10 near a waterfall that drops into a cavern
+platform 191 195 187 187 -20 -20 grass2
+platform 231 232 186 187 -16 -10 blank
+platform 231 232 186 187 -16 -16 concrete1
+platform 231 232 179 185 -16 -5 blank
+platform 231 232 179 185 -16 -16 gravel1
+platform 231 235 177 182 15 15 gravel1
+platform 231 233 179 181 -15 15 blank
+platform 231 233 179 180 -16 -16 gravel3
+platform 233 233 179 180 -16 15 stone
+dz 231 233 178 186 -16 10 canion.ogg 7
+rv 230 234 178 187 -17 2 -24 140
+dz 231 233 178 187 -16 10 canyion.ogg 7
+dz 231 233 179 187 -16 14 waterfallloop2.ogg 5
+dz 231 233 179 187 -16 10 dripping_water1.ogg 7
+rv 230 231 179 181 6 14 -25 200
+platform 230 230 179 181 6 6 gravel1
+wall 233 233 181 181 -17 14 wallrock1 10000
+platform 233 233 181 181 15 15 concrete1
+platform 230 230 187 187 -20 -20 gravel
+zone 230 230 187 187 -20 -14 below the opening to a tight crawlspace in the rocks
+zone 231 232 179 187 -16 -10 A tight crawlspace in the rocks. At the south end is a vertical shaft with a steep but climbable rock face.
+zone 231 232 179 180 -16 14 At the bottom of a steep vertical shaft. The west side appears climbable.
+zone 233 234 179 180 -16 14 a steep but climbable rock wall
+zone 231 232 179 180 -8 15 Inside of a steep vertical shaft. The west side appears climbable.
+location 231 187 -16 A tight crawlspace in the rocks, ending at the bottom of  a vertical shaft 
+platform 231 235 177 182 15 15 gravel1
+platform 231 232 179 180 15 15 blank
+platform 233 233 179 180 15 15 stone
+zone 231 236 176 183 15 30 Near a natural shaft, with a climbable rock face on the west side.
+zone 231 233 179 180 15 25 at the top of the shaft
+location 233 179 15 the top of a natural shaft
+platform 158 159 139 141 60 60 stone
+zone 158 159 139 141 60 70 A nearly invisible remnant of a path. A chunk of rock is lodged between the cliff walls in the narrow crack to the east
+object 155 157 139 141 55 59 rock 1
+zone 155 157 139 141 59 65 a loose chunk of rock wedged between the steep cliff walls
+wall 158 159 139 155 57 59 wallstone2 10000
+wall 154 154 139 141 57 59 wallstone2 10000
+location 154 140 60 remnand of a path.
+platform 196 200 25 45 5 5 gravel3
+platform 240 240 199 201 5 15 stone
+zone 85 117 91 97 5 30 A narrow side canyon, the bottom strewn with loose rocks
+platform 118 118 91 97 5 5 rocks
+zone 118 118 91 97 5 15 near A narrow side canyon,
+location 117 93 5 A narrow side canyon, the bottom strewn with loose rocks
+platform 180 191 165 165 60 60 rocks1
+platform 180 191 168 168 60 60 rocks1
+object 188 188 176 176 59 64 tree 1
+zone 229 230 158 159 20 25 dead end of the path. - To the east is a jumpable pile of rocks
+sub_tile 238 239 117 120 -15 -15 puddle
+src 239 239 117 120 -15 -15 dripping_water2.ogg -2
+platform 179 183 70 80 -10 0 blank
+platform 179 183 70 80 -10 -10 dirt3
+dz 175 202 50 76 -30 0 canyion.ogg 15
+dz 175 190 77 79 -30 0 canyion.ogg 4
+zone 179 183 70 80 -10 0 a Sand-Filled Tunnel
+rv 178 183 69 80 -11 1 -24 130
+platform 184 200 70 72 -10 -5 blank
+platform 184 200 70 72 -10 -10 dirt3
+zone 184 201 70 72 -10 -5 a Sand-Filled Tunnel
+zone 179 183 70 72 -10 0 a south east bend in the narrow tunnel
+rv 184 202 47 73 -11 -1 -24 130
+platform 198 200 70 72 -10 -10 dirt2
+platform 198 200 60 69 -10 -5 blank
+platform 198 200 60 69 -10 -10 dirt3
+platform 198 200 46 60 -10 5 blank
+platform 198 200 46 60 -10 -10 dirt1
+wall 198 200 46 47 -10 4 wallrock 10000
+platform 198 200 46 47 5 5 dirt2
+staircase 198 200 48 63 -10 15 dirt3 wallrock 2 a sandy slope
+platform 196 200 43 45 6 60 blank
+platform 198 200 46 53 6 60 blank
+zone 198 200 64 69 -10 0 at the bottom of a sandy slope
+zone 198 200 70 72 -10 0 a south west bend in the narrow tunnel
+platform 179 183 70 72 -10 -10 dirt2
+src 231 231 190 192 -35 -20 waterfallloop2.ogg -18
+src 236 243 187 193 -35 -35 stream3.ogg -20
+spawn_point 120 0 5 0 
+spawn_point 160 205 3 270
+spawn_point 70 240 5 180
+spawn_point 106 160 5 90
+platform 70 70 64 92 -35 -5 gravel3
+zone 70 70 64 92 -35 5 steep but climbable rock face
+zone 71 84 56 95 -5 5 a canyon with high rocks rising up on all sides. The northern section is flanked by a deep ravine
+zone 71 72 64 92 -5 5 near a deep ravine, with a steep but climbable rock face

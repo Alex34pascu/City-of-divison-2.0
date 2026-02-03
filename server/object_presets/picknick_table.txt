@@ -1,0 +1,7 @@
+name: picknick_table
+health: 1400
+hitsounds: wood_object
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 hardwood3
+wall 0 0 0 0 0 -1 walltable 1000

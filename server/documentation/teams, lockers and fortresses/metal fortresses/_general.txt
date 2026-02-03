@@ -1,0 +1,2 @@
+The metal_fortress is a small construction that you and your team can build on the map. You can for instance place your locker here, to protect it more effectively. It is also possible to order shipments, that contain some special items or weapons.
+With the fortress, you'll receive a teamphone, which is used to order items, get an overview of your traps, or manage the fortress's alarmsystem. Each teammember will get the phone ones the fortress has been build. If the fortress get's destroyed, the phone will no longer work.

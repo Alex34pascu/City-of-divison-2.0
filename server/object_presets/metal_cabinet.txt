@@ -1,0 +1,9 @@
+name: metal_filing_cabinet
+health: 7000
+hitsounds: machine
+moveable: no
+examinable: yes
+examinesounds: metal_filing_cabinet
+lootitems: 6
+platform 0 0 0 0 %0 0 metal4
+wall 0 0 0 0 0 -1 wallmetal2 1000

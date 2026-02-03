@@ -1,0 +1,7 @@
+name: display_case
+health: 200
+hitsounds: glass_showcase
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 glass
+wall 0 0 0 0 0 -1 wallglass 0

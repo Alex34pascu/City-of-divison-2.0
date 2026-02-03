@@ -1,0 +1,11 @@
+name: nightstand
+health: 700
+hitsounds: table
+moveable: yes
+movetime: 1100
+movesounds: table
+examinable: yes
+examinesounds: desk
+lootitems: 1
+platform 0 0 0 0 %0 0 hardwood1
+wall 0 0 0 0 0 -1 walltable 0

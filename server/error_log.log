@@ -1,0 +1,19 @@
+2025 11 11 00:27:46
+Traceback (most recent call last):
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\server.py", line 286, in run
+    self.updateloop()
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\server.py", line 418, in updateloop
+    [item.run() for item in v.clients]
+     ^^^^^^^^^^
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\client.py", line 1436, in run
+    self.handle_packets()
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\client.py", line 1373, in handle_packets
+    handler_func(parsed)
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\packet_handler.py", line 110, in server_menu_answer
+    server_menu.server_menu_answer(self.client, parsed[1], data.replace(
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\answer.py", line 1661, in server_menu_answer
+    options = v.read_log_file(chosen_path, key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eneso\Downloads\38833FF26BA1D.UnigramPreview_g9c9v27vpyspw!App\City of Division source-20251102T202216Z-1-001\City of Division source\server\v.py", line 433, in read_log_file
+    raise FileNotFoundError(f"Bestand niet gevonden: {file_path}")
+FileNotFoundError: Bestand niet gevonden: logs\chats\2025 11 11\English.log\2025 11 11

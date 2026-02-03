@@ -1,0 +1,7 @@
+name: machine
+health: 6000
+hitsounds: machine
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 metal9
+wall 0 0 0 0 0 -1 wallmetal2 1000

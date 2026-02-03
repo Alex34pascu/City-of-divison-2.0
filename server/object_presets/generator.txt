@@ -1,0 +1,7 @@
+name: generator
+health: 1500
+hitsounds: machine
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 metal9
+wall 0 0 0 0 0 -1 wallmetal5 1000

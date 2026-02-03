@@ -1,0 +1,15 @@
+bronze_chest:1:250
+silver_chest:1:750
+magical_reappearance:1:1000
+golden_chest:1:1500
+magical_reappearance:3:2000
+mastery_potion:1:2500
+joker_skill_point:10:3000
+platinum_chest:1:3750
+mastery_potion:2:4500
+magical_reappearance:8:5000
+joker_skill_point:25:6000
+golden_chest:4:7000
+mastery_potion:4:8000
+joker_skill_point:50:9000
+platinum_chest:3:10000

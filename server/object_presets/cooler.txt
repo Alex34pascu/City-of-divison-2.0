@@ -1,0 +1,7 @@
+name: cooler
+health: 4000
+hitsounds: vehicle
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 metal11
+wall 0 0 0 0 0 -1 wallmetal2 1000

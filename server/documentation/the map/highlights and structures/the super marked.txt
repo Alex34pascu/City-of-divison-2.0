@@ -1,0 +1,8 @@
+the supermarket is located in the west, on the edge of the city. It is situated along the north side of Aetheron street. It is a relatively large building, and you will mainly find shelves and a cash register here. There is also a small room for the staff, which is kind of attached to the supermarket.
+Entrances:
+There is 1 main entrance, but in fact there are 2 in total. The main entrance is at the south side, along Aetheron street. But in the staff room is a window, which you could also use to get inside.
+Note: The staff room is connected to the supermarket via A doorway, (north east in the supermarket, north west in the staff room.)
+layout:
+When you enter the supermarket, there is an empty path straight in front of you. To your right there are shelves against the wall, to your frontleft is the cash register. Further to the west there are also a few rows of shelves, and in the northwest corner is a glass counter.
+Northeast is a door that leads to the staffroom. This is a simpel rectangular room, with a table in the middle and a glass cabinet against the wall.
+Along the supermarket on the eastside, runs an alley. This eventually makes a bend and opens up in a lawn surrounded by houses.

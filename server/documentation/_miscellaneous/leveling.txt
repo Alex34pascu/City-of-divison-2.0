@@ -1,0 +1,5 @@
+the level system is designed to reward players for killing other players. If you manage to kill someone, you will receive XP which results in your level getting increased.
+When reaching a higher level, you can unlock new skills.
+To check which level you are, you can press (while on the map) the I-key. Here you can view your collected xp, as well as some other stats.
+When you click on a player's profile, you can also see which level they are. Here, you can also see their survival time, and the skills they got in use.
+In the server menu, which you can call up by clicking f4, you can see all the levels and find out which level unlocks what.

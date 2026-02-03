@@ -1,0 +1,334 @@
+loot_out weapon_beretta92A1:weapon_smith_n_wesson_model29:weapon_Winchester_Model_24:weapon_ARX160:weapon_AR10:ladder;1:bandage;1:7.62mm_ammo;90:5.56mm_ammo;200:12_gauge_ammo;80:9mm_ammo;150:.44_magnum_ammo;90:tool_box;1
+platform -10000 10000 -10000 10000 0 0 concrete1
+wall -1000000 1000000000 -1000000000 10000000 -100000000 -1 wallrock3 1000000000
+wall -1 -1 -1 151 -1 100000 walledge 0
+wall -1 151 151 151 -1 100000 walledge 0
+wall 151 151 -1 151 -1000 10000 walledge 1
+wall -1 151 -1 -1 -100 10000 walledge 1
+zone -1 151 -1 151 -100000 10000 Around the abandoned factory, rusted fences surround the perimeter.
+src 0 150 0 150 -5 1000 calm4.ogg -6
+src 0 150 0 150 0 150 calm3.ogg -10
+platform 0 150 0 150 0 0 dirt2
+rv -1 151 -1 151 -10 1500 -35 1400
+wall 20 130 20 130 -6 29 wallstone2 10000
+wall 20 130 20 130 29 29 wallmetal5 10000
+platform 20 130 20 130 30 30 beam
+wall 50 50 0 19 0 9 wallfence 0
+platform 50 50 0 19 10 10 metal5
+wall 100 100 0 19 0 9 wallfence 0
+platform 100 100 0 19 10 10 metal5
+object 61 68 4 9 0 7 stack_of_crates 1
+platform 72 78 20 24 0 10 blank
+platform 72 78 20 24 0 0 concrete4
+platform 60 90 25 65 0 27 blank
+platform 60 90 25 65 0 0 concrete12
+object 87 96 4 9 0 10 stack_of_crates 1
+location 75 20 0 outdoor storage door
+object 53 59 18 19 0 3 old_wooden_box 1
+rv 21 129 21 129 -11 28 -19 1950
+dz 20 130 20 130 -5 29 calm3.ogg 15
+dz 20 130 20 130 -5 29 calm4.ogg 10
+zone 20 130 20 130 -5 29 the south-section of the old factory. Some moonlight streams through the open doors, lighting up old machinery.
+rv 71 79 18 24 -1 11 -22 1000
+zone 20 130 20 130 30 50 on the roof of the old factory
+zone 72 78 20 24 0 10 
+rv 71 79 18 20 -1 11 -29 900
+zone 72 78 19 25 0 10 near doorway
+zone 72 78 20 24 0 10 doorway
+object 63 65 29 44 0 8 machine 1
+object 60 70 55 60 0 4 machine 1
+object 87 93 15 18 0 3 old_wooden_box 1
+platform 91 103 33 37 0 10 blank
+platform 91 103 33 39 0 0 concrete1
+platform 104 125 30 40 0 17 blank
+platform 104 125 30 40 0 0 concrete8
+zone 104 125 30 40 0 17 the generator room
+zone 90 104 33 39 0 10 near passage
+zone 91 103 33 39 0 10 passage
+platform 20 23 73 77 0 8 blank
+object 120 125 30 35 0 10 generator 1
+platform 20 23 73 77 0 0 carpet6
+object 124 125 36 37 0 5 gaspump 1
+platform 24 40 71 79 0 10 blank
+platform 24 40 71 79 0 0 concrete8
+rv 20 40 70 80 -1 11 -20 700
+rv 104 126 29 41 -1 18 -19 600
+zone 20 40 71 79 0 10 The employees entrance. The floor of the corridor is cracked and covered in dust.
+location 91 35 0 generator room
+object 104 110 38 40 0 10 machine 1
+sub_tile 123 125 38 40 0 0 glass
+zone 0 19 60 90 0 30 a parking lot, the asphalt nothing more then soil and grass
+zone 19 24 73 77 0 10 near an entrance
+platform 126 130 38 40 3 10 blank
+platform 126 130 38 40 3 3 broken_glass
+zone 20 23 73 77 0 8 entrance
+zone 125 131 38 40 3 10 broken window
+location 20 75 0 employees entrance
+platform 0 19 60 90 0 0 concrete5
+zone 125 131 38 40 0 2 underneath a broken window
+platform 0 19 59 60 0 0 gravel1
+platform 0 19 90 91 0 0 gravel1
+platform 18 19 60 72 0 0 grass3
+platform 18 19 78 90 0 0 grass3
+platform 41 99 66 114 0 27 blank
+platform 41 99 66 114 0 0 concrete11
+zone 41 99 66 114 0 27 The main section of the old factory. The floor is scattered with glass and debris,  and the rusty machines loom in the darkness.
+zone 60 90 66 69 0 27 near the south section
+sub_tile 88 99 66 73 0 0 debris
+sub_tile 80 90 83 95 0 0 debris
+sub_tile 54 67 73 79 0 0 debris
+sub_tile 47 50 99 104 0 0 debris
+sub_tile 41 43 80 89 0 0 debris
+sub_tile 60 80 100 105 0 0 debris
+sub_tile 85 95 100 105 0 0 debris
+ambience 20 130 20 130 -10 29 abandoned_place4.ogg -28
+staircase 50 70 108 114 0 28 metal6 wallmetal5 3 iron stairs leading to a catwalk
+wall 71 99 108 114 19 19 wallmetal1 5000
+platform 71 99 108 114 20 20 metal11
+platform 93 99 66 108 20 20 metal11
+wall 93 99 66 108 19 19 wallmetal1 5000
+wall 51 70 107 107 0 23 wallmetal3 0
+wall 71 92 107 107 20 23 wallmetal3 1
+wall 68 70 107 107 20 28 wallmetal4 0
+platform 71 92 107 107 23 23 metal10
+wall 92 92 73 106 20 23 wallmetal3 1
+platform 92 92 73 107 23 23 metal10
+bounded_source 71 79 19 19 0 8 dripping_water1.ogg -13 50 100 0 19 0 100
+platform 44 46 64 65 0 8 blank
+platform 44 46 64 65 0 0 hardwood2
+platform 35 55 50 63 0 13 blank
+platform 35 55 50 63 0 0 marble2
+zone 35 55 50 63 0 14 The canteen of the old factory
+zone 44 46 63 66 0 8 near doorway
+zone 44 46 64 65 0 8 doorway
+rv 91 103 32 39 -1 11 -23 400
+location 45 65 0 The canteen
+wall 35 38 50 63 0 3 wallstone 9000
+platform 35 38 50 63 4 4 concrete4
+zone 35 39 50 63 0 13 counter
+object 44 52 53 58 0 3 table 1
+platform 56 59 52 58 3 9 blank
+platform 56 59 52 58 3 3 broken_glass
+sub_tile 44 52 53 58 0 0 wooddebris
+zone 55 60 52 58 0 9 broken window
+zone 55 60 52 58 0 2 underneath a broken window
+sub_tile 53 55 52 58 0 0 glass
+platform 100 101 74 76 20 27 blank
+platform 100 102 74 76 20 20 hardwood2
+platform 103 128 72 78 20 28 blank
+platform 103 128 72 78 20 20 carpet2
+rv 101 129 71 79 19 28 -20 250
+wall 81 82 107 108 0 18 wallmetal4 100
+wall 92 93 107 108 0 18 wallmetal4 100
+wall 92 93 95 96 0 18 wallmetal4 100
+wall 92 93 83 84 0 18 wallmetal4 100
+wall 92 93 71 72 0 18 wallmetal4 100
+rv 100 102 73 76 19 29 -23 1050
+zone 103 128 72 78 20 28 a hallway, with the managers office on the south side. The carpet on the old floor has long since been stripped off.
+zone 122 129 72 78 20 28 a north west bend in the hallway
+zone 128 131 74 76 0 23 underneath a broken window
+platform 129 130 74 76 23 28 blank
+platform 129 130 74 76 23 23 broken_glass
+sub_tile 127 128 74 76 20 20 glass
+zone 128 130 74 76 23 29 a broken window
+platform 41 92 66 72 20 20 metal11
+wall 60 90 65 65 20 23 wallmetal3 1
+platform 60 90 65 65 23 23 metal10
+wall 41 92 73 73 20 23 wallmetal3 1
+wall 70 70 108 114 0 17 wallmetal3 0
+platform 41 92 73 73 23 23 metal10
+ambience 20 130 20 130 -10 29 abandoned_place.ogg -24
+zone 93 99 66 114 20 28 Rusty elevated catwalk running along the walls of the factory's main section
+zone 99 103 74 76 20 28 near the doorway to a narrow hallway
+zone 100 102 74 76 20 28 doorway
+wall 109 129 49 70 20 29 wallbrick 5000
+wall 113 117 70 71 19 29 wallbrick 5000
+platform 114 116 70 71 20 28 blank
+platform 114 116 70 71 20 20 hardwood4
+platform 110 128 50 69 20 28 blank
+platform 110 128 50 69 20 20 wood2
+rv 109 129 49 70 19 29 -21 480
+platform 129 130 57 63 23 28 blank
+platform 129 130 57 63 23 23 broken_glass
+zone 110 128 50 70 20 28 the manager's dust-filled, long-abandoned office
+zone 114 116 69 72 20 28 near the doorway to the managers office
+zone 114 116 70 71 20 28 doorway to the managers office
+sub_tile 114 116 68 69 20 20 wooddebris
+zone 128 131 57 63 0 22 underneath a broken window
+sub_tile 127 128 57 63 20 20 glass
+zone 128 131 57 63 23 28 a broken window
+object 116 122 50 51 20 23 desk 1
+platform 122 128 79 115 20 28 blank
+platform 122 128 79 115 20 20 carpet2
+rv 121 129 79 116 20 28 -20 330
+zone 122 128 79 114 20 28 A hallway running along the outer wall of the factory. The floor is scattered with glass from broken windows, A conference room lines one side.
+zone 122 128 79 114 20 28 A hallway running along the outer wall of the factory. The floor is scattered with glass from broken windows, A conference room lines one side.
+sub_tile 127 128 95 97 20 20 glass
+platform 129 130 95 97 23 28 blank
+platform 129 130 95 97 23 23 broken_glass
+zone 128 131 95 97 20 22 underneath a broken window
+zone 128 131 95 97 23 28 a broken window
+wall 41 93 66 73 19 19 wallmetal1 1
+rv 39 40 70 80 -1 11 -20 1250
+zone 71 99 107 114 20 28 Rusty elevated catwalk running along the walls of the factory's main section
+zone 93 99 108 114 20 28 south west bend in the catwalk
+zone 93 99 66 73 20 28 north west bend in the catwalk
+zone 41 92 66 73 20 28 Rusty elevated catwalk running along the walls of the factory's main section
+zone 47 93 72 108 20 28 the catwalk railing
+zone 41 91 74 106 20 28 The main section of the old factory. The floor is scattered with glass and debris, and the rusty machines loom in the darkness.
+src 41 99 66 114 -1 28 dripping_water1.ogg -16
+zone 60 90 65 66 20 29 railing overlooking the southern section of the factory
+rv 34 56 49 64 -1 20 -19 980
+object 78 84 79 85 0 6 machine 1
+object 61 67 79 85 0 6 machine 1
+wall 102 120 80 106 19 29 wallbrick 5000
+platform 120 121 94 96 20 28 blank
+platform 120 121 94 96 20 20 hardwood4
+platform 105 119 86 104 20 28 blank
+platform 105 119 86 104 20 20 carpet3
+rv 104 120 84 105 19 29 -21 300
+platform 71 86 115 128 0 28 blank
+platform 71 86 115 128 0 0 concrete5
+rv 70 87 115 129 -1 19 -20 1550
+zone 71 87 115 128 0 28 An expanded area of the factory, meant for storage and miscellaneous machinery.
+region 0 200 0 200 -100 100 desolate factory
+wall 71 87 115 115 20 23 wallmetal3 1
+platform 71 87 115 115 23 23 metal10
+object 82 84 120 125 0 6 machine 1
+platform 73 77 129 130 3 10 blank
+platform 73 77 129 130 3 3 broken_glass
+sub_tile 73 77 127 131 0 0 glass
+zone 72 78 127 133 0 10 near a broken window
+zone 73 77 128 131 0 3 underneath a broken window
+zone 73 77 129 130 3 10 a broken window
+location 75 130 3 a broken window
+object 71 73 120 125 0 7 stack_of_crates 1
+platform 100 126 82 98 0 10 blank
+platform 100 126 82 98 0 0 concrete4
+rv 100 127 81 99 -11 11 -18 1150
+platform 106 150 84 96 -4 10 blank
+zone 100 129 81 99 -10 10
+zone 100 129 81 99 -10 10 The loading dock area, with a wide central section where the floor is lower, allowing trucks to drive directly inside.
+platform 106 150 84 96 -4 -4 concrete8
+platform 131 150 80 84 -4 0 blank
+staircase 131 150 80 84 -4 10 dirt1 wallrock1 2 slope leading to the loading dock (south side)
+platform 131 150 85 95 -4 -4 dirt1
+platform 131 150 97 100 -4 0 blank
+staircase 131 150 96 100 -4 10 dirt1 wallrock1 1 slope leading to the loading dock (north side)
+zone 105 119 86 104 20 28 a conference room
+zone 119 122 94 96 20 28 near the doorway to a conference room
+zone 120 121 94 96 20 28 doorway
+location 120 95 20 a conference room
+platform 102 121 109 115 20 28 blank
+platform 102 121 109 115 20 20 carpet2
+platform 100 101 111 113 20 28 blank
+platform 100 101 111 113 20 20 hardwood2
+rv 101 121 108 128 19 29 -20 330
+zone 122 128 109 115 20 28 south west bend in the hallway
+zone 101 121 109 115 20 28
+zone 102 121 109 115 20 28 A hallway with the carpet stripped off. In the middle, on the north side is intersecting hallway to an office and a maintenance
+zone 98 99 82 96 0 18 near the loading dock
+rv 129 131 84 96 -5 10 -25 660
+platform 113 117 116 128 20 28 blank
+platform 113 117 116 128 20 20 carpet2
+zone 99 102 111 113 20 28 near the doorway to a hallway
+zone 100 101 111 113 20 28 doorway
+zone 113 117 109 115 20 28 t-junction in the hallway
+object 109 115 90 100 20 23 table 1
+platform 114 116 129 130 23 28 blank
+platform 114 116 129 130 23 23 broken_glass
+object 108 116 86 87 20 26 small_glass_cabinet 1
+zone 113 117 128 131 0 22 underneath a broken window
+zone 114 116 129 130 20 28 a broken window
+sub_tile 114 116 127 128 20 20 glass
+zone 113 117 116 127 20 27 a small hallway with a maintenance room and an office
+zone 117 117 128 128 20 27 small hallway with a maintenance room and an office
+zone 113 113 128 128 20 27 small hallway with a maintenance room and an office
+platform 111 112 119 121 20 26 blank
+platform 111 112 119 121 20 20 hardwood2
+platform 104 110 119 128 20 27 blank
+platform 104 110 119 128 20 20 wood2
+zone 104 110 119 128 20 27 a small maintenance room
+zone 110 113 119 121 20 26 near doorway
+zone 111 112 119 121 20 26 doorway
+object 104 105 119 120 20 25 generator 1
+platform 104 106 127 128 28 30 blank
+platform 104 106 128 128 20 30 ladder2
+zone 103 107 127 129 20 40 near a ladder leading to the roof
+zone 104 106 128 128 20 40 ladder leading up to the roof
+sub_tile 104 106 127 128 20 20 puddle
+src 104 106 127 128 20 20 dripping_water2.ogg -8
+platform 118 119 119 121 20 26 blank
+platform 118 119 119 121 20 20 hardwood2
+platform 120 127 119 128 20 27 blank
+platform 86 94 99 107 30 30 metal6
+platform 89 91 102 104 28 30 blank
+platform 120 127 119 128 20 20 carpet7
+sub_tile 89 91 102 104 0 0 puddle
+zone 120 127 119 128 20 27 a small office
+zone 117 120 119 121 20 26 near doorway
+src 89 91 102 104 0 0 dripping_water2.ogg -8
+zone 118 119 119 121 20 26 doorway
+object 120 125 123 124 20 23 desk 1
+object 120 127 127 128 20 27 metal_filing_cabinet 1
+zone 86 94 99 107 30 40 near a gab in the roof
+rv 102 111 118 129 19 28 -21 200
+rv 119 129 118 129 19 28 -20 180
+platform 41 46 73 73 19 24 blank
+staircase 41 46 73 93 0 28 metal6 wallmetal1 2  iron stairs leading to a catwalk
+wall 47 47 81 92 0 28 wallmetal3 1
+wall 41 46 81 81 0 9 wallmetal3 1
+wall 47 47 73 80 10 28 wallmetal3 1
+zone 41 47 71 72 20 28 top of the stairs
+zone 41 46 93 94 0 20 bottom of the stairs
+zone 49 50 108 114 0 10 bottom of the stairs
+zone 70 71 108 114 20 28 top of the stairs
+wall 80 81 71 72 0 18 wallmetal4 1
+wall 68 69 71 72 0 18 wallmetal4 1
+wall 56 57 71 72 0 18 wallmetal4 1
+platform 51 59 76 84 30 30 metal6
+platform 54 56 79 81 28 30 blank
+sub_tile 53 57 78 82 0 0 debris
+sub_tile 54 56 79 81 0 0 puddle
+src 54 56 79 81 0 0 dripping_water2.ogg -8
+platform 71 79 75 84 30 30 metal6
+platform 74 76 79 81 28 30 blank
+sub_tile 73 77 78 82 0 0 debris
+sub_tile 74 76 79 81 0 0 puddle
+src 74 76 79 81 0 0 dripping_water2.ogg -8
+zone 71 79 76 84 30 40 near a gab in the roof
+zone 51 59 77 83 30 40 near a gab in the roof
+platform 60 70 42 52 30 30 metal6
+platform 63 67 45 49 28 30 blank
+sub_tile 63 67 45 49 0 0 puddle
+src 63 67 45 49 0 0 dripping_water2.ogg -8
+zone 60 70 42 52 30 40 near a large gab in teh roof
+platform 36 44 58 66 30 30 metal6
+platform 39 41 61 63 10 30 blank
+sub_tile 39 41 61 63 0 0 puddle
+src 39 41 61 63 0 0 dripping_water2.ogg -8
+zone 36 44 58 66 30 40 near a gab in the roof
+location 130 90 -4
+location 130 90 -4 the loading dock
+sub_tile 41 44 91 99 0 5 debris
+location 50 111 0 catwalk stairs (north)
+location 44 93 0 catwalk stairs (west)
+sub_tile 41 44 66 70 0 0 debris
+sub_tile 60 70 55 60 0 6 debris
+sub_tile 82 88 52 56 0 0 debris
+sub_tile 77 85 42 45 0 0 debris
+sub_tile 71 73 116 122 0 0 wooddebris
+sub_tile 77 81 122 125 0 0 debris
+sub_tile 76 79 113 117 0 0 debris
+sub_tile 48 55 88 94 0 0 debris
+sub_tile 48 50 76 82 0 0 wooddebris
+sub_tile 71 73 85 87 0 0 wooddebris
+sub_tile 70 73 82 84 0 0 glass
+sub_tile 50 100 17 19 0 0 debris
+sub_tile 73 77 14 14 0 0 wooddebris
+sub_tile 61 62 31 34 0 0 debris
+spawn_point 75 5 0 0
+spawn_point 5 75 0 90
+spawn_point 145 90 -4 270
+spawn_point 75 135 0 180
+object 106 116 62 64 20 22 couch 2

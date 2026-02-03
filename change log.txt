@@ -1,0 +1,331 @@
+New in 1.55
+This update introduces a new ranked mode: Last Man Standing. This will be the main mode for now, running throughout the entire week. It’s played with 4 players on 4 brand-new maps, and we’ve redesigned the rewards track accordingly. For more information, please refer to the documentation.
+Along with Last Man Standing, we also added a new account item to the rewards track: the Joker Skill Point. This is an unassigned skill point that you can insert into any skill of your choice, allowing you to upgrade your skills in a more flexible way.
+Added a new skill: DMR Precision. This skill lets you build up a hit streak, increasing your damage as long as you don’t miss.
+Added Shift + F2 to see who is on the same map as you.
+Added a setting to enable or disable using the Right Control key to shoot.
+Fixed a bug where you could take a weapon from a locker while your level was too low.
+Fixed a bug where vehicle alarms could be heard in the lobby.
+Fixed a traceback error that occurred while updating the game.
+
+new in 1.54.1
+Changed to a new server.
+The game will now speak the cardinal directions if you turn precizely.
+Cordinates will be announced with no decimals, just as it was before version 1.54.
+partially reverded the thrown knife damage reduction on longer ranges.
+Tripwires will explode faster upon activating it.
+Fixed a bug where locations weren't found correctly.
+Fixed a bug where fortresses weren't placed correctly.
+slightly adjusted some of the sounds for the AR10 and smw model 29.
+
+New in 1.54
+Added parked vehicles on the map. These have alarms when they get damaged, and they'll eventually explode.
+We're introducing 360-degree movement. Press Shift + Q or E to turn around. You can press Shift + F to switch the key bindings for precise turning and snap turning if you wish to do so.
+There are now two new weapon categories: Revolvers and Marksman Rifles. Accordingly, you will also find two new weapons: the Smith & Wesson Model 29 revolver, and the AR-10 marksman rifle.
+C4s and RCEs will now deal more damage through walls.
+The damage reduction of the choke tube has been removed.
+Added the precision barrel for sniper rifles, which grants them 25 tiles of extra range.
+Added the large scope (attachment) for marksman rifles. These will require glass pieces, which you can find on the map.
+You can no longer run or jump while using the HK MG4. The movement speed is now reduced to match that of the SVD.
+Fixed a game-breaking bug where attachments were applied to the wrong weapons.
+Fixed ghost objects.
+Solved a bug where you got teleported if you spawned on a corpse when entering the map.
+Fixed the bug where grenades didn't fall correctly.
+Weapons will now be loaded at the beginning of a ranked match again.
+New sounds have been added for explosions on gravel.
+
+new in 1.53.2
+fixed automatic weapons
+
+new in 1.53.1
+fixed some bugs that came with version 1.53, including gun shots in the lobby, replying not working correctly and shotguns dealing the same damage on large ranges.
+
+new in 1.53
+Added more stats to the profile of a player.
+Pressing I will now direct you to your profile menu. This is handy if you want to see your skills for example.
+Pressing Backspace on a chat will work now. It will go to the profile of a player.
+You no longer can reply to an other reply.
+increased the maximum amount of 7.62 bullets from 80 to 90.
+Changed the firetime of the beretta from 340 to 400
+The choke_tube will now decrease the damage of the shotgun by 50.
+Added more sounds for bodyfall wall inpects and knife throw landings.
+
+New in 1.52
+Added a new attachment: the choke tube. This allows you to scattershot, increasing the hit radius of a shotgun.
+The store on the team phone has been redesigned. Bulletproof vests now cost 1 teamtoken, and the amount of grenades and helmets has been increased.
+Sharpshooter mastery now grands 2 instead of 3 extra tiles of range upon upgrading.
+The Beretta’s fire time has been reduced from 440 to 340 milliseconds.
+The knife throw skill now deals more damage at higher skill levels.
+The distance sounds of the silenced Beretta, Colt, and DSR50 have been made slightly louder.
+If a corpse is on top of an object that gets destroyed, the corpse will now fall down.
+Fixed the error message bug that players experienced when the map was refreshed.
+
+new in 1.51
+Added 50bmg_rounds to the loot pool.
+fixed a bug where you could get more than 4 copies of a weapon.
+lag inprovements
+
+New in 1.5
+The rules of the game have been updated. We at Firegaming want you to know these rules and restrictions that you will be held to. Please review them before you continue playing.
+You now have the ability to customize your weapon with attachments. These are created with materials collected on the map. Once you have a toolbox, you can choose what attachment you'd like to put on your weapon. Each weapon can have different sets of attachments. For example: the Beretta can have a small barrel and silencer, while an assault rifle could get an upgrade with an extra magazine and a stock. All these attachments will have a different effect on the weapon of choice and can be crafted with metal, plastic, or rubber.
+Guns now have the ability to jam, so be patient when firing your weapon, especially while reloading. No worries though, a jammed weapon can be fixed with a toolbox.
+Furthermore, guns can eventually degrade, either due to frequent jamming or when you fall from a higher position.
+You can now press Shift + I in the weapon menu to receive information about the weapon you have selected, such as attachments, jam status, and percentage of degradation.
+Pressing Shift + Space in the weapon menu will allow you to switch between different modeled copies of a selected weapon.
+If you want to get rid of a weapon, for instance when all your three copies are degraded, you can press Backspace. Keep in mind that once you've dropped it, there is no way to get the weapon back.
+We're introducing a new sniper rifle, the DSR50. This weapon is unlockable from level 35. It is a bolt-action rifle, which means it can only hold one bullet at a time, but on the other hand it's fast to reload and has a long range.
+Added a new type of grenade, the flash grenade. This explosive creates a flash when it explodes, causing players to be blinded and partially deafened for a few seconds.
+Chapter 6 of the game's storyline is finally done, and has been added to the quests.
+Added a Vietnamese translation and updated some others as well.
+Some weapons will now require other ammo types, making the game more realistic. For instance:
+The Barrett_M107A1 now uses 50BMG_rounds instead of the 7.62_mm.
+The Colt_M1911 and Ruger_Redhawk now use an entirely new type of ammunition: 45ACP_ammo.
+Some weapons have been renamed due to realism changes.
+Previously, you could have an unlimited number of the same weapon; now you're restricted to having only three of each.
+It is now possible to use the number keys to switch between categories in the weapon menu.
+Lowered the damage of the machete and the flail to 500 each.
+Increased the damage of the Benelli_M4, previously known as the M26, from 650 to 700, allowing it to one-shot people with a headshot from a really close distance. This is because shotguns don't have an attachment yet, though they will get one soon.
+Decreased the damage of the Beretta to 225.
+The number of sounds you'll have to do for a Simon to break into a fortress has been increased to 35.
+The maximum health of a fortress has been reduced from 10000000 to 5000000.
+Lockers now have a maximum number of weapons that they can store. Now, you can store 20 weapons per level of the storage of the locker, allowing you to hold 200 weapons in total at storage_level 10.
+The range within which you can detonate an RCE has been reduced from 200 to 50 meters.
+Added jumping, landing, turning, and aiming movement sounds to your character to make it sound more realistic.
+The main map has received several updates and/or slight adjustments. We've updated and reworked Sofia's and Tim's house, as well as the apartment above the restaurant. Maria's house got a second floor, Jack's house got an attic, and Jane's house finally got a little bathroom. The hospital also got a second entrance and a basement. A few other houses got extra windows or lootable objects. Some of these windows are higher than ground level, which means you have to jump up to reach them.
+Fixed a bug where you still got healed if you respawn after you died.
+If a glass display case gets destroyed, you will now hear the broken glass as you walk over it.
+Removed the CPU setting that had been added in version 1.44.3, since it didn't work as expected.
+
+New in 1.44.3
+Fixed an issue with the DDoS attack prevention system.
+Added a setting to switch between the behavior introduced in versions 1.44 and 1.44.2, as some users experienced increased lag while playing on version 1.44.2. The default is set to version 1.44.
+ 
+new in 1.44.2
+reverded a change that caused much lag for people playing the game.
+
+new in 1.44
+Fixed some bugs with the scope, including the issue where there was significantly more lag when looking through it.
+Fixed a bug where translations didn't translate dialog texts.
+instead of only doing %1, %2 edc in translation files you now also can fill in a # for the % sign to force the translator to not translate the text.
+fixed a bug where you still could place a c4 after you died.
+fixed a bug where you could walk with the barret.
+performance updates to reduce lag.
+
+new in 1.43
+added a new weapon, the ak47.
+you now can drop multiple weapons at once in a locker.
+decreased the range of all pistols to 25 tiles.
+increased the range of each assault rifle by 5.
+fixed the looking by your self function on the scope of sniper rifles.
+
+new in 1.42
+Fixed a bug where jumping wasn't registered by the server.
+Sounds checking, which has been added in version 1.41, will work now.
+
+new in 1.41
+Added a new item for the team fortress store. The bullet proof vest. This item will protect you to bullets that are aimed at your body. Melee weapons still do the same damage to players that are wearing a vest.
+Added friendly matches which you can play during the whole week.
+If a team has a metal fortress on the map, they can get an extra team member. This person will be removed if the fortress has been destroyed.
+Finally fixed bullets and staircases.
+Lowered the amount of kills needed to get a team token from 25 to 15.
+Patched some bugs with ranked mode, including the bug where you stil could match your previous opponent and the bug where a player could appear two or more times on the leader board.
+Fixed a bug where the sniper zoom sounds weren't playing.
+Added the english short translation.
+Did some work to moving objects. Hopefully there will be no cases where you no longer can't move an object while you are standing streight infront of it.
+A security fix has been added to the game to ensure there are no sounds missing, which could people give benefits in gameplay.
+throwing a grenade from an elevated spot will no longer damage you if you are throwing it streight forward.
+A team leader can now remove every team note on the team phone.
+You no longer can remove rights of the leader of a team.
+Fixed a bug where you sometimes didn't unlocked a quest.
+
+new in 1.4
+This update contains a lot of new content related to teams. For instance: You can put  a small metal fortress together, which you can build on the map to create a safe place for your locker. Along with the fortress, you will get a team telephone, which you can use to order some special items and traps to protect your hide out and the locker inside.
+In the team menu, you can retreive a metal_fortress_construction_kit, which contains metal sheats. In order to create the fortress, you have to find a welding_machine, along with 2 batteries, to weld the sheats together.
+Each teammember will get a team phone, giving them access to the fortress's alarmsystem, an overview of the currendly active traps, and the ordering of items.
+The metal sheads found in the construction kit can also be used to add more Solidity points to your locker.
+To find more information about fortress's, shipments and traps, please refer to the documentation.
+---
+Added a new weapon: The m2_browning. It uses a new ammo type: 50_BMG rounds. These rounds can go through some of the objects such as furniture and bushes.
+We have created a new weapon category: Machine guns. We placed the hk_mg4 in here,  since it is not an actuall assault rifle. The m2_browning also belongs to this category.
+as of now we count the team's total kills. This can be reviewd in the profile of a team.
+Updated and adjusted the documentation a bit.
+increased the flail firetime by 0.4 seconds.
+Decreased the time that rapid fire will increase on higher levels. It was 1 second per level, now it is 0.3 seconds.
+You can no longer jump with the SVD_Dragunov equiped.
+If you examine an object and you already have the maximum of that item, then you place it back in the object. Due to potential exploits, we have decided to only give players event_points if they examine an object and they take all the items.
+fixed a bug where you could press keys while loading the map. All input will be ignored while loading now.
+Fixed the read_code button on the RCE_controller.
+Some experimental lag improvements.
+
+new in 1.35
+saving settings works now. Woops
+
+new in 1.34
+reverded some of the changes that were made in 1.32 to reduce lag, because they were increasing it.
+translation fixes.
+
+new in 1.33
+added a new mastery, SMG experience. This skill allows you to build up a kill streak with your SMG's, which gives them more damage and range.
+menus now support proper first-letter navigation that matches your current language.
+Did some more inprovements to the speed of translations.
+Tried to fix a bug where you could get higher level weapons by canceling a match.
+increased the wait time for finding a match without automatically canceling.
+the time before corpses remove their self has been increased from 2 to 3 minutes.
+fixed a bug where the sound of the c4 alert didn't play.
+Fixed a bug where you wouldn't hear your own player's hit sounds while scoping.
+stability fixes to the ingame updater.
+
+new in 1.32
+you no longer can shoot trough bridges.
+Fixed a bug where you could hit players with a flail or machete_swing, even if they were hiding behind a object.
+fixed a bug where you couldn't move some objects.
+the mufling of noises has been resolved
+fixed false anti-cheat warnings.
+
+new in 1.31
+added a new mastery for the pistols. Rapid fire.
+updated the rules a bit. Be sure to read them again so you don't miss anything.
+Fixed the lag with larger translations
+Fixed a bug where you wouldn't hear your your player sounds when scoping at a greater distance.
+security fixes.
+Did ssome improvements to the lag.
+
+new in 1.3
+In this update, we introduce Ranked mode. This is a secondary gamemode that is available during the weekends.
+Now, you can only have 1 vs 1 matches, but we have plans for extra types of matches in the future.
+We also added a new chest: The diamond chest. This contains quite some more skill points then the other chests. You can get this  if you win the weekly ranked mode event. To get more specific information about how matches work, you can read the Ranked mode topic in the documentation.
+
+Added some permanent items that are connected to your account:
+- Mastery potion: This item boost your progress of your mastery's by 100% for a period of 30 minutes.
+- magical_reappearance: This item lets you keep your loot the next time you die.
+
+Added a new explosive, the remote Controlled Explosive (in short: R_C_E). This explosive can be activated by typing a code on a controller.
+Chapter 4 and 5 of the story have been added to the game. Chapter 4 is unlockable from level 15 and chapter 5 from level 20.
+The quarry on the main map is now available.
+You have now an option in the main menu to go to the games' translations web page. You can download language packs from there, so we don't need to update the client to add new translations!
+Added A Turkish an dportugese translation of the game.
+The machete swing has been changed. Now when you use the swing, you have to wait 800 milliseconds before actually executing the swing.
+increased the firetime of the beretta by 100 miliseconds.
+the capacity of the MP5 has been increased to 30 rounds of ammunition.
+decreased the lockers height so people can jump ofer it.
+Fixed the sniper's scope.
+You cannow zoom in with the scope if you are standing on an edge of a wall.
+You can now throw a grenade streight down if you are standing on an edge of a wall.
+Fixed the bug where you couldn't hit players if they were on a staircase.
+translation system fixes, including a bug where the game crashed by some lines when translating.
+Fixed a small bug with the walking speed of the SVD.
+Fixed a bug where lockers didn't explode.
+Fixed the VIP kills. It now shows the correct number of kills the VIP has made.
+
+new in 1.22
+changed translation a bit. Adds %s to skip texts. Texts are also only translated if they are complete.
+Fixed a bug where some characters were not translated correctly.
+patched some more bugs with the translation system.
+
+new in 1.21
+this is very experimental, but we have added a translation system to the game. For an example, see the dutch.txt file in the Languages ​​folder.
+Fixed the issue where players couldn't startup the game.
+Fixed a bug with the scope of the sniper where you didn't hert player sounds.
+Fixed the bug where you would hear bird sounds when the map was done loading and you didn't take a step.
+Did some inprovements to the mapload function.
+Fixed a minor bug where characters wouldn't speak when you pressed Backspace if you didn't have the pronounce letters setting enabled.
+
+new in 1.2
+Added the third chapter of the story. You need to be level 10 to unlock this chapter.
+Added armor. For now we only have the helmet, which prevents you from getting headshots, butwe're adding more in the future.
+Added a new item, the ladder. This ladder can be placed everywhere in the map. You can use it to climb to windows or roofs of houses.
+Added a new melee weapon, the flale. It is a weapon that uses the same meganic as the machete swing skill, except that it has a total of 90 degree  hitbox, where the machete_swing's hit box is 180 degrees.
+Added a new event. Destroy objects.
+Fixed a bug with falling damage. If you now fall from 11 tiles high you lose less health.
+Fixed the bug where settings didn't save.
+Fixed a bug where the game didn't say a name was already in use if you created an account.
+added more sounds to the learn game sounds menu.
+
+new in 1.13
+Added a password reset system. Please note that you need to set a e-mail addres on your account to let this work.
+lowered the volume of the hk_mg4 fire sounds.
+jumps will reset now if you die.
+Fixed a bug with capital letters in the first letter navigation in menus.
+Fixed a bug where you fired a machine gun for unlimited time if you opened a menu.
+fixed that some buffers muting didn't save.
+
+new in 1.12
+added more sounds to the learn game sounds menu.
+You now hear how many sounds you have to play in a simon if it starts.
+Fixed sounds not playing correctly when looking through a scope.
+fixed the broken updater.
+Fixed the bug where the settings didn't save after an update of the client.
+Tried to fix the bug where players glidge through staircases.
+lag inprovements
+
+new in 1.11
+Replaced the math calculation for a simon game by breaking the security of the locker.
+Made the fire sounds of the silenced guns a little bit louder.
+You can now give a weapon if you only have one of them.
+Tried to fix the bug where the updater would download a corrupted setup of the game.
+An error dialog has been added if there wend something wrong with the loading of musics.
+
+new in 1.1
+Made almost every weapon available at level 1. This was done because of the following changelog entry.
+Added masteries for different types of weapons. These are basically skills, but you can level them up to a maximum of level 8 and you get skill points for killing people with a mastery weapon. For example, if you have a shotgun mastery active and you make kills with a shotgun, you will get skill points for all your shotgun masteries that you have actieve in your skill set.
+Added recoil for automatic weapons. The chance is greater if you keep the gun on automatic fire for a longer period of time.
+Added silencers for every sub_machine_gun. You can find those on the map.
+You can now press alt + accent graf to put your current weapon in your holster.
+Added a learn game sounds option in the main menu to help new players become familiar with commonly used sounds in the game.
+Changed the infrared scanner sound for a team member.
+Fixed the spelling error bug with the colt_m1911
+The W key scanner will now support the scope so you can now see who you are going to snipe.
+You can now rotate while using the scope when fully zoomed out.
+
+new in 1.07
+You can now use alt + numberos to move through differend category items such as medical, ammo and explosives.
+distance shots are now also muffeled.
+Added an other sound for when you scan team members with the infrared_scanner.
+added unloading for weapons. Press shift + R to do so.
+monitored more code to find out what causes the problum for people while they are trying to start the game.
+enables team chat in the lobby.
+fixed the bug where your data was reset if you couldn't loggin.
+made the team chats buffer between the pm and online and offline buffers.
+fixed a crash with the location menu.
+more client lag inprovements to hopefully inprove the game-experience on defieces with lower performance.
+added the server's documentation to the games folder. Please note that the information on the server is the most important information, as administrators can rewrite the information on the server while we need to update the client to update the documentation.
+
+new in 1.06
+The issues with differend keyboard layouts should be fixed now.
+The infraredscanner will now report the players that you have found if you press shift + v.
+all menu search functions will now longer be sensitive to capital letters.
+Fixed a bug where some sound sources didn't play while they should.
+Fixed a bug where players could get stuck under staircases.
+Made more error screens to find what causes the problum for people that they can't launch the game.
+Added word navigation in the input box.
+You can now hold the Backspace key in the input box.
+made maploading much faster.
+some small client side lag inprovements
+
+new in 1.05
+Fixed the bug where players were stuck in unknown areas.
+Tried to fix the bug which many players got while they loggedin.
+
+new in 1.04
+reversed some changed that were made in 1.03 that may made lag.
+
+new in 1.03
+I just want to say here that I am currently working on making different types of keyboard layouts available for use in the game. This is not ready yet, but should be implemented in a next update as soon as possible.
+Made options in the settings menu to enable / disable typing sounds and speaking characters in input boxes.
+Added shift + S to turn 180 degrees.
+Added an error screen if something wend wrong with connecting.
+You can now reply to messages in the lobby.
+fixed the bug where you could see ghost players with your scanner.
+Fixed that the online settings menu would crash the game.
+We've quitened the online and offline sounds.
+some more lag inprovements
+
+new in 1.02
+more lag inprovements
+
+new in 1.01
+fixed much of the lag.
+changed the chat sound
+
+new in 1.0
+the public release

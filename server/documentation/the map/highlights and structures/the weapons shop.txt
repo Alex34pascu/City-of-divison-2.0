@@ -1,0 +1,7 @@
+The weapons shop is a medium-sized building with a fairly simple design. It has 2 or 3 rooms depending on how you look at it. The weapons shop is located west of Colion Road Bridge, on the southern side of Centria Street. 
+Entrances:
+There is one entrance, which is on the northern side of the building and is a single doorway 3 tiles in width. 
+Layout:
+Directly in front of the door is a wall, as well as the cash register. To get to the main section of the weapons shop, you can either jump over the cash register or go east, then south into the main section. 
+Here you'll find 2 store shelves, the cash register from before, and the doorway to the storage room in the southwest corner of this area. 
+The storage room is a larger room containing a total of 5 store shelves that you can loot. Other than that, there is nothing else here. Each storeshelf offers another type of weapon.

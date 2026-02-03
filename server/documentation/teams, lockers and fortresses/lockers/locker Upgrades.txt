@@ -1,0 +1,6 @@
+Once you have a locker placed, you can upgrade it. The main reason you would want to do this is to make it more secure against people trying to break into it.
+To upgrade your locker, you first need team tokens, which you get by opening chests. With those team tokens, you go to your team locker, press Shift + Enter to open the door, and hit Z. Then you can go to the bottom of the menu to an option called View Upgrades.
+Once you've opened it, you have three upgrade options: Maximum Health, Security, and Storage.
+• Maximum Health: This upgrade will increase your locker's maximum Solidity Points, making it harder to destroy. By default, it's 20,000.
+• Security: Security for lockers is interesting. To break into a locker, you have to do a game of Simon sounds. For each wrong try, you hve to start all over again.
+• Storage: This upgrade increases the amount of items you can store in your locker. The higher the level of your storage, the more things you can keep inside.

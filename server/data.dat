@@ -1,0 +1,104 @@
+{
+    "announcements": {},
+    "admin_messages": {},
+    "events": {},
+    "ranked_events": {
+        "43092923": {
+            "name": "last_man_standing",
+            "rewards": {
+                "0": {
+                    "name": "bronze_chest",
+                    "amount": 1,
+                    "points": 250,
+                    "players": []
+                },
+                "1": {
+                    "name": "silver_chest",
+                    "amount": 1,
+                    "points": 750,
+                    "players": []
+                },
+                "2": {
+                    "name": "magical_reappearance",
+                    "amount": 1,
+                    "points": 1000,
+                    "players": []
+                },
+                "3": {
+                    "name": "golden_chest",
+                    "amount": 1,
+                    "points": 1500,
+                    "players": []
+                },
+                "4": {
+                    "name": "magical_reappearance",
+                    "amount": 3,
+                    "points": 2000,
+                    "players": []
+                },
+                "5": {
+                    "name": "mastery_potion",
+                    "amount": 1,
+                    "points": 2500,
+                    "players": []
+                },
+                "6": {
+                    "name": "joker_skill_point",
+                    "amount": 10,
+                    "points": 3000,
+                    "players": []
+                },
+                "7": {
+                    "name": "platinum_chest",
+                    "amount": 1,
+                    "points": 3750,
+                    "players": []
+                },
+                "8": {
+                    "name": "mastery_potion",
+                    "amount": 2,
+                    "points": 4500,
+                    "players": []
+                },
+                "9": {
+                    "name": "magical_reappearance",
+                    "amount": 8,
+                    "points": 5000,
+                    "players": []
+                },
+                "10": {
+                    "name": "joker_skill_point",
+                    "amount": 25,
+                    "points": 6000,
+                    "players": []
+                },
+                "11": {
+                    "name": "golden_chest",
+                    "amount": 4,
+                    "points": 7000,
+                    "players": []
+                },
+                "12": {
+                    "name": "mastery_potion",
+                    "amount": 4,
+                    "points": 8000,
+                    "players": []
+                },
+                "13": {
+                    "name": "joker_skill_point",
+                    "amount": 50,
+                    "points": 9000,
+                    "players": []
+                },
+                "14": {
+                    "name": "platinum_chest",
+                    "amount": 3,
+                    "points": 10000,
+                    "players": []
+                }
+            },
+            "scores": {}
+        }
+    },
+    "banlist": {}
+}

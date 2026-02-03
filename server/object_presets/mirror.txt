@@ -1,0 +1,7 @@
+name: mirror
+health: 200
+hitsounds: window
+moveable: no
+examinable: no
+wall 0 0 0 0 0 0 wallglass 1
+zone 0 0 0 0 0 %0 mirror

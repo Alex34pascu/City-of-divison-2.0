@@ -1,0 +1,449 @@
+import wx
+
+def display_error(message):
+    app = wx.App(False)
+    wx.MessageBox(message, "Error", wx.ICON_ERROR)
+import sd
+import sys
+import os
+import threading
+#from sound_pool import combine_sounds as c
+import threading
+import accessible_output2.outputs.auto
+speatch = accessible_output2.outputs.auto.Auto()
+def speak(text):
+ speatch.output(text)
+
+#from speech import speak
+#Credit to Carter Tem who wrote the fixed sound positioning functions and the actual sound class.
+#Without him, we would have no sound pool at all.
+#Please note: The conversion was done with the 3D sound_pool by Sam Tupy.
+#The package can be found at the following URL: http://www.samtupy.com/dev/simple_3d_sound_pool.zip
+#I did not create any part of this project, I simply acted as a translator of sorts.
+#If you wish to change any of the code below for optimizations and such feel free to do so, just let me, Amerikranian know.
+from sound_pool import sound_positioning,sound
+
+from Cryptodome.Cipher import AES
+key = b"001003001%%.1001"  # Hier wordt een willekeurige 32-byte sleutel gegenereerd
+
+def decrypt_file(input_file, output_file, key):
+    chunk_size = 64 * 1024  
+    cipher = AES.new(key, AES.MODE_ECB)
+    with open(input_file, 'rb') as infile, open(output_file, 'wb') as outfile:
+        while True:
+            chunk = infile.read(chunk_size)
+            if len(chunk) == 0:
+                break
+            outfile.write(cipher.decrypt(chunk))
+
+
+class sound_pool_item:
+ def __init__(self,filename, **kwargbs):
+  self.silence=False
+  self.handle=sound.sound()
+  self.filename=filename
+  self.x=kwargbs.get("x", 0)
+  self.y=kwargbs.get("y", 0)
+  self.z=kwargbs.get("z", 0)
+  self.looping=kwargbs.get("looping", 0)
+  self.pan_step=kwargbs.get("pan_step", 0)
+  self.volume_step=kwargbs.get("volume_step", 0)
+  self.behind_pitch_decrease=kwargbs.get("behind_pitch_decrease", 0)
+  self.start_pan=kwargbs.get("start_pan", 0)
+  self.start_volume=kwargbs.get("start_volume", 0)
+  self.start_pitch=kwargbs.get("start_pitch", 0)
+  self.start_offset=kwargbs.get("start_offset",0)
+  self.upper_range=kwargbs.get("upper_range", 0)
+  self.lower_range=kwargbs.get("lower_range", 0)
+  self.left_range=kwargbs.get("left_range", 0)
+  self.right_range=kwargbs.get("right_range", 0)
+  self.backward_range=kwargbs.get("backward_range", 0)
+  self.forward_range=kwargbs.get("forward_range", 0)
+  self.master=self.start_volume
+  self.looping=kwargbs.get("looping", False)
+  self.is_3d=kwargbs.get("is_3d", True)
+  self.stationary=kwargbs.get("stationary", False)
+  self.persistent=kwargbs.get("persistent", False)
+  self.paused=kwargbs.get("paused", False)
+  self.filterlist=kwargbs.get("filterlist")
+ def change_volume(self,volume):
+  try:
+   if volume<=-100:
+    handle.muted=True
+   else:
+    handle.muted=False
+  except:
+   pass
+  self.start_volume=volume-self.master
+  self.handle.volume=volume
+ def reset(self,pack="sounds/"):
+  self.__init__("")
+ def update(self,listener_x,listener_y,listener_z,max_distance,rotation=0.0):
+  if max_distance>0 and self.looping:
+   total_distance=self.get_total_distance(listener_x,listener_y,listener_z)
+   if total_distance>max_distance and self.handle.handle!=None:
+    self.handle.close()
+    return
+   if total_distance<=max_distance and self.handle.handle==None:
+    try:
+     self.handle.load(self.filename,self.encripted,hadle.three_d)
+    except:
+     pass
+     return
+
+    if self.handle.handle.position>0: self.handle.handle.position=self.start_offset
+    self.update_listener_position(listener_x,listener_y,listener_z,rotation)
+    if not self.paused: self.handle.play_looped()
+    return
+  self.update_listener_position(listener_x,listener_y,listener_z,rotation)
+ def update_listener_position(self,listener_x,listener_y,listener_z,rotation=0.0):
+  if self.handle.handle==None: return
+  if self.stationary: return
+  delta_left=self.x-self.left_range
+  delta_right=self.x+self.right_range
+  delta_backward=self.y-self.backward_range
+  delta_forward=self.y+self.forward_range
+  delta_upper=self.z+self.upper_range
+  delta_lower=self.z-self.lower_range
+  True_x=listener_x
+  True_y=listener_y
+  True_z=listener_z
+  if not self.is_3d:
+   """
+   if listener_x>=delta_left and listener_x<=delta_right:
+    self.start_volume=self.start_volume-self.master
+    sound_positioning.position_sound_custom_1d(self.handle, listener_x, listener_x, self.pan_step, self.volume_step, self.start_pan, self.start_volume)
+    return
+   if listener_x<delta_left: sound_positioning.position_sound_custom_1d(self.handle, listener_x, delta_left, self.pan_step, self.volume_step, self.start_pan, self.start_volume)
+   if listener_x>delta_right: sound_positioning.position_sound_custom_1d(self.handle, listener_x, delta_right, self.pan_step, self.volume_step, self.start_pan, self.start_volume)
+   return
+   """
+  if listener_x<delta_left: True_x=delta_left
+  elif listener_x>delta_right: True_x=delta_right
+  if listener_y<delta_backward: True_y=delta_backward
+  elif listener_y>delta_forward: True_y=delta_forward
+  if listener_z<delta_lower: True_z=delta_lower
+  elif listener_z>delta_upper: True_z=delta_upper 
+  sound_positioning.position_sound_custom_3d(self.handle, listener_x, listener_y, listener_z, True_x, True_y, True_z,rotation,self.pan_step, self.volume_step, self.behind_pitch_decrease, self.start_pan, self.start_volume, self.start_pitch,False,self.filterlist)
+
+ def get_total_distance(self,listener_x,listener_y,listener_z):
+  if self.stationary: return 0
+  delta_left=self.x-self.left_range
+  delta_right=self.x+self.right_range
+  delta_backward=self.y-self.backward_range
+  delta_forward=self.y+self.forward_range
+  delta_lower=self.z-self.lower_range
+  delta_upper=self.z+self.upper_range
+  True_x=listener_x
+  True_y=listener_y
+  True_z=listener_z
+  distance=0
+  if not self.is_3d:
+   if listener_x>=delta_left and listener_x<=delta_right: return distance
+   if listener_x<delta_left: distance=delta_left-listener_x
+   if listener_x>delta_right: distance=listener_x-delta_right
+   return distance
+  if listener_x<delta_left: True_x=delta_left
+  elif listener_x>delta_right: True_x=delta_right
+  if listener_y<delta_backward: True_y=delta_backward
+  elif listener_y>delta_forward: True_y=delta_forward
+  if listener_z<delta_lower: True_z=delta_lower
+  elif listener_z>delta_upper: True_z=delta_upper
+  if  listener_x<True_x: distance=(True_x-listener_x)
+  if listener_x>True_x: distance=(listener_x-True_x)
+  if listener_y<True_y: distance+=(True_y-listener_y)
+  if listener_y>True_y: distance+=(listener_y-True_y)
+  if listener_z<True_z: distance+=(True_z-listener_z)
+  if listener_z>True_z: distance+=(listener_z-True_z)
+  return distance
+
+class sound_pool():
+ def __init__(self):
+  self.encripted=True
+  self.facing=0.0
+  self.filterlist=[]
+  self.master_volume=0
+  self.filter=0
+  self.mix=-25
+  self.reverb=0
+  self.items=[]
+  self.max_distance=2000000
+  self.pan_step=20.0
+  self.volume_step=2.0
+  self.behind_pitch_decrease=4.0
+  self.last_listener_x=0
+  self.last_listener_y=0
+  self.last_listener_z=0
+  self.clean_frequency=3
+  self.sound_list = []
+  self.get_sound_list()
+
+ def get_sound_list(self):
+    list_path = os.path.join(os.getcwd(), "sounds", "sound_list.dat")
+
+    if not os.path.exists(list_path):
+        display_error("Can't verify the sound package. Redownload the game to solve this issue.")
+        sys.exit()
+
+    temp_list_path = os.path.join(os.path.expanduser('~'), "list.dat")
+
+    decrypt_file(list_path, temp_list_path, key)
+
+    self.sound_list = sd.get("sound_list", temp_list_path, [])
+    os.remove(temp_list_path)
+
+
+ def is_sound_in_list(self, soundname):
+  if soundname in self.sound_list:
+   return True
+  else:
+   return False
+
+ def handle_no_sound(self, soundname):
+  soundname=os.path.basename(soundname)
+  if self.is_sound_in_list(soundname)==True:
+   display_error(soundname+". The sound package of the game is not complete. Please reinstall the game.")
+   os._exit(0)
+
+
+ def play_stationary(self,filename,persistent=True,looping=False):
+  return self.play_stationary_extended(filename, 0, 0, 0, 100, persistent, looping)
+ def play_stationary_extended(self,filename, offset, start_pan,start_volume,start_pitch,persistent=True, looping=False):
+  self.clean_frequency-=1
+  if self.clean_frequency<=0: self.clean_unused()
+  start_volume=start_volume-self.master_volume
+  s=sound_pool_item(filename,looping=looping,start_offset=offset,start_pan=start_pan,start_volume=start_volume,start_pitch=start_pitch,persistent=persistent,stationary=True,filterlist=self.filterlist)
+  try:
+   s.handle.load(filename,self.encripted)
+  except FileNotFoundError:
+   self.handle_no_sound(filename)
+  except Exception as E:
+   speak(str(e))
+   s.reset()
+   return -1 
+  if s.start_offset>0: s.handle.position=s.start_offset
+  if start_pan!=0.0: s.handle.pan=start_pan
+  if start_volume<0.0: s.handle.volume=start_volume
+  s.handle.pitch=start_pitch
+  try:
+   if looping==True: s.handle.play_looped()
+   else: s.handle.play()
+   self.items.append(s)
+  except:
+   pass
+  return s
+ def play_1d(self,filename,listener_x,sound_x,persistent=True,looping=False):
+  return self.play_extended_1d(filename, listener_x, sound_x, 0, 0, 0, 0, 0, 100, persistent, looping)
+ def play_extended_1d(self,filename,listener_x,sound_x,left_range,right_range,offset,start_pan,start_volume,start_pitch,persistent=True,looping=False):
+  self.clean_frequency-=1
+  if self.clean_frequency<=0: self.clean_unused()
+  start_volume=start_volume-self.master_volume
+  s=sound_pool_item(filename,x=sound_x,looping=looping,stationary=True,start_pan=start_pan,start_volume=start_volume,start_pitch=start_pitch,persistent=persistent,pan_step=self.pan_step,volume_step=self.volume_step,behind_pitch_decrease=0.0,left_range=left_range,right_range=right_range,backward_range=0,forward_range=0,is_3d=False,start_offset=offset,filterlist=self.filterlist)
+  if self.max_distance>0 and s.get_total_distance(listener_x, 0, 0)>self.max_distance:
+   if not looping:
+    s.reset()
+    return -2
+   else:
+    self.last_listener_x=listener_x
+    s.handle.pitch=start_pitch
+    s.update(self.listener_x, 0, 0, self.max_distance)
+    self.items.append(s)
+    return s
+  try:
+   s.handle.load(filename,self.encripted)
+   if self.reverb>=1 and self.mix<-1:
+    s.handle.add_reverb(self.mix,self.reverb)
+
+  except:
+   self.handle_no_sound(filename)
+   s.reset()
+   return -1
+  if s.start_offset>0: s.handle.position=s.start_offset
+  s.handle.pitch=start_pitch
+  self.last_listener_x=listener_x
+  s.update(listener_x, 0, 0, self.max_distance)
+  try:
+   if looping==True: s.handle.play_looped()
+   else: s.handle.play()
+   self.items.append(s)
+  except:
+   pass
+  return s
+ def play_2d(self,filename,   listener_x,   listener_y,   sound_x,   sound_y,   persistent=True,   looping=False):
+  return self.play_extended_2d(filename, listener_x, listener_y, sound_x, sound_y, 0, 0, 0, 0, 0, 0, 0, 100, persistent, looping)
+ def play_extended_2d(self,filename,   listener_x,   listener_y,   sound_x,   sound_y,   left_range,   right_range,   backward_range,   forward_range,   offset,   start_pan,   start_volume,   start_pitch,   persistent=True,   looping=False):
+  self.clean_frequency-=1
+  if self.clean_frequency<=0: self.clean_unused()
+  start_volume=start_volume-self.master_volume
+  s=sound_pool_item(filename,x=sound_x,y=sound_y,looping=looping,start_pan=start_pan,start_volume=start_volume,start_pitch=start_pitch,persistent=persistent,pan_step=self.pan_step,volume_step=self.volume_step,behind_pitch_decrease=self.behind_pitch_decrease,left_range=left_range,right_range=right_range,backward_range=backward_range,forward_range=forward_range,is_3d=True,start_offset=offset,filterlist=self.filterlist)
+  if self.max_distance>0 and s.get_total_distance(listener_x, listener_y, 0)>self.max_distance:
+   if looping==False:
+    s.reset() 
+    return -2 
+   else:
+    self.last_listener_x=listener_x 
+    self.last_listener_y=listener_y 
+    s.update(listener_x, listener_y, 0, self.max_distance) 
+    self.items.append(s)
+    return s
+  try:
+   s.handle.load(filename,self.encripted)
+   if self.reverb>=1 and self.mix<-1:
+    s.handle.add_reverb(self.mix,self.reverb)
+  except:
+   self.handle_no_sound(filename)
+   s.reset() 
+   return -1 
+  if s.start_offset>0: s.handle.position=s.start_offset
+  self.last_listener_x=listener_x 
+  self.last_listener_y=listener_y 
+  s.update(listener_x, listener_y, 0, self.max_distance) 
+  try:
+   if looping==True: s.handle.play_looped()
+   else: s.handle.play()
+   self.items.append(s)
+  except:
+   pass
+  return s
+ def play_3d(self,filename,   listener_x,   listener_y,   listener_z,   sound_x,   sound_y,   sound_z,   persistent=True,keep_pitch=False,   looping=False,pitch=100):
+  return self.play_extended_3d(filename, listener_x, listener_y, listener_z, sound_x, sound_y, sound_z, 0, 0, 0, 0, 0, 0, 0, 0, 0, pitch, persistent,keep_pitch, looping)
+ def play_extended_3d(self,filename,   listener_x,   listener_y,   listener_z,   sound_x,   sound_y,   sound_z,left_range,   right_range,   backward_range,   forward_range,   upper_range,   lower_range,   offset,   start_pan,   start_volume,   start_pitch,   persistent,keep_pitch,   looping=False):
+  self.clean_frequency-=1
+  if self.clean_frequency<=0: self.clean_unused()
+  start_volume=start_volume-self.master_volume
+  s=sound_pool_item(filename,x=sound_x,y=sound_y,z=sound_z,looping=looping,pan_step=self.pan_step,volume_step=self.volume_step,behind_pitch_decrease=self.behind_pitch_decrease,start_pan=start_pan,start_volume=start_volume,start_pitch=start_pitch,left_range=left_range,right_range=right_range,backward_range=backward_range,forward_range=forward_range,lower_range=lower_range,upper_range=upper_range,is_3d=True,persistent=persistent,start_offset=offset,filterlist=self.filterlist)
+  if self.max_distance>0 and s.get_total_distance(listener_x, listener_y, listener_z)>self.max_distance:
+   if looping==False:
+    s.reset() 
+    return -2 
+   else:
+    self.last_listener_x=listener_x 
+    self.last_listener_y=listener_y 
+    self.last_listener_z=listener_z 
+    if s.handle.is_playing():
+     s.update(listener_x, listener_y, listener_z, self.max_distance,self.facing) 
+    self.items.append(s)
+    return s
+  try:
+   if looping==True:
+    s.handle.load(filename,self.encripted)
+   else:
+    script_pad = os.path.dirname(os.path.abspath(__file__))
+    sounds_map_pad = os.path.join(script_pad, 'sounds')
+    s.handle.load(filename,self.encripted)
+   if self.filter>0:
+    s.handle.set_filter(self.filter)
+   if self.reverb>=1 and self.mix<-1:
+    s.handle.add_reverb(self.mix,self.reverb)
+  except Exception as e:
+   print(str(e))
+   self.handle_no_sound(filename)
+   s.reset() 
+   return -1 
+  if s.start_offset>0: s.handle.position=s.start_offset
+  self.last_listener_x=listener_x 
+  self.last_listener_y=listener_y 
+  self.last_listener_z=listener_z 
+  s.update(listener_x, listener_y, listener_z, self.max_distance,self.facing) 
+  if looping: s.handle.play_looped() 
+  else: s.handle.play() 
+  self.items.append(s)
+  return s
+ def sound_is_active(self,s):
+  if s.looping==False and s.handle==None: return False 
+  if s.looping==False and not s.handle.handle.is_playing: return False 
+  return True
+ def sound_is_playing(self,s):
+  if not self.sound_is_active(s): return False
+  return s.handle.handle.is_playing
+ def pause_sound(self,s):
+  if not self.sound_is_active(s): return False
+  if s.paused: return False 
+  s.paused=True
+  if s.handle.handle.is_playing: s.handle.stop()
+  return True 
+ def resume_sound(self,s):
+  if not s.paused: return False 
+  s.paused=False
+  if not s.handle.handle.is_playing: s.handle.play()
+  return True 
+
+ def pause_all(self):
+  for i in self.items:
+   if self.sound_is_playing(i): self.pause_sound(i) 
+ def resume_all(self):
+  for i in self.items:
+   if i.handle.handle!=None: self.resume_sound(i) 
+ def destroy_all(self):
+  for i in self.items: i.reset()
+ def update_listener_1d(self,listener_x):
+  self.update_listener_3d(listener_x, 0, 0) 
+ def update_listener_2d(self,listener_x,   listener_y):
+  self.update_listener_3d(listener_x, listener_y, 0) 
+ def update_listener_3d(self,listener_x,   listener_y,   listener_z,rotation=0.0):
+  self.facing=rotation
+  if len(self.items)==0: return 
+  for i in self.items:
+   i.handle.silence=False
+  self.clean_unused()
+  self.last_listener_x=listener_x 
+  self.last_listener_y=listener_y 
+  self.last_listener_z=listener_z 
+  for i in self.items: i.update(listener_x, listener_y, listener_z, self.max_distance,rotation)
+ def update_sound_1d(self,s,   x):
+  return self.update_sound_3d(s, x, 0, 0) 
+ def update_sound_2d(self,s,   x,   y):
+  return self.update_sound_3d(s, x, y, 0) 
+ def update_sound_3d(self,s,   x,   y,   z,rotation=0.0, **kwargbs):
+#  self.reverb=kwargbs.get("reverb", -1)
+#  self.mix=kwargbs.get("mix", -1)
+#  self.filter=kwargbs.get("filter", -1)
+  s.x=x 
+  s.y=y 
+  s.z=z 
+  s.update(self.last_listener_x, self.last_listener_y, self.last_listener_z, self.max_distance,rotation)
+  return True 
+ def update_sound_start_values(self,s,start_pan,   start_volume,   start_pitch):
+  start_volume=start_volume-self.master_volume
+  s.start_pan=start_pan 
+  s.start_volume=start_volume 
+  s.start_pitch=start_pitch 
+  s.update(last_listener_x, last_listener_y, last_listener_z, self.max_distance) 
+  if s.stationary and s.handle!=None:
+   s.handle.pan=start_pan 
+   s.handle.volume=start_volume 
+   s.handle.pitch=start_pitch 
+   return True 
+  if s.is_3d==False and s.handle.pitch!=start_pitch: s.handle.pitch=start_pitch 
+  return True 
+ def update_sound_range_1d(self,s,   left_range,   right_range):
+  return self.update_sound_range_3d(s, left_range, right_range, 0, 0, 0, 0) 
+ def update_sound_range_2d(self,s,   left_range,   right_range,   backward_range,   forward_range):
+  return self.update_sound_range_3d(s, left_range, right_range, backward_range, forward_range, 0, 0) 
+ def update_sound_range_3d(self,s,   left_range,   right_range,   backward_range,   forward_range,   lower_range,   upper_range):
+  s.left_range=left_range 
+  s.right_range=right_range 
+  s.backward_range=backward_range 
+  s.forward_range=forward_range 
+  s.lower_range=lower_range 
+  s.upper_range=upper_range 
+  s.update(self.last_listener_x, self.last_listener_y, self.last_listener_z, self.max_distance) 
+  return True 
+ def destroy_sound(self,s):
+  s.reset() 
+  return True 
+ def clean_unused(self):
+  if len(self.items)==0: return
+  new_items = []
+  removed = False
+  for i in self.items:
+   if i.looping or i.persistent:
+    new_items.append(i)
+   elif i.handle.handle is None or (not i.handle.handle.is_playing and not i.paused):
+    i.handle.stop()
+    removed = True
+   else:
+    new_items.append(i)
+  if removed:
+   self.clean_frequency = 3
+   self.items = new_items

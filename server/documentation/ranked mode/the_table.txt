@@ -1,0 +1,4 @@
+At the table, you and the other player can choose a weapon to bring with you into the match.
+The player with the lowest ranking points gets to choose first, after which both players get turns.
+Usually, there are 6 weapons in total. This means you can choose 3 to bring along.
+Note: Melee weapons and sniper rifles are excluded.

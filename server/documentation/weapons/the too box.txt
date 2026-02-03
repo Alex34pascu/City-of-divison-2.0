@@ -1,0 +1,4 @@
+With the toolbox, you are able to craft attachments, which can be used on weapons. You can also clear a jammed firearm with it. The toolbox can be found in any object on the map, although it might be hard to find.
+To craft an attachment, you need specific materials which are lootable on the map too. There are three types of materials: metal, plastic, and rubber. Metal is required for nearly any attachment, while the other two are used frequently.
+When you open the toolbox, you’ll see the attachments available for the weapon you currently have drawn. The material costs for a specific attachment can vary per weapon, as they depend on the weapon’s tier. A tier 1 weapon (such as the Colt_M1911) will require less materials than a tier 3 weapon (such as the AK47).
+Once an attachment is applied, you cannot remove it. So be careful with your weapon.

@@ -1,0 +1,16 @@
+name: shower_stall
+health: 1000
+hitsounds: glass_showcase
+moveable: no
+examinable: no
+flex_wall 0 0 0 0 -1 0 wallglass 0
+flex_platform 0 0 0 0 %0 0 glass
+flex_platform 1 -1 1 -1 0 -2 blank
+flex_platform 1 -1 1 -1 0 %0 glass
+flex_platform 2 -2 0 %0 0 -2 blank
+flex_platform 2 -2 0 %0 0 %0 glass
+flex_zone -1 1 -1 1 0 5 near shower cabin
+flex_zone 0 0 0 0 0 -1 inside the shower cabin
+flex_zone 2 -2 -1 %1 0 %0 near shower_door
+flex_zone 2 -2 0 %0 0 -2 shower_door
+

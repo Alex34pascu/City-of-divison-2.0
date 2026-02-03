@@ -1,0 +1,9 @@
+name: old_wooden_box
+health: 1000
+hitsounds: wood_object
+moveable: no
+examinable: yes
+examinesounds: woodbox
+lootitems: 3
+wall 0 0 0 0 0 0 wallcabinet 500
+platform 0 0 0 0 %0 0 hardwood1

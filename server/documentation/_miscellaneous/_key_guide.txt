@@ -1,0 +1,86 @@
+This file contains all the key_bindings that you can use within the game city of Division. Think of this as a simplified version of a documentation.
+
+In the Menus:
+- Left or up arrow: Go back one menu item
+- Right or down arrow: Move forward one menu item
+- End: Go to the bottom menu item
+- Home: Go to the top menu item
+- Page up or down: Manage the volume of the music if it is in a menu.
+- Control + F: Search for a menu item
+- Characters: Jump to menu items that start with those characters
+
+In the Game:
+- Arrow keys: Move in that respective direction
+- Page up / down: climb up or down if possible.
+- Shift + arrow keys: Use the radar in that respective direction. To turn off the radar, press the shift + same arrow key again.
+- Q: Rotate 45 degrees to the left
+- E: Rotate 45 degrees to the right
+- Shift + S: turn 180 degrees.
+- S: Rotate 45 degrees upward
+- X: Rotate 45 degrees downward
+- F: Check your facing
+- H: Check your health
+- C: Check your coordinates
+- B: Check your current location
+- L: Display a list of all locations in the game with the ability to track them
+- shift + c: view all the corpses around you in 30 tiles range with the ability to track them.
+- N: Get instructions on how to reach your selected location or corpse
+- Shift + N: Stop tracking the location you're tracking
+- Home: increase master volume
+- End: decrease master volume
+- Tab: Open the weapon menu. Further instructions are provited later in the document.
+- Left or right control: Fire your current weapon
+- A: Check the remaining bullets in your current weapon if possible
+- R: Reload your weapon if possible.
+- D: Use the scope on your weapon if possible. Further instructions are provited later in the document.
+- g or shift + g: use a skill. if it isn't a permanent skill such as the sprint skill.
+- Z: Search an object if you are standing right in front of it. Pressing this key while examining will stop the action.
+- V: Use the infra_redscanner that plays beeps at the locations where players are within 40 tiles of you
+- shift V: Anounce how many players there were scanned during the last scan.
+- W: Look 30 meters ahead.
+- Shift + w: switch between the  differend scanner modes
+- Space: Jump
+- Alt + left_and_right_arrow keys: Navigate through your inventory
+- Alt + G: Give an item to someone
+- Alt + I: Get information about the currently focussed item
+- alt + s: store the selected item in a locker if you are standing infront of it.
+- Enter: Use the selected item from your inventory
+- accent grave: Draw A weapon from your holster if there is one inside of it.
+- Shift + accent grave: get information about the weapon that is in your holster
+- Slash: Chat
+- y: team chat
+- Comma and period: Navigate through the buffer items
+- Square brackets: Navigate through the buffers
+- Backslash: Reply to your last received private message
+- backspace: When focused on  a message a player has sent, this will open A menu with actions for this particular player.
+- shift + backspace: when in the chat buffer, You can reply to the currently focused message
+- I: Get information about your account, such as your level, survivel_time etcetera.
+- F1: Ping your connection
+- F2: Open the player menu where you can send a message to someone or view their profile
+- F3: Open the settings menu, also accessible from the main menu
+- F4: Open the server menu
+- F5: Mute or unmute a buffer
+
+Within the Weapon Menu:
+- Up and Down Arrow_keys: Navigate through the weapon_categories, such as melee, pistols, shotguns, and assault_rifles
+- Left and Right Arrows: Browse through the weapons in the selected category
+- I: Receive some information about the currently selected weapon
+- Space: check how many you have of that weapon.
+- A: Check the  remaining ammunition for the currently selected weapon
+- Enter: Equip the selected weapon
+- Shift + Enter: Put the selected weapon in your sight_holster
+
+While using the Scope:
+- Up and Down Arrows: zoom in or out within the scope's view
+- Left and Right Arrows: Switch the viewing_point between yourself and the scope
+- Shift + D: Check the coordinates the scope is aimed to.
+
+In the lobby
+- enter: opens the lobby menu.
+- most of the keys are available in the lobby, such as the buffers and the server menus such as the server menu on the f4 key.
+
+Within the settings_menu:
+- Tab: Move forward one item.
+- Shift + tab: Move backward one item.
+- space: Check or uncheck A checkbox
+- Enter: Activate A item.

@@ -1,0 +1,7 @@
+With some weapons you can use the scope function. You can use this by clicking D when you have drawn this weapon.
+The scope gives you access to zoom in and hear the sounds at the position you are scoped at.
+the following keys are available when using the scope.
+- up and down arrows; zoom in or out with the scope
+- left and right arrows: change view between the scope and the view of your player.
+- D: stops using the scope
+- Shift + D: Checks the coordinates your scope is aimed at.

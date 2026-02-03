@@ -1,0 +1,8 @@
+name: monitor
+health: 2000
+hitsounds: machine
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 metal11
+wall 0 0 0 0 0 -1 wallmetal2 0
+src 1 -1 1 -1 0 %1 monitor1.ogg -5

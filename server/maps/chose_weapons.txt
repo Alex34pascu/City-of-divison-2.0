@@ -1,0 +1,9 @@
+platform -1000 1000 -1000 100 0 0 wood2
+zone -1000 1000 -1000 1000 0 10000 chose your weapons
+wall -1000 1000 -1000 1000 -10000 -1 wallstone
+wall -1 501 -1 -1 0 1000 walledge
+wall -1 -1 -1 501 0 1000 walledge
+wall -1 501 501 501 0 1000 walledge
+wall 501 501 -1 501 0 1000 walledge
+rv 0 500 0 500 0 500 -19 400
+music weaponroommusic

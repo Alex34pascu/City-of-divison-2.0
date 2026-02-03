@@ -1,0 +1,66 @@
+45acp_ammo:Ammunition for larger pistols, such as the colt_m1911 and the ruger redhawk.
+9mm_ammo:Ammunition for pistols, such as the fn_509_tactical.
+5.56mm_ammo:ammunition for assault_rifles, such as the ARX160
+5.7x28mm_ammo:Ammunition for the fn_p90.
+4.6x30mm_ammo:ammunition for the MP7 machine_pistol.
+7.62mm_ammo:ammunition for the ak47 and the svd_dragunov sniper_rifle.
+12_gauge_ammo:ammunition for shotguns, such as the winchester_m1895.
+Painkiller_injection:A small injection which can boost your hp  by 15%. You can heal up to 75% health with this item.
+bandage:A piece of bandage which you can use to cover up your wounds. You can heal up to 100% health with this item.
+c4:A heavy explosive which you can attach to objects. It will explode after a specific amount of time, which can be set manually 
+grenade:A standard M67 grenade. After pulling the pin, you have 3 seconds to throw it away.
+locker:A heavy metal locker that can store items. Place it somewhere safe.
+welding_machine_battery:A small battery required for the welding_machine to work.
+welding_machine:A tool which you can use to repair a damaged locker. Keep in mind that you will need at least 1 welding_machine_battery for it to work.
+first_aid_kit:A kit containing a bandage and a pain_killer. You can heal up to 100% health with this item.
+RCE_package:A package containing a remote controlled explosive and a controller.
+R_C_E:A explosive that requires a code in order to explode. When the code is entered with a R_C_E_controller, the bomb will detonate.
+RCE_controller:A controller to detonate a R_C_E.
+bulletproof_vest:A vest that will protect your body from bullets. Small bullets will only do 40% damage to you and large bullets will do 70%. Melee weapons and explosives are still doing the same damage, so keep that in mind.
+helmet:A military helmet you can wear to protect your fonorable head. Keep in mind that it will break eventually.
+ladder:a ladder that you can place against a wall to get to higher places such as windows and rooftops.
+metal_fortress_construction_kit:A large cardboard box, filled with metal sheads and welding materials to build your own hide out.
+metal_fortress:This is a large metal construction that you can place somewhere on the map. Along with this, you'll receive a team phone, which is used to order items and traps to protect your hide out.
+metal_sheat:The main building materials for a metal fortress. You need a welding machine plus 2 batteries for this to work. If you are repairing a locker or metal fortress and you have this item in your inventory you can use this sheat to gain more solidity points.
+spike_trap:A small trap that will shoot a sharp spike when a person put's presure on it. This will deal massive damage to the player who steps on the trap.
+tripwire:This is a narrow rope with a explosive attached to the end. When a person disturbs the rope, the pin is pulled, and the explosive will detonate with in 3 seconds.
+barricade:This is a simpel wooden wall. Allthough it won't old for very long, it will slow your enemy down.
+50bmg_round:Ammunition for weapons such as the barrett_m107a1, the dsr_50_sniper_rifle, and the m2_browning machine gun. This ammunition can penetrate some of the weaker objects.
+team_phone:A modern, but simple phone. You can use this to order items, view your placed traps, or manage the alarmsystem.
+flash_grenade:A small flash bang grenade that will disorrientate your opponet without actually damaging them. Make sure you keep your distance from it, since it will temporarily disturb your hearing and vision as well if you are close.
+tool_box:A metal toolbox required to create attachments. This can also be used to jam clear your weapon.
+Metal_piece:A small piece of metal which can be used to create attachments for your weapons.
+Plastic_piece:A chunk of strong plastic that can be used to create attachments for your weapons.
+Rubber_piece:A piece of rubber used to create attachments for your weapons.
+
+Learn how to swim:Train your swimming skills, and be able to move quicker in the water. By upgrading this skill, the swimming speed will be increased.
+Learn how to climb:Strengthen your muscles and find your self climbing ladders faster than before. By upgrading this skill, the climbing speed will be increased.
+Eyes training:Train your eyes, and be able to see things from further away. By upgrading this skill, your seeing range will be increased.
+landing knowledge:Be prepared for the next fall, and Make sure you land properly. By upgrading this skill, your falling damage will be decreased.
+machete swing:Grab your machete steadley, and swing it around. If you time it right, you could insta_kill several players by chopping their heads of. By upgrading this skill, the range of the machete will be increased, (though only for the swing skill itself).
+jump endurance:Make your legs stronger, and you can jump more often in a row. By upgrading this skill, your jumps will be increased.
+sprint:Train your body, and you will be able to run faster for a little while. By upgrading this skill, the ammount of time that you can sprint will be increased.
+steady aim:Be prepared of the recoil of your shotgun, and make sure you blast your target away. By upgrading this skill, your shotgun_shots will be doing more damage on a longer distance.
+infrared scanner interference:Disable your enemy's infrared scanner for a little while, and attemp to sneak up to them. By upgrading this skill, the range of the interference will be increased as well as the duration.
+grenade knowledge:Train your knowledge regarding explosives, and find yourself able to throw your grenades further away, as well as increasing the explotion radius. By upgrading this skill, the throwing range and explosion radius will be increased.
+holster augmentation:Go a step further, and ware your heavy firearms on your back, or sling them over your sholder, to draw them easily during firefights. By upgrading this skill, you can carry all the differend weapons on you using the holster feature.
+sharpshooter mastery:Be a little creative, and attach scopes onto your assault_rifles. By upgrading this skill, the firing range of assault_rifles will be increased.
+knife throw:Be quick, grab your knife, and throw it at your opponent with all force. Keep in mind that you'll need at least one extra knife for this skill to work. By upgrading this skill, the distance you can throw your knife will be increased.
+careful aiming:Hold your weapon steady, breath in, and make sure you don't shoot your friends in the back. By upgrading this skill, the duration you can't hit your teammates will be increased.
+sniper mastery:Breath in. Pull the trigger. And make sure you hit your target. By upgrading this skill, the spret of the sniper bullet will be slightly larger, increasing the chance of hitting.
+recoil mastery:Hold your arm steady , and be prepared for the recoi of your sub machinegun. By upgrading this skill, the recoil will be happening less often, making sure more of your shots find their target.
+extended pistol clip:Get your self larger clips for most of the pistols. By upgrading this skill, de capacity will be increased.
+beeing a docter:Help your team, and heal them with the tools in your first ait kit. By upgrading this skill, the radius as well as the restored health will be increased.
+rapid fire:Train your trigger_finger, and fire your pistols a little faster for a short period of time. You might even  place a lucky shot. By upgrading this skill, the duration of the skill will be extended.
+SMG experience:Build up a streak on killing people with your SMG. How higher the streak how higher the damage and range of your SMG's are. If you upgrade this skill the maximum amount of a streak that you can have will increase from 3 to a maximum of 10.
+
+mastery_potion:This potion will boost the progression of your gained mastery points by 100% for a period of 30 minutes. Please note that while you are in the lobby  your remaining time will not pause.
+magical_reappearance:This item will save your loot if you die. Your corpse will still spawn, but you will also spawn with the items that you had.
+
+extended_magazine:A larger magazine to replace the currend one in your weapon.
+small_silencer:Use this to suppres the shots of smaller firearms.
+large_silencer:A longer silencer that can be screwed onto the barrel of a weapon.
+stock:This can be attached to the grib of a weapon to decrease the recoil.
+small_barrel:An improved barrel which will increase the range of the weapon it is being attached to.
+large_barrel:An improved and longer barrel that increases the range of a weapon
+kill players:jojo

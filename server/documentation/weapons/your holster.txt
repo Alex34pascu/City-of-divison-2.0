@@ -1,0 +1,6 @@
+Because the weapon menu does not allow you to quickly switch weapons, you can use your holster to solve this problem.
+You take the weapon from your holster by clicking on the accent grave key.
+To put a weapon in your holster, click shift enter on it in the weapon menu.
+You check which weapon is in your holster by clicking shift + accent grave.
+To put the weapon you're holding into your holster, you press alt accent grave.
+It is important to know that you can only put melee weapons, pistols and sub_machine_guns in your holster. You can holster other types of weapons by activating a skill called holster augmentation. If you upgrade this skill you can also holster shotguns, assault_rifles and sniper_rifles.

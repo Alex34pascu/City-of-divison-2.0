@@ -1,0 +1,7 @@
+You'll probably find yourself in the event store eventually. There, you can use the event points that you've earned from participating in events to buy chests. Chests will give you skill points that you use to upgrade your skills.
+There are different types of chests, each one costing a different price. Starting with the bronze chest at 75 event points, this chest is the cheapest you'll find here in the event store. Since it's so cheap, it also gives you the lowest number of skill points for each skill.
+The silver chest is a step up from the bronze chest at 100 event points. It gives you more skill points than the bronze.
+The golden chest costs 150 event points. Like the chests before it, it increases the amount of skill points you receive from it.
+Lastly, the platinum chest costs 250 event points. You'll definitely want to buy this one if you have the points for it. It gives you the most skill points per skill out of all the chests here.
+If you are in a team you will also receive team tokens. These are the same for all chests. So if you are looking for team tokens, it is better to buy cheap chests.
+Once you have purchased any chest, you can exit the event store and go to the end of the lobby menu to open chests. Simply open this menu, and any chests you've bought will show up here. Press enter on them to open them. Once the sound is finished playing, continue pressing enter to get all of your skill points.

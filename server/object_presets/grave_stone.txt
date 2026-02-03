@@ -1,0 +1,7 @@
+name: grave_stone
+health: 6000
+hitsounds: planter
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 stone
+wall 0 0 0 0 0 -1 wallstone 0

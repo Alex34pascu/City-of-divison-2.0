@@ -1,0 +1,8 @@
+name: bar_table
+health: 100
+hitsounds: lamppost
+moveable: no
+examinable: no
+wall 1 -1 1 -1 0 -2 walllamppost 500
+platform 0 0 0 0 %0 0 hardwood2
+wall 0 0 0 0 %-1 -1 walltable 5

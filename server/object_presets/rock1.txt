@@ -1,0 +1,8 @@
+name: rock
+health: 1200
+hitsounds: planter
+moveable: no
+examinable: no
+platform 0 0 0 0 0 %0 permanentrocks3
+platform 0 0 0 0 %0 0 concrete1
+wall 0 0 0 0 0 -1 wallrock 500

@@ -1,0 +1,10 @@
+You can find all kinds of differend types of ammo in the game. Each type is mend for a certain weapon and can not be fired by any others.
+To find out what kind of ammo a weapon fires, you can press I in the weapon_menu while focussed on a specific weapon.
+Below is a list of the currendly available ammo_types:
+9mm_ammo: Ammunition mainly used by pistols, and the MP5.
+12_gauge_ammo: This is only used by shotguns.
+5.7x28mm_ammo: This is ammunition specifically for the fn_p90 machine_pistol
+5.56mm_ammo: Fired by nearly all the assault_rifles.
+4.6x30mm_ammo: Specific ammo for the mp7 machine_pistol
+7.62mm_ammo: Ammo used by most of the sniper rifles.
+You can only carry a certain ammount of ammo with you at the time, depending on the type.

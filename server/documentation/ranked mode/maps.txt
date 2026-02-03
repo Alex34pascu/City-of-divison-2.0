@@ -1,0 +1,22 @@
+At the time of writing, there are 4 maps that will be randomly chosen wants a match has begun.
+1: The trainstation.
+This is a relatively small map, where both players spawn on the south and north side of a tunnel entrance, outside of the actuall building.
+There are several platforms, which you can reach via the main tunnel.
+The main tunnel is connected to the train platforms by 3 staircases, leading to the attached train track.
+
+2: The hill
+This map is pretty easy to remember. Both players spawn ones again on the north and south borders.
+Roughly 20 tiles from the mapedge is a hill. Ontop you can find several large trees, as well as a small cabin.
+The cabin has 2 entrances: West a doorway, east a window.
+
+3: The farm
+A slightly more complex map. The players spawn on the west and eastern edges. There is a farmhouse in the middle, and a ditch near the northern mapedge.
+Inside the small farm house,  there is a living room, kitchen, main hallway, and in the back, a large stable.
+In the stable are 2 Compartments, at the west and east side. There is also a ladder to get underneath the stables, but that is on you to explore.
+ 
+4: A residential street
+This is a pretty easy but quite interesting map. It consists out of 4 streets intersecting with each other on a crossroad. The players will be spawned on the  map's edges, on the street going from west to east.
+There are 4 houses, all in 1 of the 4 quadrants. They all got a differend layout, but on the other hand aren't to complex.
+Behind the houses are narrow aleyway's, allowing to get to the other side quickly
+
+Note: Nearly every map has some little shortcuts or eastereggs. And they are yours to explore.

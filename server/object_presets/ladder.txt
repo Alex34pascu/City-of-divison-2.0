@@ -1,0 +1,9 @@
+name: ladder
+health: 350
+hitsounds: ladder
+moveable: no
+examinable: no
+flex_platform 0 0 0 0 0 0 ladder2
+flex_wall 0 0 -1 %-1 0 -1 wallmetal3 1000
+flex_platform 0 0 -1 %-1 0 -1 wall
+flex_platform 0 0 -1 %-1 %0 0 metal5

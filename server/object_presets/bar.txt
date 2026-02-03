@@ -1,0 +1,7 @@
+name: bar
+health: 2000
+hitsounds: wood_object
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 wood
+wall 0 0 0 0 0 -1 wallwood2 500

@@ -1,0 +1,9 @@
+Items are quite an important part of the game. You can find them by examining objects that are lootable, by pressing the Z_key when standing infront of one.
+You carry your items with you, by the  use of a tactical belt, which is kind of an inventory. You can scroll through your belt by holding down the Alt_key, and pressing left or right arrows.
+For each item counts, that you can only carry a certain ammount of that item with you at the time.
+Key strokes:
+To receive some information about the currendly focussed item, press Alt I.
+To give that item to a nearby player, press Alt G.
+To store an item in a locker (when aplyable), press Alt S.
+To use or activate a item, press enter.
+Note: Ones you get killed, you will loose all the items you had collected so far.

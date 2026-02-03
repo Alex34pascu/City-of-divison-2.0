@@ -1,0 +1,9 @@
+name: bench
+health: 3000
+hitsounds: wood_object
+moveable: no
+examinable: no
+flex_platform 0 0 0 0 %0 0 wood
+flex_wall 0 0 0 0 0 -1 wallwood 0
+flex_wall 0 0 %0 0 %0 2 wallwood 0
+flex_platform 0 0 %0 0 %2 2 wood

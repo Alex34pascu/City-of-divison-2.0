@@ -1,0 +1,10 @@
+To access your weapons you can use the weapons menu. You can bring this up by clicking on the tab key.
+The weapons are divided into 5 categories. These are melee, pistols, shotguns, sub_machine_guns, assault_rifles and sniper_rifles. To move through the categories, use the up and down arrows.
+You can then find the weapons that belong to this category by using the arrows left and right.
+To draw a weapon, click the enter key.
+To put the weapon in your holster, click shift + enter.
+The space key shows how much of that weapon you have in your inventory.
+The I key provides information about the weapon such as the range, damage and the type of ammo being used.
+And last we have the A key which shows how many bullets you have loaded into your weapon.
+
+To exit the weapon menu, press Escape.

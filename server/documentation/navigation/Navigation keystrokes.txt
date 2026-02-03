@@ -1,0 +1,14 @@
+The keys for navigation are as follows.
+w: This will tell you what's in front of you; this could be a wall, an object, or a player.
+Shift+w: This changes what you see with w. The modes are as follows:
+scanner scanning everything, scanner scanning only players, scanner gap mode, and scanner speaking no windows.
+Most of these are self-explanatory.
+Shift+left arrow: This turns on your radar, which will then scan to the left. Any wall or object will make a sound whenever you're walking by it on the left side if you have this enabled.
+Shift+Down arrow: This will make your radar scan behind you.
+Shift+right arrow: This makes your radar scan to the right of you.
+Shift+Up arrow: This will make your radar scan anything that's ahead of you.
+Shift+Page Up or Down: This will make your radar scan anything that's above or below you.
+L: This brings up a list of locations on the map, such as the front or back entrance of the mall, the church, or someone's house. You can also push Control+F and type in a search query to try and find a location easier.
+N and Shift+N:
+N will let you know where a location you're tracking is relative to where your player is when you pushed N.
+Shift+N stops tracking a location.

@@ -1,0 +1,4 @@
+The infrared scanner is used to detect players around you. You activate it by pressing V, and then it will scan around you in a 40 tile radius, after which it plays beeps on the positions of nearby players.
+To know how many players the scanner hasdetected, you can press shift + V. Since version 1.06, this will also anounce the name of these players.
+You can only  use the scanner every 5 seconds, after which you have to wait for it to cool down.
+There is a skill available that can disable someones infrared scanner for a certain period of time.

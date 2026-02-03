@@ -1,0 +1,7 @@
+name: large tree
+health: 12000
+hitsounds: tree
+moveable: no
+examinable: no
+wall 0 0 0 0 0 0 walltree
+platform -1 1 -1 1 %0 3 grass4

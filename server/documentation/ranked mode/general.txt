@@ -1,0 +1,7 @@
+Ranked mode is a seperate game mode in which you will be fighting 1 vs 1 with an other player. Logically, the one who kills the other, wins and will receive rankingpoints. The player that loozes, will looze some ranking points.
+With these points, you can buy special items that are connected to your account.
+Note: Ranking mode is only available during the weekends.
+
+To start a match, you need to be in the lobby. In the lobby menu, click ranked mode, and from there you can search for a match, check your points and view the rewards track.
+When a match begins, both the players get to choose three weapons from a table. This is done in turns, and ones the last weapon has been chosen, the match starts.
+Note: There is no loot to be found in the maps, so choose carefully.

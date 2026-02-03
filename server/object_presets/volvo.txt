@@ -1,0 +1,17 @@
+@vehicle
+name: Volvo
+health: 1000
+hitsounds: vehicle
+moveable: no
+examinable: no
+flex_wall 0 0 0 0 0 %2 wallvehicle
+flex_platform 0 0 0 0 3 %3 metal9
+flex_wall 0 0 3 0 0 %4 wallvehicle
+flex_wall 1 -1 3 %3 2 %4 wallglass
+flex_platform 0 0 3 0 5 %5 metal9
+flex_wall 0 %0 1 %1 0 %0 walltire
+flex_wall %0 0 1 %1 0 %0 walltire
+flex_wall 0 %0 %-1 -1 0 %0 walltire
+flex_wall %0 0 %-1 -1 0 %0 walltire
+flex_zone 0 0 0 0 0 %10 on the hood of the vehicle
+flex_zone 0 0 3 0 0 %10 on the roof of the vehicle

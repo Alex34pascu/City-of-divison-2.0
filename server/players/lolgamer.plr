@@ -1,0 +1,315 @@
+{
+    "skill_data": {
+        "Learn how to swim": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "Learn how to climb": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "Eyes training": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "landing knowledge": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "machete swing": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "knife throw": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "jump endurance": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "sprint": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "DMR precision": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "steady aim": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "recoil mastery": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "sniper mastery": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "extended pistol clip": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "beeing a docter": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "holster augmentation": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "sharpshooter mastery": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "careful aiming": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "grenade knowledge": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "rapid fire": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "SMG experience": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        },
+        "infrared scanner interference": {
+            "level": 1,
+            "unlocked": false,
+            "active": false,
+            "skill_points": 0
+        }
+    },
+    "data": {
+        "statistics": {
+            "shots fired": 13,
+            "kd": 0,
+            "accuracy": "0.0%",
+            "objects examined": 1
+        },
+        "flash_grenade_inpect": false,
+        "ip_address": "127.0.0.1",
+        "warnings": [],
+        "dmr_shoot": false,
+        "dmr_streak": 0,
+        "smg_streak": 0,
+        "last_matched_players": [],
+        "ranked_points": 0,
+        "mail": "",
+        "silencer_list": [],
+        "death_messages": "everyone",
+        "careful_aiming": false,
+        "documentation_path": "documentation",
+        "logs_path": "logs\\chats\\2025 11 11\\English.log\\2025 11 11",
+        "current_locker_upgrade": "",
+        "calculation_locker": -1,
+        "store_item": "",
+        "take_item": "",
+        "store-item": "",
+        "fall_distance": 0,
+        "machete_swing_got": [],
+        "machete_swing": false,
+        "knife_throw": false,
+        "edit_skills": [],
+        "comp_id": "A9CEB59B-7E21-4412-91E5-4CCC15C96DB0",
+        "playtime": 746343,
+        "survivetime": 524370,
+        "kills": 0,
+        "mutetime": 746343,
+        "org_mutetime": 0,
+        "language": "English",
+        "last_killed": "",
+        "level": 1,
+        "xp": 0,
+        "needed_xp": 2500,
+        "mutelist": [],
+        "selected_player": "lolgamer",
+        "input": "\nhi\nhi\nhi\nType your message for the announcement hi. Type end in the input box when you are done.",
+        "scanner_mode": 0,
+        "shooting": 0,
+        "weapons": [
+            "knife",
+            "colt_m1911"
+        ],
+        "password": "ea78678c4a606dbf2c75795d235f731edc6a8cb87fd2b1c33af0d7267042e188",
+        "chests": {
+            "bronze": 0,
+            "silver": 0,
+            "golden": 0,
+            "platinum": 0,
+            "diamond": 0
+        },
+        "event_points": 1000000,
+        "builder": 0,
+        "moderator": 0,
+        "admin": 1,
+        "holster": "",
+        "last_pm": "",
+        "death": false,
+        "name": "lolgamer",
+        "last_hit": "",
+        "last_hit_dir": 0,
+        "last_weapon": "",
+        "weapon": "colt_m1911",
+        "health": 1000,
+        "max_health": 1000,
+        "x": 449.0,
+        "y": 390.0,
+        "z": 0.0,
+        "facing": 90,
+        "updown": 0,
+        "invpos": -1,
+        "chosen_map": "main",
+        "map": "main"
+    },
+    "quests": {
+        "chapter 1 intro": 1,
+        "chapter 1 part 1": 0,
+        "chapter 1 part 2": -1,
+        "chapter 1 part 3": -1,
+        "chapter 2 part 1": -1,
+        "chapter 2 part 2": -1,
+        "chapter 2 part 3": -1,
+        "chapter 2 part 4": -1,
+        "chapter 3 part 1": -1,
+        "chapter 3 part 2": -1,
+        "chapter 3 part 3": -1,
+        "chapter 3 part 4": -1,
+        "chapter 4 part 1": -1,
+        "chapter 4 part 2": -1,
+        "chapter 5 part 1": -1,
+        "chapter 5 part 2": -1,
+        "chapter 6 part 1": -1,
+        "chapter 6 part 2": -1,
+        "chapter 6 part 3": -1,
+        "chapter 6 part 4": -1,
+        "chapter 6 part 5": -1,
+        "chapter 6 part 6": -1
+    },
+    "armor": {
+        "helmet": {
+            "wearing": false,
+            "health": 1000
+        },
+        "bulletproof_vest": {
+            "wearing": false,
+            "health": 1500
+        }
+    },
+    "skill_timers": {
+        "Learn how to swim": 746343,
+        "Learn how to climb": 746343,
+        "Eyes training": 746343,
+        "landing knowledge": 746343,
+        "machete swing": 771343,
+        "knife throw": 756343,
+        "jump endurance": 746343,
+        "sprint": 806343,
+        "DMR precision": 746343,
+        "steady aim": 746343,
+        "recoil mastery": 746343,
+        "sniper mastery": 746343,
+        "extended pistol clip": 746343,
+        "beeing a docter": 746343,
+        "holster augmentation": 746343,
+        "sharpshooter mastery": 746343,
+        "careful aiming": 806343,
+        "grenade knowledge": 751343,
+        "rapid fire": 806343,
+        "SMG experience": 746343,
+        "infrared scanner interference": 866343
+    },
+    "inventory": {
+        "45ACP_ammo": 18,
+        "12_gauge_ammo": 10
+    },
+    "using_potions": {},
+    "account_inventory": {},
+    "weapons": {
+        "0": {
+            "modifications": [],
+            "loaded_ammo": [
+                0
+            ],
+            "jammed": [
+                false
+            ],
+            "degradation": [
+                0
+            ],
+            "silenced": [
+                false
+            ],
+            "scope": [
+                false
+            ],
+            "name": "knife"
+        },
+        "1": {
+            "modifications": [],
+            "loaded_ammo": [
+                7
+            ],
+            "jammed": [
+                false
+            ],
+            "degradation": [
+                0
+            ],
+            "silenced": [
+                false
+            ],
+            "scope": [
+                false
+            ],
+            "name": "colt_m1911"
+        }
+    }
+}

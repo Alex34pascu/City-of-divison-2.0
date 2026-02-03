@@ -1,0 +1,5 @@
+masterys are the skills related to weapons. Such as increasing clip sices on hand_guns or managing the recoil on sub_machine_guns
+Here are a few tips for masteries
+1. You can only have one mastery in your skill set. This means that if I want to use machete swing, for example, I cannot choose another mastery category such as shotguns or sniper_rifles.
+2. Unlike skills, masteries have 8 levels instead of 5.
+3. If you make a kill with a weapon for which you have an active mastery, you will receive skill points for that mastery. These are between 1 and 3 for 1 kill.

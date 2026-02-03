@@ -1,0 +1,543 @@
+loot_out weapon_machete:weapon_beretta92A1:weapon_ruger_redhawk:weapon_remington870xs:weapon_mp5:helmet;1:grenade;1:.44_magnum_ammo;90:9mm_ammo;150:12_gauge_ammo;80:tool_box;1
+platform -100000 100 -1000 100 0 0 concrete1
+wall -100000 100000 -100000 100000 -100000 -1 wallstone 9000
+wall -1 101 -1 -1 -1 100000 walledge 0
+wall -1 -1 -1 101 -50 50 walledge 15000
+wall -100000 100000 101 100000 -100 100 walledge 9000
+wall 101 100000 -100000 100000 -100 100 walledge 9000
+wall 10 90 10 90 -100 20 wallstone 9000
+platform 47 53 10 25 -10 6 blank
+staircase 47 53 10 20 -10 0 cement1 wallstone2 2 A tunnel going down
+platform 47 53 21 25 -10 -10 cement2
+zone 47 53 21 25 -10 6 
+zone 47 53 21 25 -10 6 A south west turn in the tunnel
+platform 36 46 21 25 -20 -4 blank
+staircase 36 46 21 25 -20 -10 cement1 wallstone 3 A tunnel sloping down
+platform 25 35 21 50 -20 -10 blank
+platform 25 35 21 50 -20 -20 concrete5
+zone 25 35 21 50 -20 -10 Hallway with a T intersection at the northern end
+platform 0 24 43 47 -20 -10 blank
+platform 0 24 43 47 -20 -20 concrete6
+zone 0 24 43 47 -20 -10 A narrow side tunnel
+wall -1 -1 43 47 -20 -10 wallstone 5000
+platform 9 11 48 55 -27 -10 blank
+rv 25 35 21 50 -20 -10 50 500
+rv 25 35 21 55 -20 -10 -20 800
+rv 0 24 43 47 -20 -15 -20 200
+staircase 9 11 48 55 -27 -20 cement1 wallstone 2 stairs
+platform 1 21 55 70 -27 -17 blank
+platform 1 21 55 70 -27 -27 concrete4
+rv 1 21 55 70 -27 -17 -20 550
+object 1 4 69 70 -27 -25 old_wooden_box 3
+object 18 21 69 70 -28 -25 old_wooden_box 3
+object 9 12 69 70 -27 -25 old_wooden_box 3
+zone 1 21 55 70 -27 -17 Inside of the bunkers armory room.
+rv 9 11 48 55 -27 -14 -23 300
+object 1 4 60 65 -27 -24 stack_of_crates 2
+object 18 21 60 65 -27 -24 stack_of_crates 4
+platform 8 12 42 42 -20 -10 blank
+platform 8 12 42 42 -20 -20 concrete1
+zone 8 12 41 43 -20 -10 A set of double doors. Though the doors seem to be missing. But the support pull in the middle is not.
+wall 10 10 42 42 -20 -10 wallmetal4 5000
+platform 1 23 20 41 -20 -5 blank
+platform 1 23 20 41 -20 -20 concrete5
+rv 1 23 20 41 -20 -5 -20 850
+zone 1 23 20 41 -20 -5 The barracks
+object 20 23 20 28 -20 -10 bunk_bed 3
+object 20 23 29 38 -20 -10 bunk_bed 3
+object 1 4 20 28 -20 -10 bunk_bed 1
+object 1 4 29 38 -20 -10 bunk_bed 1
+object 9 15 30 36 -20 -18 table 1
+rv 8 12 42 42 -21 -9 -25 600
+platform 36 80 40 50 -20 -10 blank
+platform 36 80 40 50 -20 -20 concrete6
+rv 36 80 40 50 -21 -9 -20 1000
+platform 57 63 51 51 -20 -10 blank
+platform 57 63 51 51 -20 -20 concrete1
+platform 45 75 52 72 -20 -10 blank
+platform 45 75 52 72 -20 -20 concrete5
+rv 45 75 52 72 -21 -9 -18 1000
+rv 57 63 51 51 -21 -9 -20 500
+zone 45 75 52 72 -21 -9 Inside of the large controlroom. Most of the desks are still intact.
+object 45 49 55 57 -20 -18 desk 3
+object 45 49 65 67 -20 -18 desk 3
+object 45 50 70 72 -20 -14 machine 3
+object 71 75 55 57 -20 -18 desk 3
+object 71 75 65 67 -20 -18 desk 3
+object 71 75 70 72 -20 -14 machine 2
+zone 36 80 40 50 -21 -9 A wide hallway
+platform 81 81 44 46 -20 -10 blank
+platform 81 81 44 46 -20 -20 concrete1
+platform 82 99 40 55 -20 -10 blank
+platform 82 99 40 55 -20 -20 concrete12
+zone 82 99 40 55 -21 -9 A stairwell
+zone 80 82 44 46 -21 -9 A doorway
+platform 82 99 56 76 -35 -10 blank
+wall 82 93 56 56 -21 -17 wallrail 5000
+platform 82 93 56 56 -17 -17 metal5
+platform 82 99 72 80 -35 -35 concrete12
+wall 93 93 56 71 -35 -17 wallrail 5000
+platform 93 93 56 71 -17 -17 metal5
+wall 88 92 71 71 -50 -32 wallrail 5000
+platform 88 92 71 71 -32 -32 metal5
+platform 82 99 40 71 -50 -36 blank
+platform 82 99 40 71 -50 -50 concrete12
+wall 88 88 56 71 -50 -32 wallrail 5000
+platform 88 88 56 71 -32 -32 metal5
+zone 82 99 40 71 -50 -35 A Stairwell
+staircase 82 87 56 71 -50 -15 concrete2 wallstone 1 Stairs
+rv 81 99 39 81 -51 -9 -20 1200
+platform 81 81 44 46 -50 -40 blank
+platform 81 81 44 46 -50 -50 concrete1
+zone 82 99 72 80 -35 -20 Landing
+staircase 94 99 56 71 -35 -15 concrete2 wallstone 2 Stairs
+zone 81 81 44 46 -50 -40 Stairwell doorway
+platform 50 80 40 50 -50 -40 blank
+zone 82 99 56 80 -15 -10 Above the stairwell
+zone 82 93 56 56 -21 -9 Railing
+zone 93 93 56 71 -36 -9 Railing
+zone 88 92 71 71 -36 -27 Railing
+zone 88 88 35 70 -36 -27 Railing
+ambience 10 90 10 90 -100 7 building2.ogg 0
+src 0 100 0 100 0 50 calm1.ogg -4
+src 0 100 0 100 0 50 landscape3.ogg -5
+zone 0 100 0 10 0 500 Outside of the bunker
+platform 47 53 0 9 0 0 concrete11
+zone 47 53 0 9 0 40 Path leading to the tunnel entrance
+zone 47 53 10 10 0 15 At the top of the tunnel stairs
+rv 36 53 10 25 -20 10 -20 500
+zone 25 35 40 50 -21 -9 T intersection
+zone 25 25 43 47 -21 -9 In front of a narrow tunnel
+platform 50 80 40 50 -50 -50 concrete6
+platform 50 60 51 75 -50 -40 blank
+platform 50 60 51 75 -50 -50 concrete6
+platform 20 49 65 75 -50 -40 blank
+platform 20 49 65 75 -50 -50 concrete6
+platform 22 22 56 58 -27 -18 blank
+platform 22 22 56 58 -27 -27 carpet6
+platform 23 35 56 70 -27 -15 blank
+platform 23 35 56 70 -27 -27 carpet2
+zone 23 35 55 70 -27 -15 The armorer's office
+zone 22 22 56 58 -27 -18 Doorway
+object 23 26 67 70 -27 -20 metal_filing_cabinet 3
+object 30 32 59 64 -27 -24 desk 1
+object 22 22 60 65 -23 -20 window 3
+zone 23 23 60 65 -27 -24 Under a window
+rv 22 35 56 70 -27 -15 -25 400
+allow_zone 1 21 55 70 -27 -15 grenade;35:weapon_fm_f2000;20:nothing;50
+platform 8 12 19 19 -20 -10 blank
+platform 8 12 19 19 -20 -20 concrete1
+platform 1 23 1 18 -20 -5 blank
+platform 1 23 1 18 -20 -20 concrete7
+wall 1 23 1 10 -20 -8 wallwood2 5000
+platform 19 23 1 9 -20 -8 blank
+platform 13 17 1 9 -20 -8 blank
+platform 8 11 1 9 -20 -8 blank
+platform 2 6 1 9 -20 -8 blank
+platform 19 23 1 9 -20 -20 concrete7
+platform 13 17 1 9 -20 -20 concrete7
+platform 7 11 1 9 -20 -20 concrete7
+platform 1 5 1 9 -20 -20 concrete7
+rv 1 23 11 18 -21 -4 -18 900
+rv 0 23 1 10 -21 -4 -25 450
+platform 20 22 10 10 -20 -5 blank
+platform 20 22 10 10 -20 -20 concrete7
+object 20 22 1 3 -20 -17 toilet 3
+zone 1 23 1 9 -20 -5 Bathroom stall
+zone 1 23 10 10 -20 -5 Stall doorway
+zone 1 23 11 18 -20 -5 Barracks bathroom
+zone 8 12 19 19 -20 -10 Doorway
+platform 14 16 10 10 -20 -5 blank
+platform 14 16 10 10 -20 -20 concrete7
+object 14 16 1 3 -20 -18 toilet 1
+platform 8 10 10 10 -20 -5 blank
+platform 8 10 10 10 -20 -20 concrete7
+object 8 10 1 3 -20 -18 toilet 3
+platform 7 7 1 9 -19 -5 blank
+platform 1 6 1 9 -19 -5 blank
+platform 1 5 9 1 -20 -20 concrete7
+wall 6 6 1 9 -20 -5 wallwood2 5000
+platform 2 4 10 10 -20 -5 blank
+platform 2 4 10 10 -20 -20 concrete7
+object 2 4 1 3 -20 -18 toilet 1
+rv 8 12 19 19 -20 -10 -25 500
+platform 57 63 73 90 -20 -10 blank
+platform 57 63 73 90 -20 -20 concrete6
+platform 56 56 82 88 -20 -10 blank
+platform 56 56 82 88 -20 -20 concrete1
+platform 20 55 74 99 -20 -2 blank
+platform 20 55 74 99 -20 -20 concrete10
+zone 20 55 74 99 -20 -2 The mess hall
+rv 20 55 73 99 -20 -2 -20 1200
+object 44 46 90 99 -20 -17 table 1
+object 44 46 74 81 -20 -17 table 1
+object 34 36 90 99 -20 -17 table 1
+object 34 36 74 81 -20 -17 table 1
+object 24 26 74 81 -20 -17 table 1
+object 24 26 90 99 -20 -17 table 1
+platform 1 18 75 95 -20 -5 blank
+platform 19 19 84 86 -20 -10 blank
+platform 19 19 84 86 -20 -20 concrete2
+platform 1 18 75 95 -20 -20 concrete7
+rv 1 19 75 95 -21 -4 -20 900
+zone 1 18 75 95 -20 -5 The Kitchen
+wall 1 4 80 95 -20 -17 wallstone 5000
+platform 1 4 80 95 -17 -17 concrete4
+object 16 18 93 95 -20 -14 large_glass_cabinet 2
+zone 18 20 84 86 -20 -5 Kitchen doorway
+object 16 18 75 78 -20 -15 small_glass_cabinet 1
+zone 57 63 73 90 -20 -5 Hallway
+rv 56 64 73 90 -20 -5 -20 600
+zone 55 57 82 88 -20 -10 Mess hall doorway
+platform 65 80 80 90 -20 -5 blank
+platform 64 64 84 86 -20 -10 blank
+platform 64 64 84 86 -20 -20 concrete1
+platform 65 80 80 90 -20 -20 cement2
+rv 65 80 80 90 -20 -5 -22 400
+zone 65 80 80 90 -20 -5 Storage room
+object 77 80 80 90 -20 -15 stack_of_crates 1
+object 65 67 80 83 -20 -18 wooden_box 1
+object 65 67 87 90 -20 -18 wooden_box 1
+zone 63 65 84 86 -20 -10 Storage room doorway
+object 46 49 73 73 -12 -9 window 1
+platform 87 93 30 38 -50 -10 blank
+platform 87 93 39 39 -50 -40 blank
+platform 87 93 39 39 -50 -50 metal1
+wall 86 94 29 38 -51 -41 wallmetal 5000
+platform 87 93 30 37 -50 -42 blank
+platform 87 93 30 38 -50 -50 carpet2
+wall 87 88 38 38 -51 -48 wallmetal 5000
+wall 92 93 38 38 -50 -48 wallmetal 5000
+rv 86 94 28 38 -51 -41 -20 200
+platform 87 93 30 38 -40 -40 metal7
+object 90 90 34 34 -45 -40 ladder 1
+wall 86 94 39 39 -42 -5 wallstone 5000
+rv 86 95 29 39 -41 -5 -15 1600
+object 93 95 35 35 -38 -20 ladder 2
+platform 94 95 34 36 -19 -5 blank
+zone 49 81 39 51 -50 -39 
+rv 49 80 39 51 -50 -39 -20 700
+platform 50 80 3 38 -50 -35 blank
+platform 63 68 39 39 -50 -40 blank
+platform 63 68 39 39 -50 -50 concrete1
+platform 50 80 3 38 -50 -50 marble2
+rv 49 81 2 39 -50 -34 -25 1300
+platform 82 99 1 20 -50 -35 blank
+platform 81 81 12 18 -50 -40 blank
+platform 81 81 12 18 -50 -50 concrete1
+platform 82 99 1 20 -50 -50 concrete2
+rv 81 100 0 21 -50 -34 -21 1000
+object 87 93 7 13 -50 -48 surgery_table 1
+object 97 99 18 20 -50 -44 large_glass_cabinet 4
+object 82 84 1 3 -50 -45 small_glass_cabinet 4
+object 81 81 5 8 -46 -42 window 4
+zone 82 99 1 20 -50 -35 trauma room
+zone 80 82 12 18 -50 -40 trauma room doorway
+object 78 80 30 38 -50 -48 hospital_bed 1
+object 78 80 20 28 -50 -48 hospital_bed 1
+object 78 80 3 10 -50 -48 hospital_bed 3
+object 70 73 3 10 -50 -48 hospital_bed 3
+object 64 66 3 10 -50 -48 hospital_bed 3
+object 54 56 3 10 -50 -48 hospital_bed 3
+platform 42 48 1 38 -50 -40 blank
+platform 49 49 19 21 -50 -40 blank
+platform 42 48 1 38 -50 -50 carpet2
+platform 49 49 19 21 -50 -50 carpet1
+rv 42 48 0 39 -51 -39 -24 450
+zone 42 48 1 38 -50 -40 Hallway
+zone 50 80 0 39 -50 -34 Medical bay
+zone 48 50 19 21 -50 -40 Hallway doorway
+platform 25 40 1 15 -50 -35 blank
+platform 25 40 1 15 -50 -50 carpet2
+platform 41 41 7 9 -50 -40 blank
+platform 41 41 7 9 -50 -50 carpet1
+zone 25 40 1 15 -50 -35 Office
+rv 24 41 0 16 -51 -34 -23 525
+zone 40 42 7 9 -51 -39 Office doorway
+object 30 33 5 9 -50 -47 desk 1
+object 25 28 12 15 -50 -43 metal_filing_cabinet 4
+object 41 41 12 15 -46 -42 window 1
+zone 57 63 50 52 -20 -10 Control room entry way
+zone 94 99 55 55 -20 -8 Top of the stairs
+zone 94 99 72 72 -35 -22 Bottom of the stairs
+zone 87 93 39 40 -50 -40 Elevator doorway
+zone 89 91 38 38 -50 -50 Under the elevator doors
+zone 87 93 30 37 -50 -41 Inside of the elevator
+zone 86 95 29 38 -40 -5 Inside of the elevator shaft
+platform 87 93 39 39 -20 -10 blank
+platform 87 93 39 39 -20 -20 metal1
+zone 87 93 38 40 -20 -10 Elevator doorway
+zone 89 91 37 37 -50 -41 In front of the elevators nearly closed doors
+dz 10 90 0 9 0 100 building2.ogg 100
+platform 25 40 20 35 -50 -35 blank
+platform 41 41 29 31 -50 -40 blank
+platform 25 40 20 35 -50 -50 carpet2
+platform 41 41 29 31 -50 -50 carpet1
+zone 25 40 20 35 -50 -35 Office
+zone 40 42 29 31 -51 -39 Office doorway
+rv 24 41 19 36 -50 -34 -20 500
+object 30 32 28 32 -50 -48 desk 1
+object 38 40 25 27 -50 -45 small_glass_cabinet 1
+object 41 41 20 27 -44 -40 window 1
+platform 32 48 40 63 -50 -35 blank
+platform 32 48 40 63 -50 -50 concrete5
+platform 44 46 39 39 -50 -40 blank
+platform 44 46 39 39 -50 -50 concrete1
+zone 30 48 40 63 -50 -35 Medical storage room
+zone 44 46 39 39 -50 -40 Storage room doorway
+object 32 33 42 46 -50 -47 stack_of_crates 1
+object 32 34 50 55 -50 -47 stack_of_crates 1
+object 32 33 58 63 -50 -40 large_glass_cabinet 2
+object 40 48 60 63 -50 -47 stack_of_crates 4
+object 35 38 40 42 -50 -46 wooden_box 1
+object 49 49 47 53 -45 -42 window 1
+zone 40 42 12 15 -50 -47 Under a window
+zone 50 80 40 50 -50 -40 Hallway
+zone 80 82 44 46 -50 -40 Stairwell doorway
+zone 63 68 38 40 -50 -40 Medbay doorway
+zone 40 42 20 27 -50 -45 Under a window
+zone 9 11 47 47 -20 -10 In front of the armory stairs
+zone 9 11 55 55 -27 -17 In front of the stairs
+rv 29 49 39 64 -50 -30 -20 1200
+zone 50 60 51 75 -50 -30 Hallway
+rv 50 61 51 76 -50 -30 -22 800
+rv 19 49 64 76 -50 -30 -23 800
+zone 20 49 65 75 -50 -30 Hallway
+platform 20 30 20 48 -65 -65 concrete10
+rv 19 31 19 64 -66 -39 -21 650
+zone 20 30 49 64 -65 -40 Stairs
+zone 20 30 65 65 -50 -40 In front of a staircase
+zone 20 30 20 48 -65 -51 A hallway
+zone 20 30 48 48 -65 -40 In front of a staircase
+platform 32 62 20 50 -65 -52 blank
+platform 32 62 20 50 -65 -65 concrete5
+platform 31 31 32 38 -65 -55 blank
+platform 31 31 32 38 -65 -65 concrete1
+rv 31 63 19 51 -66 -51 -20 1200
+zone 32 62 20 50 -66 -52 Water storage
+zone 30 32 32 38 -65 -55 Water storage doorway
+platform 63 75 34 36 -65 -55 blank
+platform 63 75 34 36 -65 -65 concrete12
+zone 63 75 34 36 -65 -55 A narrow hallway
+zone 62 62 34 36 -65 -55 In front of a narrow hallway
+zone 63 75 33 37 -66 -54 
+rv 63 75 33 37 -65 -55 -25 300
+platform 72 75 14 33 -80 -55 blank
+staircase 72 75 18 33 -80 -65 metal7 wallmetal5 1 Narrow metal stairs
+platform 72 75 14 17 -80 -80 metal1
+platform 61 71 14 17 -90 -70 blank
+staircase 61 71 14 17 -90 -80 metal7 wallmetal5 3 Narrow metal stairs.
+platform 40 60 5 25 -90 -85 blank
+platform 40 60 5 25 -90 -90 concrete4
+zone 63 75 34 36 -65 -55 A narrow hallway
+zone 72 75 34 34 -65 -55 In front of the stairs
+zone 72 75 18 33 -80 -55 Narrow metal stairs
+zone 61 71 14 18 -90 -70 Narrow metal stairs.
+zone 72 75 14 17 -80 -65 Landing
+rv 61 75 14 34 -91 -54 -18 500
+rv 40 60 4 26 -90 -74 -22 900
+zone 40 60 5 25 -90 -75 Emergency water storage room.
+zone 60 60 14 17 -90 -75 In front of the stairs
+platform 19 19 34 36 -65 -55 blank
+platform 19 19 34 36 -65 -65 concrete1
+platform 1 18 34 36 -75 -55 blank
+staircase 8 18 34 36 -75 -65 metal7 wallmetal5 3 Narrow metal stairs
+platform 1 7 34 36 -75 -75 metal1
+platform 3 5 14 33 -90 -65 blank
+staircase 3 5 18 33 -90 -75 metal7 wallmetal5 1 Narrow metal stairs
+zone 8 18 34 36 -75 -55 Narrow metal stairs
+zone 19 20 34 36 -65 -55 Doorway
+zone 3 5 18 33 -90 -65 Narrow metal stairs
+zone 1 7 34 36 -76 -64 Landing
+platform 6 9 14 17 -90 -80 blank
+platform 3 9 14 17 -90 -90 concrete6
+zone 3 9 14 17 -90 -80 Short hallway
+zone 3 5 17 17 -90 -80 In front of the stairs
+platform 10 30 5 25 -90 -75 blank
+platform 10 30 5 25 -90 -90 concrete4
+zone 10 30 5 25 -90 -75 Emergency food storage room
+rv 0 19 13 36 -91 -54 -18 500
+rv 10 30 5 25 -90 -75 -19 800
+platform 31 39 14 16 -90 -89 blank
+platform 31 39 14 16 -90 -90 concrete1
+zone 31 39 14 16 -90 -89 Crawl space
+object 40 42 13 17 -90 -85 small_glass_cabinet 3
+rv 31 39 14 16 -90 -89 -20 200
+object 28 30 13 17 -90 -85 small_glass_cabinet 4
+platform 15 35 1 18 -65 -52 blank
+platform 24 26 19 19 -65 -55 blank
+platform 15 35 1 18 -65 -65 concrete5
+rv 14 36 0 19 -66 -51 -21 900
+platform 24 26 19 19 -65 -65 concrete1
+zone 15 35 1 18 -65 -51 Bunker power room
+zone 24 26 18 20 -65 -55 Doorway
+platform 20 29 49 64 -50 -40 blank
+platform 20 30 21 48 -64 -52 blank
+platform 20 29 49 64 -65 -40 blank
+platform 92 98 72 81 -50 -40 blank
+platform 92 98 72 81 -50 -50 concrete5
+platform 92 98 82 99 -50 -26 blank
+staircase 92 98 80 95 -50 -35 cement1 wallstone 1 Tunnel stairs
+platform 92 98 96 99 -35 -35 cement2
+platform 55 91 96 99 -35 10 blank
+region 0 100 0 100 -100 100 Abandoned bunker
+staircase 56 91 96 99 -35 0 cement1 wallstone 4 tunnel slope
+platform 0 55 91 100 0 0 concrete1
+zone 0 100 91 100 0 100 Outside of the bunker
+wall 56 65 100 100 0 12 wallstone 5000
+wall 56 65 91 95 0 12 wallstone 5000
+wall 0 55 91 100 -2 -1 wallstone 5000
+wall 56 65 91 100 12 12 wallstone 5000
+rv 91 99 72 100 -51 0 -18 425
+rv 56 91 95 100 -36 13 -18 425
+zone 92 98 72 79 -50 -40 
+zone 92 98 72 79 -50 -40 Tunnel entrance
+rv 55 56 91 100 0 10 -28 350
+wall 65 65 91 100 0 12 wallstone 5000
+zone 56 91 96 99 -35 12 Tunnel slope
+zone 92 98 96 99 -35 -40 
+wall 56 56 96 99 -20 -4 wallstone 5000
+platform 55 55 96 99 -20 -20 concrete10
+wall 55 55 96 99 -21 -21 wallstone 5000
+region 0 100 0 100 -100 100 Abandoned Bunker
+zone 50 60 65 75 -50 -40 South west urn in the hallway.
+object 22 28 7 13 -65 -55 generator 1
+object 15 17 16 18 -65 -60 machine 1
+zone 47 53 11 20 -10 7  A tunnel going down
+zone 36 46 21 25 -20 -3  A tunnel sloping down
+zone 9 11 48 54 -26 -12 armory stairs
+zone 21 23 56 58 -27 -18 near doorway
+zone 22 22 56 58 -27 -18 doorway
+zone 21 21 60 65 -27 -24 under a window
+zone 8 12 41 43 -20 -10 Near doorway
+zone 8 12 42 42 -20 -10 double doors
+zone 8 12 18 20 -20 -10 Near doorway.
+zone 8 12 19 19 -20 -12 doorway
+dz 0 23 0 42 -21 -1 landscape3.ogg 60
+dz 0 42 0 23 -21 -1 calm1.ogg 40
+zone 20 22 9 11 -20 -10 near Stall doorway
+zone 20 22 10 10 -20 10 Stall doorway
+zone 14 16 9 11 -20 -10 near Stall doorway
+zone 14 16 10 10 -20 -10 Stall doorway
+zone 8 10 9 11 -20 -10 near Stall doorway
+zone 8 10 10 10 -20 -10 Stall doorway
+zone 2 4 9 11 -20 -10 near Stall doorway
+zone 2 4 10 10 -20 -10 Stall doorway
+wall 16 23 15 18 -20 -18 wallstone 5000
+platform 16 23 15 18 -17 -17 concrete4
+zone 16 23 15 18 -20 -5 counter
+zone 57 63 50 52 -20 -10 near doorway
+zone 57 63 51 51 -20 -10 Control room entry way
+zone 46 49 72 72 -14 -13 under a window
+zone 46 49 74 74 -20 -13 under a window
+zone 57 63 72 72 -20 -10 In front of a hallway
+zone 55 57 82 88 -20 -10 near doorway
+zone 56 56 82 88 -20 -10 Mess hall doorway
+zone 18 20 84 86 -20 -10 near doorway
+zone 19 19 84 86 -20 -10 Kitchen doorway
+zone 63 65 84 86 -20 -10 near doorway
+zone 64 64 84 86 -20 -10 Storage room doorway
+zone 80 82 44 46 -20 -10 near doorway
+zone 81 81 44 46 -20 -10 stairwell doorway
+wall 82 99 77 79 -35 -35 wallstone 5000
+rv 91 100 72 78 -35 -10 -20 1200
+zone 82 87 55 55 -50 -35 Bottom of the stairs.
+zone 92 98 96 99 -35 -25 turn in the tunnel
+zone 92 98 80 95 -50 -25  Tunnel stairs
+zone 92 98 96 96 -35 -25 Top of the stairs
+zone 92 92 96 99 -35 -25 Bottom of the stairs
+zone 92 98 79 79 -50 -40 Bottom of the stairs
+zone 55 55 96 99 0 12 In front of the tunnel entrance
+zone 90 90 33 34 -50 -46 Under an emergency escape ladder
+zone 87 93 30 38 -40 -32 On top of the elevator car
+zone 93 93 33 36 -40 -5 In front of a ladder
+zone 94 95 34 36 -38 -10 On a maintenance ladder.
+zone 87 93 40 40 -20 -5 In front of the elevator door. The elevator car is missing, however.
+zone 89 91 32 35 -40 -32 Near the emergency escape ladder for the elevator
+zone 87 93 40 40 -50 -35 In front of the elevator doors
+zone 80 82 44 46 -50 -40 near doorway
+zone 81 81 44 46 -50 -40 Stairwell doorway
+zone 63 68 38 40 -50 -40 near doorway
+zone 63 68 39 39 -50 -40 Medbay doorway
+zone 80 82 12 18 -50 -40 near doorway
+zone 81 81 12 18 -50 -40 trauma room doorway
+location 81 15 -50 Medbay Trauma Room
+zone 80 82 5 8 -50 -45 Under a window
+zone 48 50 19 21 -50 -40 near doorway
+zone 49 49 19 21 -50 -40 Hallway doorway
+zone 40 42 7 9 -50 -40 near doorway
+zone 41 41 7 9 -50 -40 Office doorway
+zone 40 42 29 31 -50 -40 near doorway
+zone 41 41 29 31 -50 -40 Office doorway
+zone 44 46 38 40 -50 -40 near doorway
+zone 44 46 39 39 -50 -40 Storage room doorway
+zone 50 60 40 50 -50 -40 South east turn in the hallway
+zone 48 50 47 53 -50 -46 Under a window.
+zone 30 32 32 38 -65 -55 Near doorway
+zone 31 31 32 38 -65 -55 Water storage doorway
+object 25 30 5 8 -90 -86 stack_of_crates 1
+object 10 13 5 8 -90 -85 large_glass_cabinet 1
+object 15 23 5 6 -90 -85 shelf 1
+object 10 13 23 25 -90 -87 old_wooden_box 1
+object 15 22 24 25 -90 -82 shelf 1
+object 24 30 22 25 -90 -85 stack_of_crates 1
+zone 10 10 14 17 -90 -80 In front of a hallway
+zone 3 5 34 34 -75 -65 In front of the stairs
+zone 7 7 34 36 -75 -65 In front of the stairs
+zone 20 20 34 36 -65 -55 Near doorway.
+zone 24 26 18 20 -65 -55 Near doorway.
+zone 24 26 19 19 -65 -55 Power room doorway
+location 50 10 0 Southern tunnel entrance.
+location 10 48 -20 Armory stairs
+object 8 8 60 66 -27 -20 shelf 1
+object 12 12 60 66 -27 -20 shelf 1
+object 15 15 60 66 -27 -20 shelf 1
+location 10 41 -20 The barracks
+location 60 51 -20 Bunker controlroom
+location 56 85 -20 Mess Hall
+location 81 45 -20 First flor stairwell entrance
+location 81 45 -50 Second flor stairwell entrance
+location 65 39 -50 Bunker Medical bay
+location 49 25 -50 Medical bay offices
+location 25 65 -50 Maintenance flor stairs
+location 31 35 -65 Bunker water storage
+location 25 19 -65 Bunker power room
+location 56 97 0 Northern tunnel entrance.
+allow_zone 0 100 0 100 -100 100 nothing;100
+platform 30 30 49 64 -65 -40 blank
+staircase 20 30 49 64 -65 -50 cement2 wallstone 1 Stairs
+zone 20 30 49 64 -65 -40 Maintenance flor stairs
+allow_zone 1 21 55 70 -27 -10 grenade;10:flash_grenade;20
+allow_zone 50 80 3 38 -50 -40 Painkiller_injection;15:
+dz 10 90 10 90 -100 -10 calm1.ogg 30
+dz 0 100 10 90 -100 -10 landscape3.ogg 30
+src 10 90 10 100 -100 10 bunker.ogg -5
+ambience 10 100 10 90 -100 10 dripping_water1.ogg -19
+bounded_source 45 45 35 35 -58 -58 smallpipe.ogg -10 32 63 20 50 -65 -52
+bounded_source 60 61 33 35 -58 -53 dripping_water2.ogg 0 32 75 20 50 -65 -52
+bounded_source 32 32 50 50 -58 -53 largepipe.ogg -8 32 61 20 50 -65 -52
+sub_tile 32 63 20 50 -65 -65 puddle
+sub_tile 7 12 41 43 -20 -20 wooddebris
+sub_tile 8 12 54 56 -27 -27 puddle
+sub_tile 13 17 69 70 -27 -27 wooddebris
+sub_tile 0 23 0 18 -20 -20 puddle
+sub_tile 92 98 96 99 -35 -35 puddle
+bounded_source 96 98 99 99 -30 -30 dripping_water2.ogg -3 72 99 92 100 -50 0
+object 43 46 46 49 -65 -58 water_tank 1
+rv 46 54 8 9 -1 30 -29 500
+location 30 44 -20 Top flor T intersection
+zone 82 87 72 72 -35 -25 Top of the stairs
+zone 92 98 71 71 -50 -40 In front of the tunnel entrance
+object 89 91 5 6 -50 -45 broken_monitor 1
+object 36 38 48 50 -65 -58 watertank 1
+object 40 60 24 25 -90 -88 watertank 1
+location 90 39 -20 elevator (uppprfloor)
+location 90 39 -50 elevator (lowerfloor)
+allow_zone 0 200 0 200 -1000 1000 nothing;1
+spawn_point 25 57 -27 270 
+spawn_point 65 30 -50 0
+spawn_point 25 15 -65 0
+spawn_point 55 97 0 90
+zone 0 10 10 90 0 10 Outside of the bunker
+zone 90 100 10 90 0 10 Outside of the bunker
+dz 11 89 25 85 -100 -1 landscape1.ogg 30

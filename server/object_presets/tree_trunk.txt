@@ -1,0 +1,7 @@
+name: chunk of tree trunk
+health: 6000
+hitsounds: tree
+moveable: no
+examinable: no
+wall 0 0 0 0 0 0 walltree
+platform 0 0 0 0 %0 0 tree

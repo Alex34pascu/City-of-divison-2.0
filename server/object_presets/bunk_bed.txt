@@ -1,0 +1,20 @@
+name: bunk_bed
+health: 5000
+hitsounds: furniture
+moveable: no
+lootitems: 4
+examinable: yes
+examinesounds: bed
+flex_platform 0 0 0 0 %0 0 cloth
+flex_wall 0 0 0 0 %-2 -1 wallfurniture 50
+flex_platform 0 0 0 0 3 %3 cloth
+flex_wall 0 0 0 0 0 %2 wallfurniture 50
+flex_wall 0 0 0 %0 0 1 wallwood 50
+flex_wall 0 0 %0 0 0 1 wallwood 50
+flex_platform 0 0 0 %0 %1 1 wood2
+flex_platform 0 0 %0 0 %1 1 wood2
+flex_wall 0 %0 0 0 0 1 wallwood 50
+flex_platform 0 %0 0 0 %1 1 wood2
+flex_wall %0 0 0 -4 %0 1 wallwood 200
+flex_platform %0 0 0 -4 %1 1 wood2
+flex_platform %1 1 %-3 -1 0 0 ladder1

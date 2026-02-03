@@ -1,0 +1,17 @@
+	At the time of writing, there are 4 explosives you can find. Namely:
+1: C4.
+C4 is an explosive which you can attach to an object, except windows. After the C4 is placed, you can manually set A timer after which it will explode.
+It does A lot of damage, and does more the closer you are to the explosion. .
+2: Grenades.
+Using A grenade works as follows:
+First you need to pull the pin, which is done by pressing enter.
+Then, you can throw it away by pressing enter once again.
+Usually, you can throw your grenade 20 tiles away, unless a skill called Grenade knowledge is applied.) If so,  your throwing range will be slightly increased. This is an active skill, meaning you must press g after you pull the pin and then press enter normally to throw the grenade. 
+If you are facing half way up while throwing, your grenade will first fly up, until it reaches a hight of 7 tiles. Then it will fall down, but still move forward while doing so. So when you throw it half way up, it will land closer to you, so you do actually need to run away and create some distance between you and the explosion. The same counts for throwing half way down, but if there is no gap immediately in front of you, you just throw the grenade at your feet.
+Keep in mind that when you throw your grenade against a wall it will bounce back in the direction it came from.
+Note: It is possible to throw grenades through windows. As long as you stand 12 tiles or less from it, the grenade will break the window and go through. Keep in mind that when you throw from 13 tiles or more, the grenade will just bounce back in the direction it came from.
+3: R C E.
+R_C_E stands for remote controlled explosive. When you find this, you'll get a package containing the explosive and a controler.
+The R_C_E requires a 4 digid code to detonate, which you can set manually when placing it.
+You need to be in a 50 tile radius of your R_C_E in order to send the signal successfully.
+4. Flash grenades: These work very  similarly to regular grenades. The main diference being that instead of a large explosion, these release a bright, blinding flash and a loud ringing noise. These also work with grenade knoledge, though the duration of the sound is not increased. Note that even though they give off a much less powerful explosion, these still can hurt if you stand with in a couple tiles of the explosion.

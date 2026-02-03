@@ -1,0 +1,9 @@
+This is a small, simple building, located at the south side of Aetheron_street, right before the Street turns into a gravel path leading through the woods. There is an parking space behind it, and a roof_covered area where pumps are located.
+Entrances:
+There is 1 entrance, a door on the eastside of the gassstation.
+Layout:
+The little station_building is not that hard to memorize, it's rectangular, with 2 store_shelfs against the west and east wall, and 1 in the center.
+On the north_side is a cash_register, with a small space behind it.
+To the west of the cash_register, there is a window higher in the wall, which you can reach by jumping from the cash_register onto the windowsill
+South of the gassstation is an open area for cars, with a metal railing separating the area from the canal.
+On the east side of the building is an overcoverd driveway, with an gasspump. Even further east is a bike_path.

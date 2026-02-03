@@ -1,0 +1,221 @@
+wall -10000 1000 -1000 1000 -100 -1 wallstone 9000
+platform -10000 100000 -10000 10000 0 0 concrete5
+wall -1 -1 -1 81 -100 1000 walledge 0
+wall -1 100 -1 -1 -100 1000 walledge 0
+wall -1 101 81 181 -100 1000 walledge 0
+wall 101 101 -1 81 -100 100 walledge 0
+zone 0 100 0 80 -20 100 A residential area with several new-build houses
+src 0 100 0 80 0 100 birds13.ogg 0
+platform 0 100 30 50 0 0 concrete1
+platform 0 100 32 48 0 0 concrete3
+zone 0 100 30 50 0 100 sidewalk
+zone 0 100 32 48 0 100 street going from west to east
+platform 0 9 0 29 0 0 grass3
+wall 10 40 3 25 0 39 wallbrick 7500
+platform 10 40 3 25 40 40 deck
+platform 10 40 26 29 0 0 grass3
+platform 24 26 26 29 0 0 concrete9
+platform 41 59 0 29 0 0 grass3
+wall 60 90 3 25 0 39 wallbrick 7500
+platform 60 90 3 25 40 40 deck
+platform 60 90 26 29 0 0 grass3
+platform 74 76 26 29 0 0 concrete9
+platform 91 100 0 29 0 0 grass3
+spawn_point 0 40 0 90
+spawn_point 100 40 0 270
+platform 42 58 0 80 0 0 concrete1
+platform 44 56 0 80 0 0 concrete3
+zone 42 58 0 80 0 100 sidewalk
+zone 44 56 0 80 0 100 street going from south to north
+zone 42 58 32 48 0 100 street going from west to east
+platform 42 58 32 48 0 0 concrete3
+zone 44 56 32 48 0 100 intersection
+location 50 40 0 intersection
+platform 0 41 51 80 0 0 grass3
+platform 59 100 51 80 0 0 grass3
+platform 74 76 51 54 0 0 concrete9
+wall 60 90 55 77 0 39 wallbrick 7500
+platform 60 90 55 77 40 40 deck
+platform 10 41 0 2 0 0 cement1
+platform 59 90 0 2 0 0 cement1
+platform 59 90 78 80 0 0 cement1
+platform 10 41 78 80 0 0 cement1
+wall 10 40 55 77 0 39 wallbrick 7500
+platform 10 40 55 77 40 40 deck
+platform 24 26 51 54 0 0 concrete9
+platform 24 26 25 25 0 8 blank
+platform 24 26 25 25 0 0 carpet6
+zone 24 26 51 54 0 20 path to house #2
+platform 24 26 55 56 0 8 blank
+platform 23 27 15 24 0 10 blank
+platform 24 26 55 56 0 0 carpet6
+dz 11 40 55 77 0 39 birds13.ogg 100
+zone 10 40 55 77 0 39 inside house #2
+platform 23 27 15 24 0 0 carpet2
+platform 12 38 57 75 0 17 blank
+dz 10 40 3 24 -10 20 birds13.ogg 50
+platform 12 38 57 75 0 0 wood2
+zone 24 26 26 29 0 15 path  to house #1
+rv 11 39 56 76 -1 19 -22 600
+zone 24 26 54 57 0 8 near doorway
+zone 10 40 3 24 -10 20 inside house #1
+zone 24 26 55 56 0 8 doorway
+zone 24 26 24 26 0 8 near doorway
+zone 24 26 25 25 0 8 doorway
+platform 12 23 57 75 0 0 marble2
+zone 12 23 57 75 0 18 kitchen part of the house
+bounded_source 24 26 25 25 0 8 birds13.ogg -3 22 28 3 24 0 10|| 11 29 4 13 0 20
+wall 12 13 57 75 0 3 wallstone 9000
+platform 12 13 57 75 4 4 marble1
+zone 12 14 57 75 0 18 counter
+object 10 11 60 70 4 10 window 1
+zone 9 9 60 70 0 3 under a window
+location 25 55 0 house #2
+location 25 25 0 house #1
+object 16 22 60 67 0 3 table 1
+allow_zone 0 100 0 100 0 100 nothing;1
+object 16 22 74 75 0 8 large_glass_cabinet 1
+object 28 36 57 58 0 2 couch 3
+object 28 36 61 68 0 3 glass_table 1
+platform 24 26 14 14 0 8 blank
+platform 24 26 14 14 0 0 hardwood2
+bounded_source 24 26 56 56 0 8 birds13.ogg -6 10 40 55 75 0 18
+zone 10 41 0 2 0 20 alley
+zone 10 41 78 80 0 20 alley
+zone 59 90 0 2 0 20 alley
+zone 59 90 78 80 0 20 alley
+platform 11 29 4 13 0 15 blank
+platform 11 29 4 13 0 0 concrete12
+platform 11 21 14 23 0 15 blank
+platform 11 21 14 23 0 0 carpet7
+zone 11 29 4 14 0 15 the kitchen
+zone 23 26 15 23 0 10 hallway
+zone 11 21 14 23 0 15 the livingroom
+platform 28 28 16 18 0 8 blank
+platform 28 28 16 18 0 0 hardwood2
+platform 29 39 15 24 0 10 blank
+platform 29 39 15 24 0 0 carpet1
+zone 29 39 15 24 0 10 a small bedroom
+object 37 39 17 24 0 3 bed 1
+object 40 40 17 23 3 10 window 1
+zone 41 41 17 23 0 2 under a window
+wall 20 27 4 5 0 3 wallstone 5000
+platform 20 27 4 5 3 3 marble1
+object 21 26 3 3 3 9 window 1
+zone 21 26 2 2 0 2 under a window
+zone 27 29 16 18 0 8 near doorway
+zone 28 28 16 18 0 8 doorway
+zone 24 26 13 15 0 8 near doorway
+zone 24 26 14 14 0 8 doorway
+zone 19 28 4 6 0 12 counter
+rv 11 29 4 13 -1 21 -19 700
+rv 11 21 14 24 -1 21 -23 500
+rv 23 27 14 24 -1 22 -20 400
+rv 28 39 15 24 -1 21 -25 500
+platform 62 88 19 23 0 10 blank
+platform 62 88 19 23 0 0 concrete6
+platform 74 76 24 25 0 8 blank
+platform 74 76 24 25 0 0 carpet6
+zone 60 90 3 25 -10 29 inside house #3
+dz 61 89 3 25 -10 29 birds13.ogg 50
+bounded_source 74 76 25 25 0 10 birds13.ogg -4 60 90 3 25 0 20
+rv 61 89 4 24 -1 11 -23 380
+platform 64 66 18 18 0 8 blank
+platform 64 66 18 18 0 0 hardwood2
+platform 62 70 5 17 0 12 blank
+platform 62 70 5 17 0 0 carpet1
+zone 62 88 19 23 0 10 main corridor with entrances on the south side
+zone 62 71 5 17 0 10 the living room
+zone 64 66 17 19 0 8 near doorway
+zone 64 66 18 18 0 8 doorway
+zone 74 76 23 26 0 8 near doorway
+zone 74 76 24 25 0 8 doorway
+platform 84 86 18 18 0 8 blank
+platform 84 86 18 18 0 0 hardwood2
+platform 80 88 5 17 0 15 blank
+platform 80 88 5 17 0 0 concrete12
+zone 74 76 27 29 0 30 path to house #3
+platform 74 76 18 18 0 6 blank
+platform 74 76 18 18 0 0 concrete4
+platform 73 78 12 17 0 10 blank
+platform 73 78 12 17 0 0 concrete1
+zone 74 76 51 54 0 20 path to house #4
+rv 72 79 11 17 -1 11 -22 250
+platform 74 76 55 55 0 8 blank
+platform 74 76 55 55 0 0 carpet6
+dz 60 90 55 77 0 39 birds13.ogg 100
+zone 73 78 12 17 0 10 small toiletroom
+zone 84 86 17 19 0 8 near doorway of the toilet room
+zone 74 76 18 18 0 8 doorway of the toilet room
+zone 60 90 55 77 0 39 inside house #4
+zone 80 88 5 17 0 12 kitchen
+zone 84 86 17 19 0 8 near doorway
+zone 84 86 18 18 0 8 doorway
+wall 80 88 5 6 0 3 wallstone 7000
+platform 80 88 5 6 3 3 marble1
+object 75 75 12 12 0 3 toilet 1
+object 63 69 5 6 0 2 couch 3
+object 64 66 9 11 0 3 glass_table 1
+object 63 69 3 4 4 10 window 1
+zone 74 76 19 19 0 8 near doorway
+zone 74 76 17 17 0 8 near doorway
+location 75 55 0 house #4
+location 75 25 0 house #3
+object 14 18 17 21 0 3 table 1
+object 12 15 4 5 0 6 small_glass_cabinet 1
+bounded_source 74 76 54 54 0 8 birds13.ogg -1 72 90 55 77 0 19
+object 88 88 9 13 0 6 small_glass_cabinet 1
+object 89 90 9 14 6 12 window 1
+zone 63 69 2 2 0 3 under a window
+platform 73 77 56 75 0 10 blank
+platform 73 77 56 75 0 0 concrete2
+rv 72 78 55 76 -1 11 -23 350
+platform 78 78 70 72 0 8 blank
+platform 78 78 70 72 0 0 hardwood2
+platform 79 89 56 66 0 10 blank
+platform 79 89 56 66 0 0 carpet7
+rv 79 90 55 67 -1 11 -24 500
+zone 73 77 56 75 0 10 a long corridor
+zone 77 79 60 62 0 8 
+zone 79 89 56 66 0 10 in the cosy living room
+zone 77 79 60 62 0 8 near doorway
+zone 78 78 60 62 0 8 doorway
+platform 78 78 70 72 0 8 blank
+platform 78 78 70 72 0 0 hardwood2
+platform 79 89 68 75 0 10 blank
+platform 79 89 68 75 0 0 concrete12
+platform 78 78 60 62 0 8 blank
+platform 78 78 60 62 0 0 hardwood2
+zone 78 88 68 75 0 10 in the kitchen
+zone 77 79 70 72 0 8 near doorway
+zone 78 78 70 72 0 8 doorway
+zone 74 76 54 56 0 8 near doorway
+zone 74 76 55 55 0 8 doorway
+object 80 88 55 55 3 8 window 1
+object 80 88 65 66 0 2 couch 1
+object 82 86 58 62 0 3 glass_table 1
+rv 78 90 67 76 -1 11 -22 400
+wall 88 89 68 75 0 2 wallstone 4000
+platform 88 89 68 75 3 3 marble1
+zone 87 89 68 75 0 10 counter
+object 90 90 69 74 3 9 window 1
+zone 91 91 69 74 0 2 under a window
+platform 61 72 70 75 0 10 blank
+platform 61 72 70 75 0 0 carpet2
+rv 60 72 69 76 -1 11 -23 280
+platform 62 64 69 69 0 8 blank
+platform 62 64 69 69 0 0 hardwood2
+platform 61 71 58 68 0 12 blank
+platform 61 71 58 68 0 0 wood2
+zone 61 71 58 68 0 12 a small office
+zone 61 72 70 75 0 10 a small sidecorridor
+zone 62 64 68 70 0 8 near doorway
+zone 62 64 69 69 0 7 doorway
+rv 60 73 57 69 -1 13 -22 300
+zone 73 74 70 75 0 10 to the west is a hallway
+zone 80 88 54 56 0 2 under a window
+object 61 62 61 65 0 3 desk 1
+object 60 60 61 65 3 9 window 1
+zone 59 59 61 65 0 2 under a window
+object 70 71 60 66 0 8 metal_filing_cabinet 2
+loot_out weapon_machete:9mm_ammo;50:weapon_mp5

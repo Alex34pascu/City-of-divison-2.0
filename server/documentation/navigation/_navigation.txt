@@ -1,0 +1,8 @@
+Just like any game, navigation is a key skill to have to get around the map. Here's how you do it in this one.
+Note: Any navigation tool I mention has its own keystrokes that are in the navigation keys file of this folder.
+The Radar
+The radar is a very useful tool and likely the thing that you'll use the most while moving around the map. You activate it with Shift and the arrow keys, and in whatever direction you pressed, it will scan any walls or objects that you're moving by and play their sounds. So, if I was walking next to a house, and the house was to the left of me, if I pushed Shift+Left, it would play the wall sound.
+The W Key
+The next thing you'll use a lot is the W key; this is how you see what's in front of you. By default, you can see up to 31 meters away. This will tell you what’s ahead.
+Tracking Locations
+If you start to track a location on the map with L, you can push N to see where it is relative to your position at the moment you pushed it. If you're close enough, you'll hear a sound that's located at the location you were tracking, and you can make it stop by either hitting Shift+N, which stops tracking the location, or walking directly on top of the sound.

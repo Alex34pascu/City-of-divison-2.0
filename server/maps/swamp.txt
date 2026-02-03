@@ -1,0 +1,20 @@
+platform -10000 10000 -10000 10000 0 0 concrete1
+wall -1 151 -1 151 -1 10000 walledge 0
+platform 0 150 0 150 0 100000 blank
+platform 0 150 0 150 0 0 swim
+wall -100000 1000000 -100000 100000 -1000000 -1 wallrock2 100000
+platform 10 30 10 30 0 0 mud
+zone -1 151 -1 151 -10000 10000 in the large swamp
+platform 15 25 15 25 0 3 grass4
+wall 16 24 16 24 0 2 wallgrass 1
+platform 19 22 25 75 3 3 hardwood3
+platform 10 30 70 90 0 0 mud
+platform 15 25 75 85 0 3 grass4
+wall 16 24 76 84 0 2 wallgrass 1
+wall 19 22 26 74 2 2 wallwood2 1000
+wall 19 22 70 75 0 2 wallwood2 1000
+platform 19 22 75 75 3 3 hardwood3
+wall 19 22 25 30 0 2 wallwood2 1000
+sub_tile 19 22 31 69 3 3 wooddebris
+ambience 0 150 0 150 0 10000 birds9.ogg -3
+ambience 0 150 0 150 0 10000 ditch.ogg -3

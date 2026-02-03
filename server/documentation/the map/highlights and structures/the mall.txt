@@ -1,0 +1,7 @@
+This is a large building located directly north of the city square. It has 2 floors, a restaurant, and ofcourse various stores. Each store is different in size and lay out, but shoudln't be to hard to learn.
+Entrances:
+The mall has 2 entrances: on the north and south side. They are exactly in the middle of the building, and are about 10 tiles wide. There is also a window on ground level, at the east side of the mall, through which you could enter as well.
+Layout:
+When you enter the mall from the south entrance, (which is also the main entrance), you'll find yourself in a large hall. The shops are located on the left and right side of this area. There is, (among other things), a furniture store, a small supermarket, a candy store and an vacant store.
+Further down the hall, there are 2 non-working escalators that lead to the second floor. One of the escalators is on the left side of the hall, the other on the right. The second floor is quite simular to the first floor. There is a restaurant, a jewelry shop and a small office.
+The mall is completely separated from other buildings, and on the west side there is a narrow alley that runs between the mall and a row of houses.

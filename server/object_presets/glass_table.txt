@@ -1,0 +1,12 @@
+name: glass_table
+health: 700
+hitsounds: table
+moveable: yes
+movetime: 900
+movesounds: table
+examinable: no
+examinesounds: desk
+lootitems: 50
+platform 0 0 0 0 %0 0 hardwood2
+wall 0 0 0 0 0 -1 walltable 5
+platform 1 -1 1 -1 %0 0 glass

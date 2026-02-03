@@ -1,0 +1,16 @@
+name: bridge2
+health: 15000
+hitsounds: bridge
+moveable: no
+examinable: no
+platform 0 0 0 0 0 0 concrete1
+wall -1 1 0 0 -4 -1 wallbrick 1000
+platform 2 -2 0 0 0 0 concrete2
+wall -1 %-1 0 0 0 10 wallmetal3 0
+wall %1 1 0 0 0 10 wallmetal3 0
+platform -1 %-1 0 0 %10 10 metal3
+platform %1 1 0 0 %10 10 metal3
+zone 0 0 0 0 0 20 Colion bridge
+zone 0 0 0 0 %-10 -1 under Colion bridge
+zone 0 %1 0 0 0 10 sidewalk
+zone %-1 0 0 0 0 10 sidewalk

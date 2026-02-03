@@ -1,0 +1,4 @@
+At some point, you will have to repair your locker.
+To do so: You need two things: a welding machine, which you can find by looting objects around the map, and a welding machine battery, which you also find by looting.
+Once you have these two items, simply go to your team locker, find the welding machine in your inventory, and hit Enter to use it to repair your locker. Each time you use a welding machine, it takes one battery.
+To Fix up your locker faster, you can use the metal sheads provided in the metal_fortress construction kit.

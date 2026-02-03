@@ -1,0 +1,13 @@
+name: couch
+health: 4000
+hitsounds: furniture
+moveable: no
+examinable: no
+flex_platform 0 0 0 0 %0 0 cloth
+flex_wall 0 0 0 0 0 -1 wallfurniture 0
+flex_wall 0 %0 0 0 %0 1 wallfurniture 0
+flex_wall %0 0 0 0 %0 1 wallfurniture 0
+flex_platform 0 %0 0 0 %2 2 carpet1
+flex_platform %0 0 0 0 %2 2 carpet1
+flex_wall 1 -1 %0 0 %0 2 wallfurniture 0
+flex_platform 1 -1 %0 0 %3 3 carpet1

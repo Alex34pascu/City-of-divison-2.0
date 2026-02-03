@@ -1,0 +1,10 @@
+Traps are being used to protect your metal_fortress or locker. You can order them via the team phone, and place them inside or around your hideout.
+At the moment, there are 2 traps:
+Spiketrap: This is a 1 by 1 tile trap, that shoots a spike ones a person steps on to it. 
+Tripwire: This is a thin rope attached to a explosive. Ones a player disturbs the rope, it will detonate the explosive.
+Defences:
+Currently, there are 2 types of defence: The barricade and the build in alarmsystem.
+Barricade: This is a wooden wall, that you can place somewhere near your fortress. Allthough it won't hold for very long, it will slow your enemies down.
+Build_in alarmsystem: This comes with your fortress, and can be activated or deactivated with the team phone. It will alert you and your teammembers when the fortress is under attack, or a non authorized player enters in side.
+If there is any person in the fortress while the alarm is turned on, everyone will be electrocuted. This counts for both teammembers and other players.
+It is possible to turn the alarmsystem off, even if you're not a member of the team. To do so, you have to press shift enter at the fortress, and do a simon game of 35 sounds. Keep in mind though, that each wrong try, will electrocute you, but you have 5 tries before you die.

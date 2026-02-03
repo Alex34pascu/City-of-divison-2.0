@@ -1,0 +1,2 @@
+Events are always taking place on the map. You can see which one is active by pressing F4, then selecting View Active Events. There, you'll see the title of the event, and you can press Enter on it to see more information about it. Each event has a task for you to complete; this could be killing specific players, simply looting objects, or killing players with a specific weapon.
+If you complete the event's task, you will earn event points, which not only move you up the leaderboard for that event, but also allow you to buy chests from the event store.

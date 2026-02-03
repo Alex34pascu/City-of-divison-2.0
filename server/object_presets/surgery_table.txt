@@ -1,0 +1,7 @@
+name: surgery_table
+health: 3000
+hitsounds: machine
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 metal11
+wall 0 0 0 0 0 -1 wallmetal1 1000

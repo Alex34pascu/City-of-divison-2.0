@@ -1,0 +1,12 @@
+name: fountain
+health: 12000
+hitsounds: planter
+moveable: no
+examinable: no
+platform 0 0 0 0 %0 0 cement1
+wall 0 0 0 0 0 -1 wallstone2
+platform 1 -1 1 -1 1 0 blank
+platform 1 -1 1 -1 1 %1 water2
+wall 3 -3 3 -3 1 6 wallbrick
+platform 3 -3 3 -3 %6 6 water1
+src 1 -1 1 -1 0 %1 fountain.ogg

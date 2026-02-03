@@ -1,0 +1,14 @@
+The canal: This canal runs from west to east, and splits the city in half. There are several bridges at different locations, which you can use to get to the other side easyer.
+A small park: This park is located directly south of the city square and borders the canal. Exactly in the middle, there is a path that leads to a small wooden bridge. You will find A lot of planters and trees here, as well as a fountain.
+The shopping center / mall: This is a large building and is located roughly in the center of the city. You could use this as some kind of landmark.
+The bridges: IN total there are 4 bridges, each crossing the canal. Two of them are Centria bridge and Colion bridge. There's also A small wooden bridge in the park and in the forested part is A bridge as well.
+
+Streets:
+At the time of writing there are three main streets, along with a few smaller roads. Colion Road, Aetheron Street and Centria Street. These streets intersect at several points and sometimes cross the canal with the use of bridges. On the eastside of the city is also a nameless dead_end_street.
+Aetheron street: This is more or less the mainstreet of the city. It runs from west to east and touches both the mapedges. In the west it continues into the forest as a gravel path.
+Colion road: This is a wide road that runs from south to north. It crosses the canal where it turns into Colion bridge.
+Centria street: This is a long street with several bends. It's kind of A visual letter C,. You could also see it as a rectangle, but with one of the lines missing. In this case, the missing line is Colion road. 
+The buildings
+You can find all kinds of different building structures through out the city. Some can be pretty small, others can be gigantic. In another  part of the documentation you can find a list of all the buildings in the city, with a description of their location, the entrances, and an overview of the layout.
+The houses:
+Every house is different, so are the houses in this little cozy town. There are houses that only consist of 1 simple room. But there are also houses that are somewhat larger and have multiple rooms, for example 2 or 3 rooms, a second floor or even both. I won't describe every single house, so you will have to figure those out on your own.

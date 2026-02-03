@@ -1,0 +1,13 @@
+As already described in the general section of this documentation, the teamphone is a modern but simple telephone that you will receive ones a fortress has been build.
+You can use this to order items, view your traps, and manage the fortress's alarmsystem.
+---
+ordering items
+To buy items, you activate the teamphone, and click the first option that pops up. Now you will get a menu, where you can select the items you wish to buy.
+Ones you've put your order together, you can press enter on "place an order", and you're done.
+After 3 minutes,a airplane will fly over, dropping a shipment on the roof of your metal fortress. This is an actuall object, which you can loot. Ones the shipment has been looded entirely empty, it will disappear.
+---
+Trap overview:
+Here you can view all the traps that your team has placed around the fortress, along with there coordinates.
+---
+Alarmswitch:
+With the last item on your phone, you can enable or disable the alarmsystem of the fortress. The alarm will alert you via the phone when the fortress is under attack, or when a Non authorized player has entered inside.

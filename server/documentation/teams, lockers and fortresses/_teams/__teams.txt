@@ -1,0 +1,5 @@
+Teams let you and others fight as a unit. You can create a team by going to the lobby, hitting Enter to access the menu, and finding the Teams option. When you hit Enter on that, you have a few options:
+Your Team, Create Team, Send a Request for a Team, view all teams, and view all teams with a locker. Most of these should be self-explanatory and are fairly simple to use.
+When you're on the map fighting with your team, you can press Y to team chat. This means only your team members can see your messages, which is very useful for communicating with them. Another thing to note is that when you're near a team member on the map, your infrared scanner will make a beep sound as if they were a normal player, except a team member's beep sounds differend so you can tell that they're on your team.
+In this game, you can hit your other team members as well, so always keep that in mind when fighting together.
+From version 1.4, the team's kills are being registered and calculated. For a certain ammount of kills, the team will gain team tokens which you can use for various purposes.

@@ -1,0 +1,4 @@
+You can make a difference between the skills that are available in the game.
+These are permanent and non-permanent skills.
+permanent skills have effects that will always be used. Such as holstering certain weapons or using a scope on an assault rifle.
+You also have skills that are not permanent. You can only have 2 of these in your skill set. You can use these skills by clicking G or shift + G in the game. These skills also have a cooldown time, so you shouldn't just use them randomly.

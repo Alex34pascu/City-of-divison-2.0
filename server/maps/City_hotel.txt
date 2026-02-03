@@ -1,0 +1,948 @@
+loot_out weapon_colt_m1911:weapon_Winchester_Model_24:weapon_MP7:weapon_fn_p90:weapon_fn_f2000:flash_grenade;2:9mm_ammo;150:12_gauge_ammo;80:4.6x30mm_ammo;200:5.7x28mm_ammo;250:5.56mm_ammo;200:45ACP_ammo;100:tool_box;1
+wall -10000 1000 -1000 1000 -100 -1 wallstone 9000
+platform -10000 100000 -10000 10000 0 0 concrete11
+wall -1 -1 -1 200 -100 1000 walledge 0
+wall -1 200 -1 -1 -100 1000 walledge 0
+wall -1 201 201 181 -100 1000 walledge 0
+wall 201 201 -1 201 -100 100 walledge 0
+wall 20 180 20 180 -50 79 wallbrick 7500
+wall 20 191 20 180 -100 -2 wallbrick 10000
+wall 21 179 21 179 0 78 wallbuilding 8000
+platform 20 180 20 180 80 80 concrete1
+zone 0 200 0 200 -100 1000 around the large hotel.
+zone 20 180 181 200 0 60 behind the hotel
+zone 75 131 181 188 0 100 near the fire escape
+zone 20 180 20 180 0 79 inside the large hotel.
+zone 0 200 0 200 -100 -1 inside the large hotel.
+zone 20 180 20 180 80 100 on the roof of the hotel building.
+ambience 0 200 0 200 0 200 calm2.ogg -12
+ambience 0 200 0 200 0 200 calm1.ogg -8
+ambience 0 200 0 200 0 200 road.ogg -18
+dz 21 180 21 179 0 79 calm2.ogg 100
+dz 21 180 21 179 0 79 calm1.ogg 100
+dz 21 180 21 179 0 79 road.ogg 100
+platform 95 105 20 25 0 8 blank
+dz 21 179 21 179 -50 -2 calm2.ogg 100
+dz 21 179 21 179 -50 -2 calm1.ogg 100
+dz 21 179 21 179 -50 -2 road.ogg 100
+platform 95 105 20 25 0 0 carpet7
+ambience 20 180 20 180 0 79 building2.ogg 0
+platform 90 110 26 79 0 17 blank
+platform 90 110 26 79 0 0 concrete3
+rv 89 111 26 79 -1 15 -23 850
+zone 90 110 26 79 0 17 in the large entrance hallway, with differend doorways to facilities of the hotel.
+zone 90 110 0 19 0 30 in front of the hotel main doors
+zone 95 105 19 26 0 10 near the enormous main doors
+zone 95 105 20 25 0 8 enormous main doors
+rv 94 106 20 25 -1 9 -22 250
+rv 95 105 18 19 -1 10 -30 250
+location 100 20 0 the main entrance
+platform 80 120 80 120 0 77 blank
+platform 80 120 80 120 0 0 marble1
+zone 80 120 80 120 0 77 in the enormous lobby of the hotel. In the middle, the sky is visible through an open space that rises all the way to the roof.
+zone 90 110 80 81 0 17 near the main hallway
+rv 79 121 79 121 -1 78 -22 1300
+platform 88 89 37 43 0 8 blank
+platform 88 89 37 43 0 0 marble2
+platform 45 87 22 55 0 17 blank
+platform 45 87 22 55 0 0 concrete12
+zone 45 87 22 55 0 17 in the bar of the hotel
+zone 87 90 37 43 0 8 near entrance
+zone 88 89 37 43 0 8 entrance
+rv 44 88 21 56 -1 18 -18 900
+object 71 79 20 21 0 8 window 1
+object 56 64 20 21 0 8 window 1
+object 55 87 45 46 0 4 bar 1
+object 75 85 54 55 0 8 large_glass_cabinet 1
+object 57 65 54 55 0 8 large_glass_cabinet 1
+object 59 61 29 31 0 4 bar_table 1
+platform 111 120 37 43 0 8 blank
+object 69 71 29 31 0 4 bar_table 1
+platform 111 120 37 43 0 0 marble2
+object 79 81 29 31 0 4 bar_table 1
+platform 121 128 25 55 0 10 blank
+platform 121 128 25 55 0 0 concrete6
+rv 112 120 36 44 -1 11 -27 350
+rv 121 128 24 56 -1 11 -23 500
+platform 129 134 51 55 0 8 blank
+platform 129 134 51 55 0 0 concrete9
+platform 129 134 25 29 0 8 blank
+platform 129 134 25 29 0 0 concrete9
+platform 135 178 22 85 0 18 blank
+platform 135 178 22 85 0 0 concrete1
+rv 135 179 21 86 -20 19 -19 1600
+zone 111 120 37 43 0 10 passage to the swimming pool
+zone 121 128 25 55 0 10 corridor with changing rooms 
+zone 129 134 25 29 0 8 southern swimming pool entrance
+zone 129 134 51 55 0 8 northern swimming pool entrance
+rv 129 134 25 59 -1 10 -24 350
+zone 135 178 22 85 -20 19 the large swimming pool
+platform 145 168 32 70 -8 0 blank
+platform 145 168 32 70 -8 -8 swim
+staircase 145 168 31 39 -8 10 water3 wallbrick 2 descending steps into the water
+src 135 178 22 85 -8 -4 sewer.ogg -12
+zone 145 168 40 70 -8 -1 in the water
+zone 135 135 25 29 0 8 near an entrance
+zone 128 128 25 29 0 8 near an entrance
+zone 128 128 51 55 0 8 near an entrance
+zone 135 135 51 55 0 8 near an entrance
+zone 110 110 37 43 0 8 near a passage
+zone 121 121 37 43 0 8 near a passage
+platform 80 120 106 120 0 0 carpet5
+wall 112 120 89 89 0 14 wallbuilding 2000
+zone 80 120 106 120 0 79 the lounching area of the lobby, with some tables and couches
+wall 112 120 80 89 14 14 wallbuilding 2000
+platform 111 120 80 90 15 15 deck
+object 86 96 119 120 0 2 couch 1
+object 104 114 119 120 0 2 couch 1
+wall 112 112 80 88 0 3 wallwood 1000
+object 105 113 109 116 0 3 glass_table 1
+platform 112 112 80 88 4 4 hardwood1
+platform 113 120 80 88 0 0 concrete12
+object 87 95 109 116 0 3 glass_table 1
+rv 112 121 79 89 -1 14 -24 370
+rv 112 113 79 89 -1 14 -24 900
+object 113 114 80 88 0 4 desk 1
+bounded_source 95 105 20 20 0 8 road.ogg -20 90 110 21 100 0 17
+bounded_source 95 105 20 20 0 8 calm2.ogg -10 90 110 20 100 0 17
+bounded_source 95 105 20 20 0 8 calm1.ogg -10 90 110 20 100 0 17
+bounded_source 95 105 19 19 0 8 building2.ogg 2 0 100 0 19 0 10
+platform 22 79 95 105 0 17 blank
+platform 22 79 95 105 0 0 concrete3
+platform 121 178 95 105 0 17 blank
+platform 121 178 95 105 0 0 concrete3
+zone 120 120 95 105 0 8 near the eastern hallway (first floor)
+rv 121 179 94 106 -1 18 -24 600
+zone 80 81 95 105 0 8 near the western hallway (first floor)
+rv 21 79 94 106 -1 18 -24 600
+zone 22 79 95 105 0 17 the west hallway. (First floor)
+zone 121 178 95 105 0 17 the east hallway. (first floor)
+location 100 100 0 the hotel lobby
+location 89 40 0 the bar
+location 111 40 0 the swimming pool
+platform 124 127 106 106 0 8 blank
+platform 124 127 106 106 0 0 hardwood2
+platform 123 128 107 123 0 17 blank
+platform 123 128 107 123 0 0 concrete1
+zone 123 135 107 129 0 67 eastern stairwell
+staircase 123 128 113 123 0 17 concrete6 wallbrick 1 stairs to the upperfloors
+platform 123 135 124 129 10 30 blank
+platform 123 135 124 129 10 10 concrete1
+platform 130 135 113 123 10 27 blank
+staircase 130 135 113 123 10 25 concrete6 wallbrick 2 stairs to the upperfloors
+platform 123 135 107 112 20 27 blank
+platform 123 135 107 112 20 20 concrete1
+rv 122 136 106 130 -1 68 -19 750
+zone 130 135 111 112 20 27 top of the staircase
+zone 124 127 105 107 0 8 near doorway
+zone 124 127 106 106 0 8 doorway
+zone 123 128 111 112 0 17 bottom of the staircase
+zone 130 135 124 125 10 27 bottom of the staircase
+zone 123 128 124 125 10 17 top of the staircase
+platform 73 76 94 94 0 8 blank
+platform 73 76 94 94 0 0 hardwood2
+platform 72 77 77 93 0 17 blank
+platform 72 77 77 93 0 0 concrete1
+zone 65 77 71 93 0 67 western stairwell
+staircase 72 77 77 87 0 17 concrete6 wallbrick 2 stairs to the upperfloor
+rv 64 78 70 93 -1 68 -19 750
+platform 65 77 71 76 10 17 blank
+platform 65 77 71 76 10 10 concrete1
+platform 65 70 77 87 10 27 blank
+staircase 65 70 77 87 10 25 concrete6 wallbrick 1 stairs to the upperfloor
+zone 73 76 93 95 0 8 near doorway
+zone 73 76 94 94 0 7 doorway
+platform 121 178 95 105 20 37 blank
+platform 121 178 95 105 20 20 carpet4
+zone 121 178 95 105 20 37 the eastern hallway. Second floor)
+object 179 180 97 103 20 28 window 1
+wall 80 120 80 120 19 19 wallbuilding 5000
+platform 80 120 80 120 20 20 hardwood
+rv 121 180 94 106 19 38 -20 470
+wall 87 113 87 113 20 23 wallrail 1000
+platform 87 113 87 113 24 24 metal5
+platform 88 112 88 112 19 24 blank
+zone 80 120 80 120 20 39 Second-floor gallery overlooking the lobby
+platform 65 77 88 93 20 30 blank
+platform 65 77 88 93 20 20 concrete1
+platform 22 79 95 105 20 37 blank
+platform 22 79 95 105 20 20 carpet4
+rv 80 120 80 120 19 78 -22 1500
+zone 120 120 95 105 20 37 near the eastern hallway (second floor)
+object 20 21 97 103 20 28 window 1
+zone 80 81 95 105 20 30 near a hallway
+zone 22 79 95 105 20 30 western hallway. (second floor)
+platform 95 105 121 178 20 37 blank
+platform 95 105 121 178 20 20 carpet2
+rv 94 106 121 179 19 38 -22 250
+zone 72 77 88 89 0 17 bottom of the stairs
+zone 65 70 75 76 10 27 bottom of the stairs
+zone 72 77 75 76 10 27 top of the stairs
+zone 65 70 88 89 20 37 top of the stairs
+rv 21 79 94 179 19 38 -24 600
+platform 121 122 109 111 20 28 blank
+platform 121 122 109 111 20 20 hardwood2
+zone 120 123 109 111 20 28 near doorway
+zone 121 122 109 111 20 28 doorway
+platform 78 79 89 91 20 28 blank
+platform 78 79 89 91 20 20 hardwood2
+zone 77 80 89 91 20 28 near doorway
+zone 78 79 89 91 20 28 doorway
+platform 72 77 77 87 20 37 blank
+staircase 72 77 77 87 20 35 concrete6 wallbrick 2 stairs to the upperfloors
+platform 65 77 71 76 30 40 blank
+platform 65 77 71 76 30 30 concrete1
+platform 65 70 77 87 30 70 blank
+staircase 65 70 77 87 30 45 concrete6 wallbrick 1 stairs to the upperfloors
+platform 65 77 88 93 40 50 blank
+platform 65 77 88 93 40 40 concrete1
+platform 123 128 113 123 20 37 blank
+staircase 123 128 113 123 20 35 concrete6 wallbrick 1 stairs to the upperfloors
+wall 123 135 124 129 28 29 wallbuilding 8000
+platform 123 135 124 129 30 40 blank
+platform 123 135 124 129 30 30 concrete1
+platform 130 135 113 123 30 47 blank
+staircase 130 135 113 123 30 45 concrete6 wallbrick 2 stairs to the upperfloors
+platform 123 135 107 112 40 50 blank
+platform 123 135 107 112 40 40 concrete1
+wall 80 120 80 120 39 39 wallbuilding 5000
+platform 80 120 80 120 40 40 hardwood
+rv 121 180 94 106 19 38 -20 470
+wall 87 113 87 113 40 43 wallrail 1000
+platform 87 113 87 113 44 44 metal5
+platform 88 112 88 112 39 44 blank
+zone 80 120 80 120 40 77 Third-floor gallery overlooking the lobby
+platform 121 122 109 111 40 48 blank
+platform 121 122 109 111 40 40 hardwood2
+platform 78 79 89 91 40 48 blank
+platform 78 79 89 91 40 40 hardwood2
+zone 95 105 121 178 20 37 Corridor to the fire escape, with a suite on either side
+zone 95 105 119 120 20 30 near a corridor to the fire escape and 2 suites
+zone 72 77 87 88 20 30 bottom of the stairs
+zone 65 70 75 76 30 47 bottom of the stairs
+zone 72 77 75 76 30 47 top of the stairs
+zone 65 70 88 89 40 57 top of the stairs
+zone 77 80 89 91 40 48 near doorway
+zone 78 79 89 91 40 48 doorway
+zone 123 128 111 112 20 37 bottom of the stairs
+zone 130 135 124 125 30 47 bottom of the stairs
+zone 123 128 124 124 30 47 top of the stairs
+zone 130 135 111 112 40 57 top of the stairs
+zone 120 123 109 111 40 48 near doorway
+zone 121 122 109 111 40 48 doorway
+zone 123 123 111 111 20 27 near doorway
+zone 87 113 87 113 20 77 railing
+zone 88 112 88 112 20 77 above the lobby
+platform 98 102 179 180 20 28 blank
+platform 98 102 179 180 20 20 beam
+staircase 77 97 181 185 0 40 metal6 wallmetal3 3 fire escape staircase
+wall 98 102 181 185 19 19 wallmetal2 1000
+platform 98 102 181 185 20 20 metal4
+wall 77 129 186 186 0 43 wallrail 0
+platform 77 129 186 186 44 44 metal1
+zone 98 102 181 185 20 80  fire escape platform (second floor)
+zone 77 129 186 186 0 60 railing
+location 77 183 0 fire escape staircase
+zone 98 102 178 181 20 28 near doorway
+zone 98 102 179 180 20 28 doorway
+staircase 103 123 181 185 20 50 metal6 wallmetal2 3 fire escape
+platform 22 94 168 178 20 30 blank
+platform 22 94 168 178 20 20 carpet5
+platform 22 32 106 167 20 30 blank
+platform 22 32 106 167 20 20 carpet5
+zone 22 32 106 167 20 30 western hallway. (second floor)
+zone 22 32 95 105 20 37 northeast bend in the hallway
+zone 22 94 168 178 20 37 western hallway. (second floor)
+zone 22 32 168 178 20 37 southeast bend in the hallway
+rv 80 94 167 179 19 38 -24 600
+platform 106 178 168 178 20 30 blank
+platform 106 178 168 178 20 20 carpet5
+platform 168 178 106 167 20 30 blank
+platform 168 178 106 167 20 20 carpet5
+zone 168 178 106 178 20 30 the eastern hallway. Second floor)
+zone 106 178 168 178 20 30 the eastern hallway. Second floor)
+zone 168 178 168 178 20 30 southwest bend in the hallway
+zone 168 178 95 105 20 37 northwest bend in the hallway
+rv 167 179 106 179 19 38 -24 600
+rv 106 169 167 179 20 37 -24 600
+zone 95 105 168 178 20 37 Intersection of multiple hallways
+zone 98 102 178 178 20 28 near doorway
+#hier komen de kamers
+platform 44 46 106 107 20 28 blank
+platform 44 46 106 107 20 20 hardwood2
+platform 35 55 108 128 20 37 blank
+platform 35 55 108 128 20 20 carpet1
+zone 35 55 108 128 20 37 hotel room 201
+zone 44 46 105 108 20 28 near doorway
+zone 44 46 106 107 20 28 doorway
+object 48 54 108 109 20 26 large_glass_cabinet 1
+object 35 38 108 112 20 23 table 1
+object 42 48 118 128 20 23 bed 1
+object 50 51 127 128 20 22 nightstand 1
+object 39 40 127 128 20 22 nightstand 1
+platform 57 77 108 128 20 37 blank
+platform 57 77 108 128 20 20 carpet1
+zone 57 77 108 128 20 37 hotel room 203
+platform 66 68 106 107 20 28 blank
+platform 66 68 106 107 20 20 hardwood2
+zone 66 68 105 108 20 28 near doorway
+zone 66 68 106 107 20 28 doorway
+object 70 76 108 109 20 26 large_glass_cabinet 1
+object 64 70 118 128 20 23 bed 1
+object 61 62 127 128 20 22 nightstand 1
+object 72 73 127 128 20 22 nightstand 1
+object 57 60 108 112 20 23 table 1
+platform 44 46 93 94 20 28 blank
+platform 44 46 93 94 20 20 hardwood2
+platform 35 55 72 92 20 37 blank
+platform 35 55 72 92 20 20 carpet1
+zone 35 55 72 92 20 37 hotel room 202
+zone 44 46 92 95 20 28 near doorway
+zone 44 46 93 94 20 28 doorway
+platform 140 160 108 128 20 37 blank
+object 42 48 72 82 20 23 bed 1
+platform 140 160 108 128 20 20 carpet1
+platform 149 151 106 107 20 28 blank
+object 50 51 72 73 20 22 nightstand 1
+platform 149 151 106 107 20 20 hardwood2
+object 39 40 72 73 20 22 nightstand 1
+object 35 38 88 92 20 23 table 1
+object 48 54 91 92 20 26 large_glass_cabinet 1
+zone 140 160 108 128 20 37 hotel room 205
+zone 149 151 105 108 20 28 near doorway
+zone 149 151 106 107 20 28 doorway
+object 140 143 108 112 20 23 table 1
+object 147 153 118 128 20 23 bed 1
+object 144 145 127 128 20 22 nightstand 1
+object 155 156 127 128 20 22 nightstand 1
+platform 132 134 93 94 20 28 blank
+platform 132 134 93 94 20 20 hardwood2
+platform 123 143 72 92 20 37 blank
+platform 123 143 72 92 20 20 carpet1
+zone 123 143 72 92 20 37 hotel room 204
+zone 132 134 92 95 20 28 near doorway
+zone 132 134 93 94 20 28 doorway
+object 140 143 88 92 20 23 table 1
+object 124 130 91 92 20 26 large_glass_cabinet 1
+object 130 136 72 82 20 23 bed 1
+object 127 128 72 73 20 22 nightstand 1
+object 138 139 72 73 20 22 nightstand 1
+rv 34 77 107 129 19 38 -23 280
+platform 145 165 72 92 20 37 blank
+platform 145 165 72 92 20 20 carpet1
+platform 154 156 93 94 20 28 blank
+platform 154 156 93 94 20 20 hardwood2
+zone 145 165 72 92 20 37 hotel room 206
+zone 154 156 92 95 20 28 near doorway
+zone 154 156 93 94 20 28 doorway
+object 146 152 91 92 20 26 large_glass_cabinet 1
+object 162 165 88 92 20 23 table 1
+rv 34 56 71 93 19 38 -23 280
+object 152 158 72 82 20 23 bed 1
+object 160 161 72 73 20 22 nightstand 1
+object 149 150 72 73 20 22 nightstand 1
+rv 122 177 71 93 19 38 -23 280
+rv 139 161 107 129 19 38 -23 280
+object 153 159 108 109 20 26 large_glass_cabinet 1
+location 45 106 20 room 101
+location 67 106 20 room 103
+location 45 94 20 room 102
+location 133 94 20 room 104
+location 150 106 20 room 105
+location 155 94 20 room 106
+bounded_source 98 102 181 181 20 28 calm2.ogg -10 80 120 140 180 20 35
+bounded_source 98 102 181 181 20 28 calm1.ogg -10 80 120 140 180 20 35
+zone 115 120 80 88 0 17 behind the reception desk
+zone 112 114 80 88 0 17 on the reception desk
+platform 22 79 95 105 40 57 blank
+platform 121 178 95 105 40 50 blank
+platform 22 79 95 105 40 40 carpet4
+platform 121 178 95 105 40 40 carpet4
+zone 22 79 95 178 40 57 western hallway. (thirt floor)
+zone 80 81 95 105 40 48 near the western hallway (third floor)
+platform 22 32 106 178 40 57 blank
+platform 22 32 106 178 40 40 carpet5
+zone 121 178 95 105 40 57 eastern hallway. (thirt floor)
+zone 119 120 95 105 40 48 near the western hallway (third floor)
+platform 33 178 168 178 40 50 blank
+platform 33 178 168 178 40 40 carpet5
+platform 95 105 121 178 40 57 blank
+platform 168 178 106 167 40 50 blank
+platform 95 105 121 178 40 40 carpet2
+platform 168 178 106 167 40 40 carpet5
+zone 95 105 121 178 40 57 northern hallway. (thirt floor)
+rv 21 78 94 179 39 58 -24 600
+zone 106 167 168 178 40 57 eastern hallway. (thirt floor)
+rv 121 179 94 179 39 58 -24 600
+zone 70 94 168 178 40 57 western hallway. (thirt floor)
+zone 95 105 168 178 40 57 Intersection of multiple hallways
+rv 79 121 121 178 39 58 -24 600
+zone 168 178 168 178 40 57 southwest bent in the hallway
+zone 22 32 95 105 40 50 northeast bend in the hallway
+zone 22 32 168 178 40 50 southeast bend in the hallway
+zone 168 178 95 105 40 57 northwest bent in the hallway
+zone 95 105 119 120 40 57 near a corridor with suites on both sides
+zone 168 178 106 167 40 57 eastern hallway. (thirt floor)
+#hier komt copied data
+platform 44 46 106 107 40 48 blank
+platform 44 46 106 107 40 40 hardwood2
+platform 35 55 108 128 40 57 blank
+platform 35 55 108 128 40 40 carpet1
+zone 35 55 108 128 40 57 hotel room 301
+zone 44 46 105 108 40 48 near doorway
+zone 44 46 106 107 40 48 doorway
+object 48 54 108 109 40 46 large_glass_cabinet 1
+object 35 38 108 112 40 43 table 1
+object 42 48 118 128 40 43 bed 1
+object 50 51 127 128 40 42 nightstand 1
+object 39 40 127 128 40 42 nightstand 1
+platform 57 77 108 128 40 57 blank
+platform 57 77 108 128 40 40 carpet1
+zone 57 77 108 128 40 57 hotel room 303
+platform 66 68 106 107 40 48 blank
+platform 66 68 106 107 40 40 hardwood2
+zone 66 68 105 108 40 48 near doorway
+zone 66 68 106 107 40 48 doorway
+object 70 76 108 109 40 46 large_glass_cabinet 1
+object 64 70 118 128 40 43 bed 1
+object 61 62 127 128 40 42 nightstand 1
+object 72 73 127 128 40 42 nightstand 1
+object 57 60 108 112 40 43 table 1
+platform 44 46 93 94 40 48 blank
+platform 44 46 93 94 40 40 hardwood2
+platform 35 55 72 92 40 57 blank
+platform 35 55 72 92 40 40 carpet1
+zone 35 55 72 92 40 57 hotel room 302
+zone 44 46 92 95 40 48 near doorway
+zone 44 46 93 94 40 48 doorway
+platform 140 160 108 128 40 57 blank
+object 42 48 72 82 40 43 bed 1
+platform 140 160 108 128 40 40 carpet1
+platform 149 151 106 107 40 48 blank
+object 50 51 72 73 40 42 nightstand 1
+platform 149 151 106 107 40 40 hardwood2
+object 39 40 72 73 40 42 nightstand 1
+object 35 38 88 92 40 43 table 1
+object 48 54 91 92 40 46 large_glass_cabinet 1
+zone 140 160 108 128 40 57 hotel room 305
+zone 149 151 105 108 40 48 near doorway
+zone 149 151 106 107 40 48 doorway
+object 140 143 108 112 40 43 table 1
+object 147 153 118 128 40 43 bed 1
+object 144 145 127 128 40 42 nightstand 1
+object 155 156 127 128 40 42 nightstand 1
+platform 132 134 93 94 40 48 blank
+platform 132 134 93 94 40 40 hardwood2
+platform 123 143 72 92 40 57 blank
+platform 123 143 72 92 40 40 carpet1
+zone 123 143 72 92 40 57 hotel room 304
+zone 132 134 92 95 40 48 near doorway
+zone 132 134 93 94 40 48 doorway
+object 140 143 88 92 40 43 table 1
+object 124 130 91 92 40 46 large_glass_cabinet 1
+object 130 136 72 82 40 43 bed 1
+object 127 128 72 73 40 42 nightstand 1
+object 138 139 72 73 40 42 nightstand 1
+rv 34 77 107 129 39 58 -23 280
+platform 145 165 72 92 40 57 blank
+platform 145 165 72 92 40 40 carpet1
+platform 154 156 93 94 40 48 blank
+platform 154 156 93 94 40 40 hardwood2
+zone 145 165 72 92 40 57 hotel room 306
+zone 154 156 92 95 40 48 near doorway
+zone 154 156 93 94 40 48 doorway
+object 146 152 91 92 40 46 large_glass_cabinet 1
+object 162 165 88 92 40 43 table 1
+rv 34 56 71 93 39 58 -23 280
+object 152 158 72 82 40 43 bed 1
+object 160 161 72 73 40 42 nightstand 1
+object 149 150 72 73 40 42 nightstand 1
+rv 122 177 71 93 39 58 -23 280
+rv 139 161 107 129 39 58 -23 280
+object 153 159 108 109 40 46 large_glass_cabinet 1
+location 45 106 40 room 201
+location 67 106 40 room 203
+location 45 94 40 room 202
+location 133 94 40 room 204
+location 150 106 40 room 205
+location 155 94 40 room 206
+#einde copied data
+platform 124 128 181 185 40 40 metal4
+wall 124 128 181 185 39 39 wallmetal2 0
+wall 129 129 181 185 0 43 wallrail 0
+platform 129 129 181 185 44 44 metal1
+platform 124 128 179 180 40 48 blank
+platform 124 128 179 180 40 40 beam
+platform 124 128 168 178 40 40 carpet6
+zone 129 129 181 185 43 60 railing
+zone 124 128 181 185 40 50 fire escape platform (thirt floor)
+bounded_source 98 102 181 181 20 28 road.ogg -21 80 120 150 180 20 30
+bounded_source 124 128 181 181 40 48 calm2.ogg -10 80 178 167 180 40 50
+bounded_source 124 128 181 181 40 48 calm1.ogg -10 80 178 167 180 40 50
+bounded_source 124 128 181 181 40 48 road.ogg -21 80 178 167 180 40 50
+object 179 180 169 177 20 28 window 1
+object 20 21 169 177 20 28 window 1
+object 20 21 96 104 40 48 window 1
+object 20 21 169 177 40 48 window 1
+object 179 180 96 104 40 48 window 1
+object 179 180 169 177 40 48 window 1
+location 125 106 0 eastern stairwell
+location 75 94 0 western stairwell
+location 79 90 20 second floor stairwell entrance (west)
+platform 40 44 106 107 0 10 blank
+platform 40 44 106 107 0 0 carpet7
+platform 22 62 108 148 0 17 blank
+platform 22 62 108 148 0 0 concrete1
+rv 21 63 107 149 -1 18 -21 1400
+zone 22 62 108 148 0 17 a large fitness area
+zone 40 44 105 108 0 8 near passage
+zone 40 44 106 107 0 8 doorway
+object 30 32 112 120 0 8 machine 1
+zone 30 33 111 145 0 17 a row of fitness machines (west side)
+zone 22 29 112 144 0 17 behind a row of fitness machines (west side)
+object 30 32 124 132 0 8 machine 1
+object 52 54 136 144 0 8 machine 1
+object 52 54 112 120 0 8 machine 1
+zone 51 54 111 145 0 17 a row of fitness machines (east side)
+zone 55 62 112 144 0 17 behind a row of fitness machines (east side)
+object 30 32 124 132 0 8 machine 1
+object 52 54 136 144 0 8 machine 1
+zone 124 128 178 181 40 48 near doorway
+zone 124 128 179 180 40 48 doorway
+#hier komen de suites
+platform 108 166 132 164 20 35 blank
+platform 108 166 132 164 20 20 carpet1
+platform 106 107 147 149 20 28 blank
+platform 106 107 147 149 20 20 hardwood2
+rv 107 167 131 167 19 36 -20 320
+wall 108 112 151 166 20 35 wallbuilding 8000
+wall 108 112 132 145 20 35 wallbuilding 8000
+platform 108 112 146 151 20 20 hardwood
+rv 107 112 145 152 19 36 -23 170
+zone 106 166 132 164 20 35 hotel suite 201
+location 106 148 20 suite 201
+zone 108 112 146 151 20 35 short entrance hall
+zone 105 108 147 149 20 28 near doorway
+zone 106 107 147 149 20 28 doorway
+zone 113 113 146 151 20 35 near an entrance
+platform 113 134 132 145 20 20 carpet7
+zone 113 134 132 145 20 35 lounching area
+object 110 118 138 139 20 22 couch 2
+object 113 114 132 133 20 23 table 1
+object 115 125 132 133 20 22 couch 3
+object 130 134 132 133 20 25 display_case 1
+zone 113 134 152 166 20 35 dining area
+object 118 125 137 142 20 22 glass_table 1
+object 113 114 154 158 20 28 large_glass_cabinet 1
+object 120 128 154 157 20 23 table 1
+object 115 125 163 164 20 22 couch 1
+wall 135 166 132 150 20 35 wallbuilding 8000
+platform 135 135 139 141 20 28 blank
+platform 135 135 139 141 20 20 hardwood2
+platform 136 152 133 149 20 35 blank
+platform 136 152 133 149 20 20 carpet1
+rv 136 153 132 150 19 36 -24 135
+zone 136 152 133 149 20 35 master bedroom
+zone 134 136 139 141 20 28 near doorway
+zone 135 135 139 141 20 28 doorway
+object 139 145 144 149 20 23 bed 1
+platform 153 153 143 145 20 28 blank
+platform 153 153 143 145 20 20 hardwood2
+platform 154 164 132 146 20 30 blank
+platform 154 164 132 146 20 20 concrete12
+wall 156 164 132 137 20 23 wallstone 5000
+platform 156 164 132 137 24 24 concrete1
+platform 157 163 133 136 21 24 blank
+platform 157 163 133 136 21 21 water2
+zone 154 164 132 149 20 30 master bathroom
+zone 155 164 132 138 20 30 near a bathtub
+zone 156 164 132 137 20 30 bathtub
+rv 153 165 131 150 19 31 -20 380
+object 155 155 145 146 20 22 toilet 1
+platform 135 155 151 164 20 20 concrete6
+rv 135 156 150 165 19 36 -24 320
+zone 135 155 151 164 20 35 kitchenette
+wall 138 148 163 164 20 23 wallstone 5000
+platform 138 148 163 164 24 24 marble2
+wall 156 156 151 164 20 35 wallbrick 10000
+zone 137 149 162 164 20 30 The long countertop
+object 154 155 156 161 20 25 small_glass_cabinet 1
+platform 156 156 152 154 20 28 blank
+platform 156 156 152 154 20 20 hardwood2
+platform 157 166 151 164 20 20 carpet7
+rv 156 167 150 165 19 36 -24 200
+zone 157 166 151 164 20 35 second bedroom
+zone 155 157 152 154 20 28 near doorway
+zone 156 156 152 154 20 28 doorway
+object 160 164 159 164 20 23 bed 1
+object 158 159 163 164 20 22 nightstand 1
+object 137 138 148 149 20 22 nightstand 1
+zone 152 154 143 145 20 28 near doorway
+zone 153 153 143 145 20 28 doorway
+#copied suite data
+platform 108 166 132 164 40 55 blank
+platform 108 166 132 164 40 40 carpet1
+platform 106 107 147 149 40 48 blank
+platform 106 107 147 149 40 40 hardwood2
+rv 107 167 131 167 39 56 -20 320
+wall 108 112 151 166 40 55 wallbuilding 8000
+wall 108 112 132 145 40 55 wallbuilding 8000
+platform 108 112 146 151 40 40 hardwood
+rv 107 112 145 152 39 56 -23 170
+zone 106 166 132 164 40 55 hotel suite 301
+location 106 148 40 suite 301
+zone 108 112 146 151 40 55 short entrance hall
+zone 105 108 147 149 40 48 near doorway
+zone 106 107 147 149 40 48 doorway
+zone 113 113 146 151 40 55 near an entrance
+platform 113 134 132 145 40 40 carpet7
+zone 113 134 132 145 40 55 lounching area
+object 110 118 138 139 40 42 couch 2
+object 113 114 132 133 40 43 table 1
+object 115 125 132 133 40 42 couch 3
+object 130 134 132 133 40 45 display_case 1
+zone 113 134 152 166 40 55 dining area
+object 118 125 137 142 40 42 glass_table 1
+object 113 114 154 158 40 48 large_glass_cabinet 1
+object 120 128 154 157 40 43 table 1
+object 115 125 163 164 40 42 couch 1
+wall 135 166 132 150 40 55 wallbuilding 8000
+platform 135 135 139 141 40 48 blank
+platform 135 135 139 141 40 40 hardwood2
+platform 136 152 133 149 40 55 blank
+platform 136 152 133 149 40 40 carpet1
+rv 136 153 132 150 39 56 -24 135
+zone 136 152 133 149 40 55 master bedroom
+zone 134 136 139 141 40 48 near doorway
+zone 135 135 139 141 40 48 doorway
+object 139 145 144 149 40 43 bed 1
+platform 153 153 143 145 40 48 blank
+platform 153 153 143 145 40 40 hardwood2
+platform 154 164 132 146 40 50 blank
+platform 154 164 132 146 40 40 concrete12
+wall 156 164 132 137 40 43 wallstone 5000
+platform 156 164 132 137 44 44 concrete1
+platform 157 163 133 136 41 44 blank
+platform 157 163 133 136 41 41 water2
+zone 154 164 132 149 40 50 master bathroom
+zone 155 164 133 138 40 50 near a bathtub
+zone 156 164 132 137 40 50 bathtub
+rv 153 165 131 150 39 51 -20 380
+object 155 155 145 146 40 42 toilet 1
+platform 135 155 151 164 40 40 concrete6
+rv 135 156 150 165 39 56 -24 320
+zone 135 155 151 164 40 55 kitchenette
+wall 138 148 163 164 40 43 wallstone 5000
+platform 138 148 163 164 44 44 marble2
+wall 156 156 151 164 40 55 wallbrick 10000
+zone 137 149 162 164 40 50 The long countertop
+object 154 155 156 161 40 45 small_glass_cabinet 1
+platform 156 156 152 154 40 48 blank
+platform 156 156 152 154 40 40 hardwood2
+platform 157 166 151 164 40 40 carpet7
+rv 156 167 150 165 39 56 -24 200
+zone 157 166 151 164 40 55 second bedroom
+zone 155 157 152 154 40 48 near doorway
+zone 156 156 152 154 40 48 doorway
+object 160 164 159 164 40 43 bed 1
+object 158 159 163 164 40 42 nightstand 1
+object 137 138 148 149 40 42 nightstand 1
+zone 152 154 143 145 40 48 near doorway
+zone 153 153 143 145 40 48 doorway
+dz 80 120 73 120 0 79 sewer.ogg 100
+src 145 170 40 70 -8 -8 largepipe.ogg -14
+src 145 170 40 70 -8 -5 waves2.ogg -11
+dz 121 179 90 179 -50 18 sewer.ogg 100
+dz 21 179 21 179 20 79 sewer.ogg 100
+zone 110 111 80 89 0 10 in front of the reception desk
+#gespiegelde suite
+platform 34 92 132 164 20 35 blank
+platform 34 92 132 164 20 20 carpet1
+platform 93 94 147 149 20 28 blank
+platform 93 94 147 149 20 20 hardwood2
+rv 33 93 131 167 19 36 -20 320
+wall 88 92 151 166 20 35 wallbuilding 8000
+wall 88 92 132 145 20 35 wallbuilding 8000
+platform 88 92 146 151 20 20 hardwood
+rv 88 93 145 152 19 36 -23 170
+zone 34 94 132 164 20 35 hotel suite 202
+location 94 148 20 suite 202
+zone 88 92 146 151 20 35 short entrance hall
+zone 92 95 147 149 20 28 near doorway
+zone 93 94 147 149 20 28 doorway
+zone 87 87 146 151 20 35 near an entrance
+platform 66 87 132 145 20 20 carpet7
+zone 66 87 132 145 20 35 lounching area
+object 83 91 138 139 20 22 couch 4
+object 86 87 132 133 20 23 table 1
+object 75 85 132 133 20 22 couch 3
+object 66 70 132 133 20 25 display_case 1
+zone 66 87 152 166 20 35 dining area
+object 75 82 137 142 20 22 glass_table 1
+object 86 87 154 158 20 28 large_glass_cabinet 1
+object 72 80 154 157 20 23 table 1
+object 75 85 163 164 20 22 couch 1
+wall 34 65 132 150 20 35 wallbuilding 8000
+platform 65 65 139 141 20 28 blank
+platform 65 65 139 141 20 20 hardwood2
+platform 48 64 133 149 20 35 blank
+platform 48 64 133 149 20 20 carpet1
+rv 47 64 132 150 19 36 -24 135
+zone 48 64 133 149 20 35 master bedroom
+zone 64 66 139 141 20 28 near doorway
+zone 65 65 139 141 20 28 doorway
+object 55 61 144 149 20 23 bed 1
+platform 47 47 143 145 20 28 blank
+platform 47 47 143 145 20 20 hardwood2
+platform 36 46 132 146 20 30 blank
+platform 36 46 132 146 20 20 concrete12
+wall 36 44 132 137 20 23 wallstone 5000
+platform 36 44 132 137 24 24 concrete1
+platform 37 43 133 136 21 24 blank
+platform 37 43 133 136 21 21 water2
+zone 36 46 132 149 20 30 master bathroom
+zone 36 45 132 138 20 30 near a bathtub
+zone 36 44 132 137 20 30 bathtub
+rv 35 47 131 150 19 31 -20 380
+object 45 45 145 146 20 22 toilet 1
+platform 45 65 151 164 20 20 concrete6
+rv 44 65 150 165 19 36 -24 320
+zone 45 65 151 164 20 35 kitchenette
+wall 44 44 151 164 20 35 wallbrick 10000
+platform 52 62 163 164 24 24 marble2
+zone 51 63 162 164 20 30 The long countertop
+object 45 46 156 161 20 25 small_glass_cabinet 1
+platform 44 44 152 154 20 28 blank
+platform 44 44 152 154 20 20 hardwood2
+platform 34 43 151 164 20 20 carpet7
+rv 33 44 150 165 19 36 -24 200
+zone 34 43 151 164 20 35 second bedroom
+zone 43 45 152 154 20 28 near doorway
+zone 44 44 152 154 20 28 doorway
+object 36 40 159 164 20 23 bed 1
+object 41 42 163 164 20 22 nightstand 1
+object 62 63 148 149 20 23 nightstand 1
+wall 52 62 163 164 20 23 wallstone 8000
+#tweede gespiegelde suite
+platform 34 92 132 164 40 55 blank
+platform 34 92 132 164 40 40 carpet1
+platform 93 94 147 149 40 48 blank
+platform 93 94 147 149 40 40 hardwood2
+rv 33 93 131 167 19 56 -20 320
+wall 88 92 151 166 40 55 wallbuilding 8000
+wall 88 92 132 145 40 55 wallbuilding 8000
+platform 88 92 146 151 40 40 hardwood
+rv 88 93 145 152 19 56 -23 170
+zone 34 94 132 164 40 55 hotel suite 302
+location 94 148 40 suite 302
+zone 88 92 146 151 40 55 short entrance hall
+zone 92 95 147 149 40 48 near doorway
+zone 93 94 147 149 40 48 doorway
+zone 87 87 146 151 40 55 near an entrance
+platform 66 87 132 145 40 40 carpet7
+zone 66 87 132 145 40 55 lounching area
+object 83 91 138 139 40 42 couch 4
+object 86 87 132 133 40 43 table 1
+object 75 85 132 133 40 42 couch 3
+object 66 70 132 133 40 45 display_case 1
+zone 66 87 152 166 40 55 dining area
+object 75 82 137 142 40 42 glass_table 1
+object 86 87 154 158 40 48 large_glass_cabinet 1
+object 72 80 154 157 40 43 table 1
+object 75 85 163 164 40 42 couch 1
+wall 34 65 132 150 40 55 wallbuilding 8000
+platform 65 65 139 141 40 48 blank
+platform 65 65 139 141 40 40 hardwood2
+platform 48 64 133 149 40 55 blank
+platform 48 64 133 149 40 40 carpet1
+rv 47 64 132 150 19 56 -24 135
+zone 48 64 133 149 40 55 master bedroom
+zone 64 66 139 141 40 48 near doorway
+zone 65 65 139 141 40 48 doorway
+object 55 61 144 149 40 43 bed 1
+platform 47 47 143 145 40 48 blank
+platform 47 47 143 145 40 40 hardwood2
+platform 36 46 132 146 40 50 blank
+platform 36 46 132 146 40 40 concrete12
+wall 36 44 132 137 40 43 wallstone 5000
+platform 36 44 132 137 44 44 concrete1
+platform 37 43 133 136 41 44 blank
+platform 37 43 133 136 41 41 water2
+zone 36 46 132 149 40 50 master bathroom
+zone 36 45 133 138 40 50 near a bathtub
+zone 36 44 132 137 40 50 bathtub
+rv 35 47 131 150 19 51 -20 380
+object 45 45 145 146 40 42 toilet 1
+platform 45 65 151 164 40 40 concrete6
+rv 44 65 150 165 19 56 -24 320
+zone 45 65 151 164 40 55 kitchenette
+wall 44 44 151 164 40 55 wallbrick 10000
+platform 52 62 163 164 44 44 marble2
+zone 51 63 162 164 40 50 The long countertop
+object 45 46 156 161 40 45 small_glass_cabinet 1
+platform 44 44 152 154 40 48 blank
+platform 44 44 152 154 40 40 hardwood2
+platform 34 43 151 164 40 40 carpet7
+rv 33 44 150 165 19 56 -24 200
+zone 34 43 151 164 40 55 second bedroom
+zone 43 45 152 154 40 48 near doorway
+zone 44 44 152 154 40 48 doorway
+object 36 40 159 164 40 43 bed 1
+object 41 42 163 164 40 42 nightstand 1
+object 62 63 148 149 40 43 nightstand 1
+wall 52 62 163 164 40 43 wallstone 8000
+zone 46 48 143 145 40 48 near doorway
+zone 47 47 143 145 40 48 doorway
+zone 46 48 143 145 20 28 near doorway
+zone 46 48 143 145 20 28 doorway
+sub_tile 144 169 30 71 0 0 puddle
+platform 51 53 149 150 0 8 blank
+platform 51 53 149 150 0 0 marble2
+platform 30 54 151 160 0 10 blank
+platform 30 54 151 160 0 0 concrete6
+platform 31 33 149 150 0 8 blank
+platform 31 33 149 150 0 0 marble2
+zone 30 54 151 160 0 10 a corridor with changing rooms
+zone 31 33 148 151 0 8 near doorway
+zone 51 53 148 151 0 8 near doorway
+zone 31 33 149 150 0 8 doorway
+zone 51 53 149 150 0 8 doorway
+rv 29 55 150 161 -1 11 -22 230
+location 42 106 0 the fitness area
+rv 30 54 149 150 -1 11 -23 800
+platform 164 168 106 107 0 10 blank
+platform 164 168 106 107 0 0 carpet6
+platform 154 178 108 133 0 15 blank
+platform 154 178 108 133 0 0 carpet5
+rv 153 179 107 134 -1 16 -24 640
+zone 154 178 107 133 0 15 a luxurious restaurant with neatly set tables
+zone 164 168 105 108 0 10 near the open doors of a luxurious restaurant
+zone 164 168 106 107 0 10 The open doors of a luxurious restaurant
+object 156 160 111 113 0 3 table 1
+object 156 160 116 118 0 3 table 1
+object 156 160 121 123 0 3 table 1
+object 156 160 125 127 0 3 table 1
+object 172 176 111 113 0 3 table 1
+object 172 176 116 118 0 3 table 1
+object 172 176 121 123 0 3 table 1
+object 172 176 125 127 0 3 table 1
+platform 158 160 134 135 0 8 blank
+platform 158 160 134 135 0 0 carpet6
+platform 157 162 136 144 0 10 blank
+platform 157 162 136 144 0 0 carpet2
+rv 156 163 135 145 -1 11 -22 150
+zone 157 162 135 144 0 10 short hallway between the eating area and the kitchen
+platform 158 160 145 146 0 8 blank
+platform 158 160 145 146 0 0 hardwood2
+platform 155 178 147 162 0 10 blank
+platform 155 178 147 162 0 0 concrete6
+rv 154 179 146 163 -1 11 -21 700
+rv 157 162 145 146 -1 11 -22 530
+zone 155 178 147 162 0 10 the kitchen of the restaurant
+wall 159 174 160 162 0 3 wallstone 9000
+platform 159 174 160 162 4 4 marble1
+object 177 178 153 159 0 6 cooler 1
+object 177 178 147 149 0 10 large_glass_cabinet 1
+zone 158 160 133 136 0 8 near the hallway between the eating area and the kitchen
+zone 158 160 134 135 0 8 doorway
+zone 158 160 144 147 0 8 near the kitchen doors
+zone 158 160 145 146 0 8 doorway
+platform 163 165 139 141 0 8 blank
+platform 163 164 139 141 0 0 hardwood2
+platform 165 166 138 142 0 8 blank
+platform 165 166 138 142 0 0 cement2
+platform 167 177 138 142 -20 8 blank
+platform 177 190 138 142 -20 -10 blank
+platform 167 190 138 142 -20 -20 cement2
+staircase 167 187 138 142 -20 8 concrete1 wallbrick 4 hard concrete stairs leading in to the restaurants basement
+ambience 0 200 0 200 -100 -1 building2.ogg 0
+rv 164 179 137 143 -20 10 -22 160
+rv 180 191 137 143 -21 -10 -22 180
+platform 188 190 143 146 -20 -12 blank
+platform 188 190 143 146 -20 -20 cement2
+platform 171 190 147 166 -20 -10 blank
+platform 171 190 147 166 -20 -20 concrete12
+rv 159 191 146 167 -21 -9 -20 650
+rv 187 191 143 145 -21 -10 -22 350
+platform 161 163 153 153 -20 -10 blank
+zone 188 190 138 142 -20 -10 bottom of the stairs to the basement
+zone 165 166 138 142 0 10 top of the stairs to the basement
+zone 162 165 139 141 0 8 near the door to the the restaurants basement
+zone 163 164 139 141 0 10 door to the basement
+object 145 145 22 22 0 3 large_glass_cabinet 1
+object 161 165 143 147 20 30 shower_stall 1
+object 35 39 143 147 20 30 shower_stall 1
+object 161 165 143 147 40 50 shower_stall 1
+object 35 39 143 147 40 50 shower_stall 1
+object 147 147 43 43 -8 0 large_glass_cabinet 1
+location 166 106 0 a luxurious restaurant
+zone 171 190 147 167 -20 -10 inside the basement of the restaurant, underneath the kitchen
+object 174 179 164 166 -20 -10 cooler 1
+object 182 187 164 166 -20 -10 cooler 1
+object 171 172 151 162 -20 -10 shelf 1
+zone 188 190 143 147 -20 -10 narrow passage
+zone 188 190 147 147 -20 -10 near a passage
+platform 179 180 98 102 0 10 blank
+platform 178 180 98 102 0 0 carpet6
+dz 180 200 0 200 -100 100 sewer.ogg 30
+platform 181 200 20 180 0 0 grass4
+platform 181 200 60 140 0 0 gravel1
+platform 181 199 61 139 0 0 concrete6
+platform 181 197 80 120 0 0 deck
+platform 181 185 98 102 0 0 carpet6
+zone 181 200 60 140 0 30 the outdoor lounge.  There is a terrace with tables, and an area with benches and lounge chairs
+location 179 100 0 the outdoor lounge
+object 184 188 91 95 0 3 table 1
+object 192 196 91 95 0 3 table 1
+object 184 188 83 87 0 3 table 1
+object 192 196 83 87 0 3 table 1
+object 184 188 105 109 0 3 table 1
+object 192 196 105 109 0 3 table 1
+object 184 188 113 117 0 3 table 1
+object 192 196 105 109 0 3 table 1
+object 178 186 130 131 0 2 bench 2
+object 185 188 128 132 0 3 picknick_table 1
+object 188 196 130 131 0 2 bench 4
+object 178 186 70 71 0 2 couch 2
+dz 180 200 20 180 0 100 waves2.ogg 10
+object 185 193 70 71 0 2 couch 4
+object 187 195 70 71 0 2 couch 2
+object 194 202 70 71 0 2 couch 4
+object 196 198 126 134 0 3 planter 1
+object 181 200 57 58 0 3 hedge 1
+object 181 200 142 143 0 3 hedge 1
+zone 180 200 140 145 0 30 around the large hotel.
+zone 178 181 98 102 0 10 near the doors to the outdoor lounge
+zone 179 180 98 102 0 10 the doors to the outdoor lounge
+platform 85 115 0 19 0 0 gravel
+platform 90 110 0 19 0 0 concrete6
+platform 50 84 0 19 0 0 gravel2
+platform 122 180 0 19 0 0 grass3
+zone 50 84 0 19 0 30 Gravel parking lot in front of the hotel
+object 86 88 3 5 0 3 planter 1
+object 112 114 3 5 0 3 planter 1
+object 55 57 4 11 0 2 Tesla 3
+object 63 65 4 11 0 2 BMW 3
+object 71 73 4 11 0 2 Renault 3
+object 79 81 4 11 0 2 Rolls-royce 3
+platform 34 36 161 162 0 8 blank
+platform 34 36 161 162 0 0 concrete12
+platform 32 38  163 169 0 10 blank
+platform 32 38 163 169 0 0 concrete7
+rv 31 39 162 170 -1 11 -22 200
+platform 48 50 161 162 0 8 blank
+platform 48 50 161 162 0 0 concrete12
+platform 47 52 163 169 0 0 concrete7
+platform 47 51 163 169 1 8 blank
+rv 46 52 162 170 -1 9 -22 200
+zone 32 38 163 170 0 8 changing room 1
+zone 34 36 159 162 0 8 near doorway
+zone 34 36 160 161 0 10 doorway
+zone 47 53 162 169 0 8 changing room 2
+zone 48 50 159 162 0 10 near doorway
+zone 48 50 160 161 0 10 doorway
+spawn_point 45 115 20 180
+spawn_point 130 148 20 270
+spawn_point 75 148 40 90
+spawn_point 155 85 40 0
+region 0 200 0 200 -1000 2000 city hotel
